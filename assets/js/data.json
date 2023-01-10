@@ -1,0 +1,14 @@
+{
+   "patriesList": 
+   [
+      {
+         "id": "C01",
+         "imgUrl": "./assets/img/pastry-and-Cookies/product-1.jpg",
+         "isPatries": true,
+         "title": "LT",
+         "description": "LT",
+         "price": "LT"
+      }
+
+   ]
+}
