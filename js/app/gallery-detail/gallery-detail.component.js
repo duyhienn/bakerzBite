@@ -5,7 +5,7 @@ angular.module('galleryDetail')
       templateUrl: "./templates/gallery-detail.html",
       controller: function($scope, $http, $routeParams, $window, storageServices) {
          $window.scrollTo(0,0);
-         $http.get('/pastriesListNew.json').then(successCb)
+         $http.get('pastriesListNew.json').then(successCb)
          function successCb(respone) {
             $scope.notFound = true;
             let productitems = respone.data.productList;

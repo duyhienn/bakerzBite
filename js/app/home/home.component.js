@@ -33,7 +33,7 @@ angular.module('siteHomepage')
          $scope.selStars = 0;
          $scope.maxStars = 5;
          
-         $http.get('/pastriesListNew.json').then(successCb)
+         $http.get('pastriesListNew.json').then(successCb)
          // consume a callback
          function successCb(respone) {
             parseProducts(respone.data.productList);

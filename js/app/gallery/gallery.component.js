@@ -12,7 +12,7 @@ angular.module('gallery')
          $scope.beverages = [];
          $scope.tabName = "tabAll";
 
-         $http.get('/pastriesListNew.json').then(successCb)
+         $http.get('pastriesListNew.json').then(successCb)
          
          // consume a callback
          function successCb(respone) {
