@@ -2,7 +2,7 @@
 
 angular.module('siteHomepage')
    .component('siteHomepage', {
-      templateUrl: "/templates/home.html",
+      templateUrl: "./templates/home.html",
       controller: function($scope, $http, $window, $document, $interval) {
          $window.scrollTo(0,0);
          $scope.arr1 = [];
