@@ -121,7 +121,10 @@
                <i class="fa-solid fa-user"></i>
             </a>
             <div class="header__nav-cart">
-               <a style="display: inline-block; padding: 0 0 0 10px;" ng-href="#/checkout"><i class="fa-solid fa-cart-shopping"></i></a>
+               <a ng-href="#/checkout"
+                  style="display: inline-block; padding: 0 0 0 10px; position: relative; z-index: 100;" 
+                  ><i class="fa-solid fa-cart-shopping"></i>
+               </a>
                <span class="header__cart-notice">{{count}}</span>
                <div class="header__cart">
                   <h1 style="color: var(--primary-color); text-align: center;">Cart</h1>
