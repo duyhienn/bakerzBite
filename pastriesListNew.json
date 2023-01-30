@@ -2,7 +2,7 @@
     "productList": [
         {
             "id": "1",
-            "imgUrl": "img/pastry-and-Cookies/Product-1.jpg",
+            "imgUrl": "./img/pastry-and-Cookies/Product-1.jpg",
             "cakeType": "cookies",
             "title": "Blueberry Puff Pastry Tart",
             "description": "Ingredients Needed:Puff pastry, Blueberries, Blackberry jam,  Sliced almonds, Glaze,... ",
@@ -10,7 +10,7 @@
         },
         {
             "id": "2",
-            "imgUrl": "img/pastry-and-Cookies/Product-2.jpg",
+            "imgUrl": "./img/pastry-and-Cookies/Product-2.jpg",
             "cakeType": "cookies",
             "title": "Kitty Cookies",
             "description": "Ingredients Needed: unsalted butter, sugar, egg, almond extract, baking powder, vanilla,... ",
@@ -18,7 +18,7 @@
         },
         {
             "id": "3",
-            "imgUrl": "img/pastry-and-Cookies/Product-3.jpg",
+            "imgUrl": "./img/pastry-and-Cookies/Product-3.jpg",
             "cakeType": "patries",
             "title": "Vanilla Pastry Cream",
             "description": "Ingredients Needed: whole milk, egg yolks, granulated sugar, pure vanilla extract,..",
@@ -26,7 +26,7 @@
         },
         {
             "id": "4",
-            "imgUrl": "img/pastry-and-Cookies/Product-4.jpg",
+            "imgUrl": "./img/pastry-and-Cookies/Product-4.jpg",
             "cakeType": "patries",
             "title": "French Croissants",
             "description": "Ingredients Needed: milk, water, active dry yeast, honey, butter. ",
@@ -34,7 +34,7 @@
         },
         {
             "id": "5",
-            "imgUrl": "img/pastry-and-Cookies/Product-5.jpg",
+            "imgUrl": "./img/pastry-and-Cookies/Product-5.jpg",
             "cakeType": "patries",
             "title": "Crumbl Cookies",
             "description": "Ingredients Needed: salted butter, brown sugar, granulated sugar, vanilla extract, eggs. ",
@@ -42,7 +42,7 @@
         },
         {
             "id": "6",
-            "imgUrl": "img/pastry-and-Cookies/Product-6.jpg",
+            "imgUrl": "./img/pastry-and-Cookies/Product-6.jpg",
             "cakeType": "patries",
             "title": "Eggs And Bacon Puff Pastry",
             "description": "Ingredients Needed: sheet puff pastry, eggs, bacon slices, butter, Dijon mustard.",
@@ -50,7 +50,7 @@
         },
         {
             "id": "7",
-            "imgUrl": "img/pastry-and-Cookies/Product-7.jpg",
+            "imgUrl": "./img/pastry-and-Cookies/Product-7.jpg",
             "cakeType": "patries",
             "title": "Eggless Dutch Truffle Cake",
             "description": "Igredients Needed: APF/Maida,, Cocoa Powder, Baking Powder, Milk, Chocolate,... ",
@@ -58,7 +58,7 @@
         },
         {
             "id": "8",
-            "imgUrl": "img/pastry-and-Cookies/Product-8.jpg",
+            "imgUrl": "./img/pastry-and-Cookies/Product-8.jpg",
             "cakeType": "patries",
             "title": "Flaky Gluten Free Pastries",
             "description": "Ingredients Needed: gluten free flour blend, sugar, baking powder, salt, cold water. ",
@@ -66,7 +66,7 @@
         },
         {
             "id": "9",
-            "imgUrl": "img/pastry-and-Cookies/Product-9.jpg",
+            "imgUrl": "./img/pastry-and-Cookies/Product-9.jpg",
             "cakeType": "patries",
             "title": "Quick And Easy Flaky Pastry",
             "description": "Ingredients Needed: butter, sieved pinch of salt, cold water, sugar if making a sweet dish,...",
@@ -74,7 +74,7 @@
         },
         {
             "id": "10",
-            "imgUrl": "img/pastry-and-Cookies/Product-10.jpg",
+            "imgUrl": "./img/pastry-and-Cookies/Product-10.jpg",
             "cakeType": "patries",
             "title": "Chocolate Cookies",
             "description": "Ingredients Needed: butter (softened), granulated sugar, dark brown sugar, vanilla extract,...",
@@ -82,7 +82,7 @@
         },
         {
             "id": "11",
-            "imgUrl": "img/pastry-and-Cookies/Product-11.jpg",
+            "imgUrl": "./img/pastry-and-Cookies/Product-11.jpg",
             "cakeType": "patries",
             "title": "Grinch Cookies",
             "description": "Ingredients Needed:  white cake mix, unsalted butter, eggs, peppermint extract, vanilla extract.",
@@ -90,7 +90,7 @@
         },
         {
             "id": "12",
-            "imgUrl": "img/pastry-and-Cookies/Product-12.jpg",
+            "imgUrl": "./img/pastry-and-Cookies/Product-12.jpg",
             "cakeType": "patries",
             "title": "Honeyed Pears Puff Pastry",
             "description": "Ingredients Needed: small pears, water, sugar, honey, small lemon,...",
@@ -98,7 +98,7 @@
         },
         {
             "id": "13",
-            "imgUrl": "img/pastry-and-Cookies/Product-13.jpg",
+            "imgUrl": "./img/pastry-and-Cookies/Product-13.jpg",
             "cakeType": "patries",
             "title": "Cream Cookies",
             "description": "Ingredients Needed: flour, milk, egg, cream, sugar,...",
@@ -106,7 +106,7 @@
         },
         {
             "id": "14",
-            "imgUrl": "img/pastry-and-Cookies/Product-14.jpg",
+            "imgUrl": "./img/pastry-and-Cookies/Product-14.jpg",
             "cakeType": "patries",
             "title": "Luscious Puff Pastries",
             "description": " Ingredients Needed: frozen puff pastry, ELL-O Vanilla Flavor Instant Pudding, cold milk,… ",
@@ -114,7 +114,7 @@
         },
         {
             "id": "15",
-            "imgUrl": "img/pastry-and-Cookies/Product-15.jpg",
+            "imgUrl": "./img/pastry-and-Cookies/Product-15.jpg",
             "cakeType": "patries",
             "title": "Monster Cookies",
             "description": "Ingredients Needed: butter, brown sugar, granulated sugar, egg, creamy peanut butter.",
@@ -122,7 +122,7 @@
         },
         {
             "id": "16",
-            "imgUrl": "img/pastry-and-Cookies/Product-16.jpg",
+            "imgUrl": "./img/pastry-and-Cookies/Product-16.jpg",
             "cakeType": "patries",
             "title": "Matcha Chocolate Cookies",
             "description": "Ingredients Needed: all purpose flour, cornstarch, matcha powder, baking soda, salted butter. ",
@@ -130,7 +130,7 @@
         },
         {
             "id": "17",
-            "imgUrl": "img/pastry-and-Cookies/Product-17.jpg",
+            "imgUrl": "./img/pastry-and-Cookies/Product-17.jpg",
             "cakeType": "patries",
             "title": "Napoleon Cake",
             "description": "Ingredients Needed: flour, flour (for rolling out the dough), egg yolks, vodka,..",
@@ -138,7 +138,7 @@
         },
         {
             "id": "18",
-            "imgUrl": "img/pastry-and-Cookies/Product-18.jpg",
+            "imgUrl": "./img/pastry-and-Cookies/Product-18.jpg",
             "cakeType": "patries",
             "title": "Nutella Pastry Puffs",
             "description": "Ingredients Needed: frozen puff pastry, egg, Nutella, per pastry,...",
@@ -146,7 +146,7 @@
         },
         {
             "id": "19",
-            "imgUrl": "img/pastry-and-Cookies/Product-19.jpg",
+            "imgUrl": "./img/pastry-and-Cookies/Product-19.jpg",
             "cakeType": "patries",
             "title": "Pastry Cream Puffs",
             "description": "Ingredients Needed: flour, egg, milk, vanilla extract,...",
@@ -154,7 +154,7 @@
         },
         {
             "id": "20",
-            "imgUrl": "img/pastry-and-Cookies/Product-20.jpg",
+            "imgUrl": "./img/pastry-and-Cookies/Product-20.jpg",
             "cakeType": "patries",
             "title": "Cookies",
             "description": "Ingredients Needed: flour, egg, baking soda, salt, baking powder,...  ",
@@ -162,7 +162,7 @@
         },
         {
             "id": "21",
-            "imgUrl": "img/pastry-and-Cookies/Product-21.jpg",
+            "imgUrl": "./img/pastry-and-Cookies/Product-21.jpg",
             "cakeType": "patries",
             "title": "Peppermint Puff Paetry Sticks",
             "description": "Ingredients Needed: fronzen puff pastry, crushed peppermint candies, milk chocolate candy caoting,...",
@@ -170,7 +170,7 @@
         },
         {
             "id": "22",
-            "imgUrl": "img/pastry-and-Cookies/Product-22.jpg",
+            "imgUrl": "./img/pastry-and-Cookies/Product-22.jpg",
             "cakeType": "patries",
             "title": "Mango Pastries",
             "description": "Ingredients Needed: mango, flour, egg, cream,...",
@@ -178,7 +178,7 @@
         },
         {
             "id": "23",
-            "imgUrl": "img/pastry-and-Cookies/Product-23.jpg",
+            "imgUrl": "./img/pastry-and-Cookies/Product-23.jpg",
             "cakeType": "patries",
             "title": "Puff Pastry Pinwheels  ",
             "description": "Ingredients Needed: flour, egg, sprinkle, oil,... ",
@@ -186,7 +186,7 @@
         },
         {
             "id": "24",
-            "imgUrl": "img/pastry-and-Cookies/Product-24.jpg",
+            "imgUrl": "./img/pastry-and-Cookies/Product-24.jpg",
             "cakeType": "patries",
             "title": "Quick And Easy Apple Tart",
             "description": "Ingredients Needed: apple, brow sugar, puff pastry sheets,salt,...",
@@ -194,7 +194,7 @@
         },
         {
             "id": "25",
-            "imgUrl": "img/pastry-and-Cookies/Product-25.jpg",
+            "imgUrl": "./img/pastry-and-Cookies/Product-25.jpg",
             "cakeType": "patries",
             "title": "Puff Pastry Apple Turnovers",
             "description": "Ingredients Needed: puff pastry, apple, egg, milk,...",
@@ -202,7 +202,7 @@
         },
         {
             "id": "26",
-            "imgUrl": "img/pastry-and-Cookies/Product-26.jpg",
+            "imgUrl": "./img/pastry-and-Cookies/Product-26.jpg",
             "cakeType": "patries",
             "title": "Eggless Red Velvet Pastry",
             "description": "Ingredients Needed: flour, egg, cream,...",
@@ -210,7 +210,7 @@
         },
         {
             "id": "27",
-            "imgUrl": "img/pastry-and-Cookies/Product-27.jpg",
+            "imgUrl": "./img/pastry-and-Cookies/Product-27.jpg",
             "cakeType": "patries",
             "title": "Salmon Coulibiac",
             "description": "Ingredients Needed: salmon, salt, black pepper, cream chesse,...",
@@ -218,7 +218,7 @@
         },
         {
             "id": "28",
-            "imgUrl": "img/pastry-and-Cookies/Product-28.jpg",
+            "imgUrl": "./img/pastry-and-Cookies/Product-28.jpg",
             "cakeType": "patries",
             "title": "Smart Cookies",
             "description": "Ingredients Needed: flour, egg, salt, baking powder, food coloring...  ",
@@ -226,7 +226,7 @@
         },
         {
             "id": "29",
-            "imgUrl": "img/pastry-and-Cookies/Product-29.jpg",
+            "imgUrl": "./img/pastry-and-Cookies/Product-29.jpg",
             "cakeType": "patries",
             "title": "Spider Cookies",
             "description": "Ingredients Needed: flour, egg, chocolate, salt,...",
@@ -234,7 +234,7 @@
         },
         {
             "id": "30",
-            "imgUrl": "img/pastry-and-Cookies/Product-30.jpg",
+            "imgUrl": "./img/pastry-and-Cookies/Product-30.jpg",
             "cakeType": "patries",
             "title": "Sandwich Cookies",
             "description": "Ingredients Needed:egg, flour, candies, vanilla,... ",
@@ -242,7 +242,7 @@
         },
         {
             "id": "31",
-            "imgUrl": "img/pastry-and-Cookies/Product-31.jpg",
+            "imgUrl": "./img/pastry-and-Cookies/Product-31.jpg",
             "cakeType": "patries",
             "title": "Sugar Cookies Icing",
             "description": "Ingredients Needed:sugar, food coloring, flour, egg,.. ",
@@ -250,7 +250,7 @@
         },
         {
             "id": "32",
-            "imgUrl": "img/pastry-and-Cookies/Product-32.jpg",
+            "imgUrl": "./img/pastry-and-Cookies/Product-32.jpg",
             "cakeType": "patries",
             "title": "Red Velvet Pastry",
             "description": "Ingredients Needed:flour, egg, cream, milk,...",
@@ -258,7 +258,7 @@
         },
         {
             "id": "33",
-            "imgUrl": "img/pastry-and-Cookies/Product-33.jpg",
+            "imgUrl": "./img/pastry-and-Cookies/Product-33.jpg",
             "cakeType": "patries",
             "title": "Valentine's Day Puff Pastry",
             "description": "Ingredients Needed: nutella, cream cheese, fresh raspberries,...",
@@ -266,7 +266,7 @@
         },
         {
             "id": "34",
-            "imgUrl": "img/pastry-and-Cookies/Product-34.jpg",
+            "imgUrl": "./img/pastry-and-Cookies/Product-34.jpg",
             "cakeType": "patries",
             "title": "Strawberry Cheesecake Cookies",
             "description": "Ingredients Needed: cream cheese, egg, strawberry cake mix,...",
@@ -274,7 +274,7 @@
         },
         {
             "id": "35",
-            "imgUrl": "img/pastry-and-Cookies/Product-35.jpg",
+            "imgUrl": "./img/pastry-and-Cookies/Product-35.jpg",
             "cakeType": "patries",
             "title": "Vanilla Fruit Tarts",
             "description": "Ingredients Needed: egg,vanilla pudding and pie filling mix, milk,...",
@@ -282,7 +282,7 @@
         },
         {
             "id": "36",
-            "imgUrl": "img/pastry-and-Cookies/Product-36.jpg",
+            "imgUrl": "./img/pastry-and-Cookies/Product-36.jpg",
             "cakeType": "patries",
             "title": "Choux Vanilla",
             "description": "Ingredients Needed: vanilla cream, flour, egg,...",
@@ -290,7 +290,7 @@
         },
         {
             "id": "37",
-            "imgUrl": "img/pastry-and-Cookies/Product-37.jpg",
+            "imgUrl": "./img/pastry-and-Cookies/Product-37.jpg",
             "cakeType": "patries",
             "title": "Spritz Cookies",
             "description": "Ingredients Needed:flour, sugar, egg, vanilla, salt,...",
@@ -298,7 +298,7 @@
         },
         {
             "id": "38",
-            "imgUrl": "img/pastry-and-Cookies/Product-38.jpg",
+            "imgUrl": "./img/pastry-and-Cookies/Product-38.jpg",
             "cakeType": "patries",
             "title": "Puff Pastry Cream Horns",
             "description": "Ingredients Needed:cream, vanilla, flour, egg,..",
@@ -306,7 +306,7 @@
         },
         {
             "id": "39",
-            "imgUrl": "img/pastry-and-Cookies/Product-39.jpg",
+            "imgUrl": "./img/pastry-and-Cookies/Product-39.jpg",
             "cakeType": "patries",
             "title": "Mini Cinnamon Puff Pastry Rolls",
             "description": "Ingredients Needed: cinnamon, sugar, soft butter,...",
@@ -314,7 +314,7 @@
         },
         {
             "id": "40",
-            "imgUrl": "img/pastry-and-Cookies/Product-40.jpg",
+            "imgUrl": "./img/pastry-and-Cookies/Product-40.jpg",
             "cakeType": "patries",
             "title": "Christmas Cookies",
             "description": "Ingredients Needed: flour, egg, chocolate, candies,...",
@@ -322,7 +322,7 @@
         },
         {
             "id": "41",
-            "imgUrl": "img/pastry-and-Cookies/Product-41.jpg",
+            "imgUrl": "./img/pastry-and-Cookies/Product-41.jpg",
             "cakeType": "patries",
             "title": "Chocolate Puff Pastry",
             "description": "Ingredients Needed: fronzen puff pastry, chocolate chips, sugar,...",
@@ -330,7 +330,7 @@
         },
         {
             "id": "42",
-            "imgUrl": "img/pastry-and-Cookies/Product-42.jpg",
+            "imgUrl": "./img/pastry-and-Cookies/Product-42.jpg",
             "cakeType": "patries",
             "title": "Chocolate Dipped Peanut Cookies",
             "description": "Ingredients Needed: butter(sweet cream, salted), peanut butter, browm sugar,...",
@@ -338,7 +338,7 @@
         },
         {
             "id": "43",
-            "imgUrl": "img/pastry-and-Cookies/Product-43.jpg",
+            "imgUrl": "./img/pastry-and-Cookies/Product-43.jpg",
             "cakeType": "patries",
             "title": "Chocolate Chip Cookies",
             "description": "Ingredients Needed: chocolate, flour, egg, sugar,...",
@@ -346,7 +346,7 @@
         },
         {
             "id": "44",
-            "imgUrl": "img/pastry-and-Cookies/Product-44.jpg",
+            "imgUrl": "./img/pastry-and-Cookies/Product-44.jpg",
             "cakeType": "patries",
             "title": "Sourdough Danish Pastry",
             "description": "Ingredients Needed: flour, culture (fed), sugar, water,...",
@@ -354,7 +354,7 @@
         },
         {
             "id": "45",
-            "imgUrl": "img/pastry-and-Cookies/Product-45.jpg",
+            "imgUrl": "./img/pastry-and-Cookies/Product-45.jpg",
             "cakeType": "patries",
             "title": "Honey Glazed Fruit Danish Pastry",
             "description": "Ingredients Needed: sugar, honey, flour, fruit,...",
@@ -362,7 +362,7 @@
         },
         {
             "id": "46",
-            "imgUrl": "img/pastry-and-Cookies/Product-46.jpg",
+            "imgUrl": "./img/pastry-and-Cookies/Product-46.jpg",
             "cakeType": "patries",
             "title": "Puff Pastry Danish",
             "description": "Ingredients Needed: coconut milk, water, cornstach, turmeric, sugar,...",
@@ -370,7 +370,7 @@
         },
         {
             "id": "47",
-            "imgUrl": "img/pastry-and-Cookies/Product-47.jpg",
+            "imgUrl": "./img/pastry-and-Cookies/Product-47.jpg",
             "cakeType": "patries",
             "title": "Fruit Pateso",
             "description": "Ingredients Needed: cream, fruit, flour, egg, sugar,...",
@@ -378,7 +378,7 @@
         },
         {
             "id": "48",
-            "imgUrl": "img/pastry-and-Cookies/Product-48.jpg",
+            "imgUrl": "./img/pastry-and-Cookies/Product-48.jpg",
             "cakeType": "patries",
             "title": "Apricot Danish Pastry",
             "description": "Ingredients Needed: flour, cream cheese, egg, sugar,...",
@@ -386,7 +386,7 @@
         },
         {
             "id": "49",
-            "imgUrl": "img/pastry-and-Cookies/Product-49.jpg",
+            "imgUrl": "./img/pastry-and-Cookies/Product-49.jpg",
             "cakeType": "patries",
             "title": "Cheese Danish",
             "description": "Ingredients Needed: egg, cream cheese, lemon juice, vanilla, sugar,...",
@@ -394,7 +394,7 @@
         },
         {
             "id": "50",
-            "imgUrl": "img/pastry-and-Cookies/Product-50.jpg",
+            "imgUrl": "./img/pastry-and-Cookies/Product-50.jpg",
             "cakeType": "patries",
             "title": "Fruit Cream Cheese",
             "description": "Ingredients Needed: fruit, cream cheese, flour, egg,...",
