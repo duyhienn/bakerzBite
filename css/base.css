@@ -1,0 +1,109 @@
+:root{
+   --primary-color: #7f0000; 
+   --second-color: #F7C96F;
+   --third-color: white;
+   --grey-color: #8e8e8e; 
+   --brown-color: #53382c;
+}
+
+
+*, *::before, *::after{
+   box-sizing: inherit;
+   padding: 0;
+   margin: 0;
+}
+
+html {
+   font-size: 62.5%;
+   line-height: 1.6rem;
+   font-family: 'Nunito', sans-serif;
+   box-sizing: border-box;
+   scroll-behavior: smooth;
+}
+
+body{
+   height: 5000px;
+   font-family: 'Nunito', sans-serif;
+}
+
+a{
+   text-decoration: none;
+   color: #000;
+}
+
+ul, li {
+   list-style: none;
+   padding-left: 0;
+}
+
+img{
+   object-fit: cover;
+   vertical-align: middle;
+   max-width: 100%;
+   width: 100%;
+}
+
+.m-x-3{
+   margin: 0 -3px;
+}
+
+.pad-x-3{
+   padding: 0 3px;
+}
+
+.mt-5{
+   margin-top: 5px;
+}
+
+.mt-10{
+   margin-top: 10px;
+}
+.mt-15{
+   margin-top: 10px;
+}
+.mt-20{
+   margin-top: 10px;
+}
+
+.mb-10{
+   margin-bottom: 10px;
+}
+.mb-15{
+   margin-bottom: 15px;
+}
+.mb-20{
+   margin-bottom: 20px;
+}
+
+.ml-10{
+   margin-left: 10px;
+}
+
+
+.btn{
+   min-width: 124px;
+   height: 40px;
+   text-decoration: none;
+   border: none;
+   border-radius: 1rem;
+   font-size: 1.5rem;
+   padding: 0 12px;
+   outline: none;
+   cursor: pointer;
+   color: #000;
+   background-color: #fff;
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+   line-height: 1.6rem;
+   position: relative;
+}
+
+.btn.btn--bground{
+   background-color: var(--primary-color);
+   color: white;
+}
+
+.btn.btn--border{
+   border: 1px solid var(--primary-color);
+}

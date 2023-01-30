@@ -1,0 +1,28 @@
+'use strict'
+
+angular.module('mainApp', [
+   'ngResource',
+   'ngRoute',
+
+   'siteHeader',
+   'siteHomepage',
+   'siteFooter',
+   'gallery',
+   'galleryDetail',
+   'checkoutCart',
+   'login',
+   'contact',   
+])
+
+.factory('storageServices', function () {
+   let storage = [];
+   let itemsService = {};
+   itemsService.insert = function (item) {
+      storage.push(item);
+   };
+   itemsService.get = function () {
+      return storage;
+   };
+
+   return itemsService;
+});

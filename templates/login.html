@@ -1,0 +1,157 @@
+<div class="modal-login">
+   <div class="grid wide">
+      <div class="modal-container" action="">
+         <h1 class="modal-title">Sign in</h1>
+         <div class="row">
+            <div class="col l-7">
+               <form name="loginForm" action="">
+                  <div class="modal-headerr">
+                     <!-- <i class="fa-solid fa-xmark"></i> -->
+                  </div>
+                  <div class="modal-bodyy">
+                     <div class="mb-15">
+                        <input class="modal-email-input" name="emailLogin" ng-model="userLogin.emailLogin" placeholder="Email" type="email" required>
+                        <span style="color:red; font-size: 1.4rem;"
+                               ng-show="loginForm.emailLogin.$dirty && loginForm.emailLogin.$invalid">
+                           <span ng-show="loginForm.emailLogin.$error.required">Email is required.</span>
+                           <span ng-show="loginForm.emailLogin.$error.email">Invalid email address.</span>
+                        </span>
+                     </div>
+                     <div class="mb-15">
+                        <input class="modal-password-input" name="passwordLogin" ng-model="userLogin.passwordLogin" placeholder="Password" type="password" required>
+                        <span style="color:red; font-size: 1.4rem;"
+                                 ng-show="loginForm.passwordLogin.$dirty && loginForm.passwordLogin.$invalid">
+                           <span ng-show="loginForm.passwordLogin.$error.required">Password is required.</span>
+                        </span>
+                     </div>
+                  </div>
+                  <div class="modal-footerr">
+                     <button 
+                     ng-disabled="loginForm.emailLogin.$invalid || loginForm.passwordLogin.$invalid" 
+                     ng-click="doLogin()"
+                     class="btn btn-login mb-15" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Login</button>
+                     <button class="btn btn-login-fb mb-15">Login with Facebook <i class="ml-10 fa-brands fa-square-facebook"></i></button>
+                     <button class="btn btn-login-gg mb-15">Login with Google <img style="width: 20px; margin-left: 10px;" src="/img/icon/google.png"></button>
+                     <div class="modal-new-account">
+                        <!-- <a href="#">Register a new account</a> -->
+                     </div>
+                  </div>
+               </form>
+            </div>
+            <div class="col l-5">
+               <div class="modal-frame">
+                  <div class="frame-header">
+                     <h2 class="frame-title">New Customer?</h2>
+                  </div>
+                  <div class="frame-body">
+                     <p class="new-customer-intro">Create an account with us and you'll be able to:</p>
+                     <ul class="new-customer-fact-list">
+                        <li class="new-customer-fact">Check out faster</li>
+                        <li class="new-customer-fact">Save multiple shipping addresses</li>
+                        <li class="new-customer-fact">Access your order history</li>
+                        <li class="new-customer-fact">Track new orders</li>
+                        <li class="new-customer-fact">Save items to your Wish List</li>
+                        <li class="new-customer-fact">Join Rewards and earn points every time you shop</li>
+                        <li class="new-customer-fact">Redeem Rewards points for discounts</li>
+                    </ul>
+                  </div>
+                  <div class="frame-footer">
+                     <button ng-click="openRegister()" class="btn btn-create mb-15">Create Accout</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+<div ng-if="isRegisterOpened" class="modal-register">
+   <div class="grid wide">
+      <div class="modal-container" action="">
+         <h1 style="margin-bottom:0;" class="modal-title">Register</h1>
+         <div class="row">
+            <div class="col">
+               <form name="registerForm" action="">
+                  <div class="modal-headerr">
+                     <!-- <i class="fa-solid fa-xmark"></i> -->
+                  </div>
+                  <div class="modal-bodyy">
+                     <div class="mb-15">
+                        <input class="modal-email-input" name="emailRegister" ng-model="userRegister.emailRegister" placeholder="Email" type="email" required>
+                        <span style="color:red; font-size: 1.4rem;"
+                               ng-show="registerForm.emailRegister.$dirty && registerForm.emailRegister.$invalid">
+                           <span ng-show="registerForm.emailRegister.$error.required">Email is required.</span>
+                           <span ng-show="registerForm.emailRegister.$error.email">Invalid email address.</span>
+                        </span>
+                     </div>
+                     <div class="mb-15">
+                        <input ng-change="changed()" class="modal-password-input" name="passwordRegister" ng-model="userRegister.passwordRegister" placeholder="Password" type="password" required>
+                           <span style="color:red; font-size: 1.4rem;"
+                                 ng-show="registerForm.passwordRegister.$dirty && registerForm.passwordRegister.$invalid">
+                              <span ng-show="registerForm.passwordRegister.$error.required">Password is required.</span>
+                           </span>
+                        </span>
+                     </div>
+                     <div class="mb-15">
+                        <input ng-change="changed()" class="modal-confirm-password-input" name="confirmPasswordRegister" ng-model="userRegister.confirmPasswordRegister" placeholder="Confirm Password" type="password" required>
+                        <span style="color:red; font-size: 1.4rem;"
+                              ng-show="registerForm.confirmPasswordRegister.$dirty && registerForm.confirmPasswordRegister.$invalid">
+                           <span ng-show="registerForm.confirmPasswordRegister.$error.required">Password is required.</span>
+                        </span> <br>  
+                        <span style="color:red; font-size: 1.4rem;" 
+                              ng-show="isMatchPassword && registerForm.confirmPasswordRegister.$dirty">Password and confirm password dont't match.
+                        </span>
+                     </div>
+                  </div>
+                  <div class="modal-footerr">
+                     <button 
+                     ng-disabled="isDisabledRegister 
+                        || registerForm.emailRegister.$invalid 
+                        || registerForm.passwordRegister.$invalid 
+                        || registerForm.confirmPasswordRegister.$invalid"    
+                        ng-click="doRegist()" class="btn btn-login mb-15" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        Register
+                     </button>
+                     <button class="btn btn-login-fb mb-15">Register with Facebook <i class="ml-10 fa-brands fa-square-facebook"></i></button>
+                     <button class="btn btn-login-gg mb-15">Register with Google <img style="width: 20px; margin-left: 10px;" src="/img/icon/google.png" alt=""></button>
+                     <div class="modal-new-account">
+                        <!-- <a href="#">Register a new account</a> -->
+                     </div>
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+
+<div class="modal fade register" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+   <div class="modal-dialog modal-dialog-centered">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h5 style="
+         font-size: 2rem;
+         text-align: center;
+         margin-left: 50%;
+         transform: translateX(-50%);"
+          class="modal-title" id="staticBackdropLabel">BakerzBite</h5>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+       </div>
+       <div class="modal-body">
+         <div style="text-align: center;">
+            <i style="
+               margin: 1rem 0 2rem;
+               font-size: 4rem; color: green;
+               padding: 1rem;
+               position: relative;" 
+               class="fa-solid fa-check"></i>
+         </div>
+         <p style="font-size: 1.7rem; text-align: center;">
+            {{messageForm}}
+         </p>
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+       </div>
+     </div>
+   </div>
+ </div>

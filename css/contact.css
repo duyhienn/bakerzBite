@@ -1,0 +1,119 @@
+.main-contact{
+   margin-top: 7rem;
+}
+
+.contact-container{
+}
+
+.contact-img-above{
+   height: 300px;
+   background: url("../img/standee/standee1.png") no-repeat center/cover;
+   margin-bottom: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.contact-img-heading{
+   font-size: 7.8rem;
+   margin: 0px 20px;
+   display: block;
+   color: white;
+   text-align: center;
+   line-height: 7.8rem;
+}
+
+.contact-img-des{
+   font-size: 19px;
+   margin: 10px 20px 0px;
+   display: block;
+   color: white;
+   text-align: center;
+}
+
+.contact-heading{
+   font-size: 2.2rem;
+}
+
+.contact-thank{
+   font-size: 1.4rem;
+}
+
+.contact-book{
+   font-size: 1.5rem;
+   font-weight: 600;
+}
+
+#text-7 .textwidget p{
+   font-size: 1.3rem;
+}
+#text-7 .textwidget p i{
+   margin-right: 1.3rem;
+   font-size: 1.3rem;
+}
+
+#text-8 .textwidget p{
+   
+}
+#text-8 .textwidget p i{
+   font-size: 2rem;
+}
+
+.form h1{
+   margin-top: 0;
+   font-size: 3rem;
+   line-height: 3rem;
+}
+
+.form p {
+   font-size: 1.6rem;
+}
+
+.input-name input{
+   padding: 16px 19px 16px 16px;
+   width: 100%;
+   font-size: 13px;
+   border-radius: 4px;
+   -moz-border-radius: 4px;
+   -webkit-border-radius: 4px;
+   border: none;
+   background-color: var(--second-color);
+
+}
+
+.input-email input{
+   padding: 16px 19px 16px 16px;
+   width: 100%;
+   font-size: 13px;
+   border-radius: 4px;
+   -moz-border-radius: 4px;
+   -webkit-border-radius: 4px;
+   border: none;
+   background-color: var(--second-color);
+
+
+}
+
+.input-mess textarea{
+   padding: 16px 19px 16px 16px;
+   width: 100%;
+   font-size: 13px;
+   border-radius: 4px;
+   -moz-border-radius: 4px;
+   -webkit-border-radius: 4px;
+   border: none;
+   background-color: var(--second-color);
+}
+.input-name input:focus,
+.input-email input:focus,
+.input-mess textarea:focus{
+   outline: none;
+   border: none;
+}
+
+.form .btn-submit{
+   background-color: var(--primary-color);
+   color: white;
+   width: 100%;
+}

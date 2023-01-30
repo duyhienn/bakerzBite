@@ -1,0 +1,131 @@
+
+<div class="main-checkout" style="margin-top: 10rem;">
+   
+   <div>
+      <div class="grid wide">
+         <div class="checkout-box-promo">
+            <i class="fa-solid fa-circle-exclamation"></i>
+            <p>Flat Rate Shipping on Orders over $99</p>
+         </div>
+         <div class="checkout-box-promo">
+            <i class="fa-solid fa-circle-exclamation"></i>
+            <p>Spend $25.10 more for $15.00 off qualifying items.</p>
+         </div>
+      </div>
+   </div>
+
+   <div class="cart-checkout-info">
+      <div class="grid wide">
+         <div class="row">
+            <div class="col l-8">
+               <div class="cart-checkout-left">
+                  <div class="checkout-list-heading"></divclass>
+                     <div class="row">
+                        <div class="col l-6">
+                           <span class="list-heading">Item</span>
+                        </div>
+                        <div class="col l-2">
+                           <span class="list-heading">Price</span>
+                        </div>
+                        <div class="col l-2">
+                           <span class="list-heading">Quantity</span>
+                        </div>
+                        <div class="col l-2">
+                           <span class="list-heading">Actions</span>
+                        </div>
+                     </div>   
+                  </div>  
+                  <div class="checkout-list-item">
+                     <div class="checkout-list-item--empty" ng-hide="productItems.length > 0">
+                        <img style="width: 35%;" ng-src="/img/icon/empty-cart.png" alt="">
+                        <p 
+                           style="margin: 0; font-size: 2rem;
+                           ">Your cart is empty
+                        </p>
+                     </div>
+                     <div class="row checkout-item" ng-repeat="item in productItems track by $index" ng-init="updateTotal()">
+                        <div class="col l-6">
+                           <div class="checkout-item-info">
+                              <img class="checkout-item-img" ng-src="{{item.imgUrl}}" alt="">
+                              <h1 class="checkout-item-name">{{item.title}}</h1>
+                           </div>
+                        </div>
+                        <div class="col l-2">
+                           <h1 class="checkout-item-price">${{item.price}}</h1>
+                        </div>
+                        <div class="col l-2 ">
+                           <input class="checkout-quantity-input" ng-change="quantityChanged()" min="1" ng-model="item.quantity" type="number" value="1">
+                        </div>
+                        <div class="col l-2 ">
+                           <button ng-click="delete(item)" class="btn btn-remove-checkout">
+                              <i class="fa-solid fa-circle-xmark" style="text-align: center; color: var(--second-color);"></i>
+                           </button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col l-4">
+               <div class="cart-checkout-right">
+                  <span class="order-title">Order Summary</span>
+                  <div class="order-info">
+                     <div class="order-row">
+                        <span class="cart-total-label"> Subtotal:</span>
+                        <span class="cart-sub-value">${{totalPrice}}</span>
+                     </div>
+                     <div class="order-row">
+                        <span class="cart-total-label">Shipping:</span>
+                        <span class="cart-ship-value">Calculated in Checkout</span>
+                     </div>
+                     <div class="order-row">
+                        <span class="cart-total-label">Grand total:</span>
+                        <span class="cart-grand-value">${{totalPrice}}</span>
+                     </div>
+                  </div>
+                  <button ng-click="checkoutDone()" class="btn checkout-btn" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                     Check Out
+                   </button>
+                  <!-- <button ng-click="checkoutDone()" class="btn checkout-btn">Check Out</button> -->
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+
+<div class="modal fade checkout" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+   <div class="modal-dialog modal-dialog-centered">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h5 style="
+         font-size: 2rem;
+         text-align: center;
+         margin-left: 50%;
+         transform: translateX(-50%);"
+          class="modal-title" id="staticBackdropLabel">BakerzBite</h5>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+       </div>
+       <div class="modal-body">
+         <div style="text-align: center;">
+            <i style="
+               margin: 1rem 0 2rem;
+               font-size: 4rem; color: green;
+               padding: 1rem;
+               position: relative;" 
+               ng-class="checkEmptyCart ? 'fa-solid fa-check' : 'fa-solid fa-cart-plus'"></i>
+         </div>
+         <!-- <p ng-hide="checkEmptyCart" style="font-size: 1.7rem; text-align: center;">We appreciate your purchase and hope to see you again soon.</p>
+         <p ng-show="checkEmptyCart" style="font-size: 1.7rem; text-align: center;">The cart is empty</p> -->
+         <p style="font-size: 1.7rem; text-align: center;">
+            {{checkEmptyCart == true 
+            ? 'We appreciate your purchase and hope to see you again soon.'
+            : 'The cart is empty, please take a look some our products'}}
+         </p>
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+         <!-- <button type="button" class="btn btn-primary">Understood</button> -->
+       </div>
+     </div>
+   </div>
+ </div>

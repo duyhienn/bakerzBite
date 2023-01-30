@@ -1,0 +1,107 @@
+<div class="main-product-app">
+   <div class="grid wide">
+      <section id="filter">
+
+         <h1 class="heading">Our Gallery</h1>
+
+         <div id="filter_button">
+            <a class="btn" ng-class="{'active': tabName=='tabAll'}" ng-click="tabName='tabAll'">All</a>
+            <a class="btn" ng-class="{'active': tabName=='tabPatries'}" ng-click="tabName='tabPatries'">Patries</a>
+            <a class="btn" ng-class="{'active': tabName=='tabCookies'}" ng-click="tabName='tabCookies'">Cookies</a>
+            <a class="btn" ng-class="{'active': tabName=='tabGourmet'}" ng-click="tabName='tabGourmet'">Gourmet Cakes</a>
+            <a class="btn" ng-class="{'active': tabName=='tabBeverages'}" ng-click="tabName='tabBeverages'">Beverages</a>
+         </div>
+
+         <form action="" id="input_filter">
+            <span class="search-container">
+               <i class="fa fa-search" aria-hidden="true"></i>
+               <input type="text" ng-model="search.title" placeholder="Filter product ..." id="search-item" autocomplete="off">
+            </span>
+         </form>
+
+         <div ng-switch="tabName" id="filter-data">
+            <div ng-switch-when="tabAll" class="row">
+               <a ng-href="#/gallery/{{ item.id }}" class="col l-3 m-t-4 c-12 card-item" ng-repeat="item in allProductList | filter: search">
+                  <div class="card-img-container">
+                     <img class="card-img" ng-src="{{item.imgUrl}}" alt="">
+                  </div>
+   
+                  <div class="card-content">
+                     <p class="card-title">{{item.title}}</p>
+                     <p class="card-price">${{item.price}}</p>
+                  </div>
+               </a>
+            </div>
+            <div ng-switch-when="tabPatries" class="row">
+               <a ng-href="#/gallery/{{ item.id }}" class="col l-3 m-t-4 c-12 card-item" ng-repeat="item in patriesList | filter: search">
+                  <div class="card-img-container">
+                     <img class="card-img" ng-src="{{item.imgUrl}}" alt="">
+                  </div>
+   
+                  <div class="card-content">
+                     <p class="card-title">{{item.title}}</p>
+                     <p class="card-price">${{item.price}}</p>
+                  </div>
+               </a>
+            </div>
+            <div ng-switch-when="tabCookies" class="row">
+               <a ng-href="#/gallery/{{ item.id }}" class="col l-3 m-t-4 c-12 card-item" ng-repeat="item in cookiesList | filter: search">
+                  <div class="card-img-container">
+                     <img class="card-img" ng-src="{{item.imgUrl}}" alt="">
+                  </div>
+   
+                  <div class="card-content">
+                     <p class="card-title">{{item.title}}</p>
+                     <p class="card-price">${{item.price}}</p>
+                  </div>
+               </a>
+            </div>
+            <div ng-switch-when="tabGourmet" class="row">
+               <a ng-href="#/gallery/{{ item.id }}" class="col l-3 m-t-4 c-12 card-item" ng-repeat="item in gourmetList | filter: search">
+                  <div class="card-img-container">
+                     <img class="card-img" ng-src="{{item.imgUrl}}" alt="">
+                  </div>
+   
+                  <div class="card-content">
+                     <p class="card-title">{{item.title}}</p>
+                     <p class="card-price">${{item.price}}</p>
+                  </div>
+               </a>
+            </div>
+            <div ng-switch-when="tabBeverages" class="row">
+               <a ng-href="#/gallery/{{ item.id }}" class="col l-3 m-t-4 c-12 card-item" ng-repeat="item in beverages | filter: search">
+                  <div class="card-img-container">
+                     <img class="card-img" ng-src="{{item.imgUrl}}" alt="">
+                  </div>
+   
+                  <div class="card-content">
+                     <p class="card-title">{{item.title}}</p>
+                     <p class="card-price">${{item.price}}</p>
+                  </div>
+               </a>
+            </div>
+            <h1 id="showtext"></h1>
+         </div>
+      </section>
+      <section id="product__modal" >
+         <div class="product__modal-container">
+            <!-- <div class="card-item" data-target="1">
+               <i class="card-close fa-solid fa-xmark"></i>
+               <div class="card-img-container">
+                  <img class="card-img" src="../assets/img/pastry-and-Cookies/Product-1.jpg" alt="">
+               </div>
+
+               <div class="card-content">
+                  <p class="card-title">Blueberry Puff Pastry Tart</p>
+                  <p class="card-detail">Ingredients Needed:Puff pastry, Blueberries, Blackberry jam,  Sliced almonds, Glaze,... 
+                  </p><p class="card-price">10$</p>
+               </div>
+               <div class="card-payment">
+                  <button class="btn btn--border">Buy Now</button>
+                  <button class="btn btn--bground ">Add to cart</button>
+               </div>
+            </div>-->
+         </div>
+     </section>
+   </div>
+</div>
