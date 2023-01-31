@@ -2,9 +2,9 @@
     "productList": [
         {
             "id": "1",
-            "imgUrl": "/img/pastriesNew/product-1.jpg",
+            "imgUrl": "img/pastriesNew/product-1.jpg",
             "imgHover": [
-                "/img/pastriesNew/hover-product-1.jpg"
+                "img/pastriesNew/hover-product-1.jpg"
             ],
             "cakeType": "patries",
             "title": "Southern Butter Rolls",
@@ -13,7 +13,7 @@
         },
         {
             "id": "2",
-            "imgUrl": "/img/pastriesNew/product-2.jpg",
+            "imgUrl": "img/pastriesNew/product-2.jpg",
             "cakeType": "patries",
             "title": "Wisconsin Kringle",
             "description": "Wisconsin kringle is Wisconsin's official state pastry, brought over to the USA by Scandinavian settlers in the mid-19th century. The kringle (a Danish word for pretzel) is a buttery and flaky pastry that's filled with fruits or nuts. These pastries were originally shaped into pretzels, but the bakers in Wisconsin opted for the oval shape. Each kringle should have at least about 30 layers of flaky dough, while the top is typically covered in white icing. Some of the most traditional flavors include raspberries, pecans, and almonds, but there are also other fillings such as apples, blueberries, cherries, and apricots.",
@@ -21,7 +21,7 @@
         },
         {
             "id": "3",
-            "imgUrl": "/img/pastriesNew/product-3.jpg",
+            "imgUrl": "img/pastriesNew/product-3.jpg",
             "cakeType": "patries",
             "title": "Maple Bar Doughnut",
             "description": "Maple bar is an unusual American doughnut originating from the West coast and usually associated with California. The doughnut is rectangular in shape and topped with a maple glaze. Inside, it can be left as it is or filled with cream or custard. The dough is often made with a mix of flour, egg yolks, vanilla, shortening, baking powder, salt, sugar, water, and yeast, while the maple icing contains powdered sugar, salt, vanilla, and maple extract. These doughnuts have many variations, so they're often topped with nuts or bits of bacon.",
@@ -29,7 +29,7 @@
         },
         {
             "id": "4",
-            "imgUrl": "/img/pastriesNew/product-4.jpg",
+            "imgUrl": "img/pastriesNew/product-4.jpg",
             "cakeType": "patries",
             "title": "Bear Claw",
             "description": "A bear claw is a sweet pastry originating from the United States. Believed to have been invented during the mid-1920s, it is usually prepared with flour, butter, eggs, and milk, while the filling is typically prepared with a combination of chopped almonds, egg whites, sugar, and almond extract, if desired. The pastry is shaped into a semicircle with sliced sections along one side, and as the dough rises, those sections become separated, resulting in a shape that is reminiscent of a bear claw, hence the name. These sweet treats are baked until golden brown, and it is recommended to let them cool slightly before serving.",
@@ -37,7 +37,7 @@
         },
         {
             "id": "5",
-            "imgUrl": "/img/pastriesNew/product-5.jpg",
+            "imgUrl": "img/pastriesNew/product-5.jpg",
             "cakeType": "patries",
             "title": "Cronut",
             "description": "The unusual New Yorker creation known as a Cronut is a hybrid between a croissant and a doughnut, characterized by its soft and creamy interior, and flaky layers of pastry on the exterior. These treats are fried in oil, filled with cream, rolled in sugar, and glazed on top. Due to their short shelf life of about 6 hours, the cronuts are intended to be consumed as soon as they are made. The dessert was invented in 2013 by a French pastry chef named Dominique Ansel at his bakery in New York City, when a customer pointed out that his menu did not have any version of the American classic – doughnuts. ",
@@ -45,7 +45,7 @@
         },
         {
             "id": "6",
-            "imgUrl": "/img/pastriesNew/product-6.jpg",
+            "imgUrl": "img/pastriesNew/product-6.jpg",
             "cakeType": "patries",
             "title": "Malasadas",
             "description": "Malasadas are traditional Portuguese yeast-leavened doughnuts made from eggs, flour, sugar, and milk. They are sometimes coated with cinnamon or granulated sugar. The original Portuguese malasadas don't have any holes or fillings, but the variations prepared in Hawaii do. The popularity of malasadas in Hawaii is not accidental – Portuguese laborers from the Azores and Madeira came to Hawaii in the 19th century to work in the plantations. They brought their traditional foods with them, including the malasadas, which were originally prepared in order to use all the sugar and lard in one's home before Lent. ",
@@ -53,7 +53,7 @@
         },
         {
             "id": "7",
-            "imgUrl": "/img/pastriesNew/product-7.jpg",
+            "imgUrl": "img/pastriesNew/product-7.jpg",
             "cakeType": "patries",
             "title": "Beignets",
             "description": "These squares of deep-fried pastry dough are sprinkled with powdered sugar and are traditionally served hot. The dish hails from France, and French settlers brought it to the Acadia region of Canada in the 17th century. Many of the Acadians later moved to Louisiana, and they brought their culinary traditions with them. Today, beignets are most commonly associated with the French Quarter of New Orleans, where they were declared the official state donut in 1986. These treats are typically served alongside chocolate milk or café au lait, a combination often served at the Cafe Du Monde - a New Orleans restaurant that is most often associated with beignets.",
@@ -61,7 +61,7 @@
         },
         {
             "id": "8",
-            "imgUrl": "/img/pastriesNew/product-8.jpg",
+            "imgUrl": "img/pastriesNew/product-8.jpg",
             "cakeType": "patries",
             "title": "Doughnut",
             "description": "Although archaeologists had found some petrified remains of fried cakes with holes in the center, it is still unclear how could the early Native Americans prepare these delicious fried dough desserts that we know today as doughnuts. In the past, doughnuts were known as olykoeks (oily cakes), and the pilgrims from Holland are credited for bringing them to the United States. Those early doughnuts were often made with prunes, raisins, or apples in the middle. During World War I, the doughnut was already an American favorite, consumed by soldiers that were fighting overseas as a reminder of home. In the 1950s and the 1960s, the popularity of these treats was so big that new doughnut chains started appearing on the market, such as Krispy Kreme and Dunkin' Donuts, helping in the perception of doughnuts as breakfast food.",
@@ -69,7 +69,7 @@
         },
         {
             "id": "9",
-            "imgUrl": "/img/pastriesNew/cookies-1.webp",
+            "imgUrl": "img/pastriesNew/cookies-1.webp",
             "cakeType": "cookies",
             "title": "Chocolate chip cookies",
             "description": "No cookie is more American than a chocolate chip cookie. With very little variety, this recipe has remained basically the same since the 1930s. The chocolate chip cookie's origin is a little unclear; some believe a baker came up with the recipe by accident, while others dispute that claim. But one thing is certain: You have Ruth Wakefield to thank for the simple, delicious treat.",
@@ -77,7 +77,7 @@
         },
         {
             "id": "10",
-            "imgUrl": "/img/pastriesNew/product-9.webp",
+            "imgUrl": "img/pastriesNew/product-9.webp",
             "cakeType": "patries",
             "title": "Apple pie",
             "description": "The expression 'as American as apple pie' actually originated with an early 1900s newspaper advertisement for suits, according to Smithsonian magazine. The perception that apple pie was solely American was fueled by soldiers in World War II, who told everyone that they were fighting battles for mom and apple pie, the magazine explains. But was apple pie really an American dessert? The first pies in the United States came to the country with the early settlers, and those were savory British concoctions filled with meat and spices. And as Smithsonian pointed out, the oldest-known apple pie recipe comes from 14th-century England, too. The United States has adopted the treat as its own, though, and it's a holiday staple for Americans.",
@@ -85,7 +85,7 @@
         },
         {
             "id": "10",
-            "imgUrl": "/img/pastriesNew/gourmet-1.webp",
+            "imgUrl": "img/pastriesNew/gourmet-1.webp",
             "cakeType": "gourmet",
             "title": "Cheesecake",
             "description": "A mix of sweet, soft cream cheese, sugar, and flavorings, cheesecake has become the official dessert of New York, with other areas of the country claiming it as well. Junior's Restaurant in Brooklyn and Eileen's Special Cheesecake in downtown Manhattan hold down the fort as some of the most famous cheesecake purveyors, both in New York City and in the United States. Cheesecake's crust is either a cookie crumb mix, pastry, or a buttery graham cracker bed. Dense or fluffy, it can be topped with fruit, nuts, cookies, or syrups. Or, cheesecake can be flavored with chocolate, pumpkin, or liqueur—any combination that the chef (and diner) desires. If you want a traditional New York cheesecake slice, try a piece of cheesecake topped with strawberries or cherries.",
@@ -93,7 +93,7 @@
         },
         {
             "id": "11",
-            "imgUrl": "/img/pastriesNew/product-10.webp",
+            "imgUrl": "img/pastriesNew/product-10.webp",
             "cakeType": "patries",
             "title": "Pecan pie",
             "description": "Georgia is the biggest producer of pecans in the United States, and the plentiful supply led cooks to include it in baking. The recipe became a staple in the South, especially in Atlanta's Magnolia Room in Rich's Department Store, according to James McWilliams, author of The Pecan: A History of America's Native Nut. As McWilliams explains, Callie Williams worked six days a week, baking pies at the Magnolia Room. Over the course of 1948, Williams baked a whopping 28,960 pies for the restaurant's guests.",
@@ -101,7 +101,7 @@
         },
         {
             "id": "12",
-            "imgUrl": "/img/pastriesNew/gourmet-2.webp",
+            "imgUrl": "img/pastriesNew/gourmet-2.webp",
             "cakeType": "gourmet",
             "title": "Carrot cake",
             "description": "A descendant of British carrot pudding, the modern-day carrot cake is a dense, moist cake flavored with allspice and topped with a rich icing of cream cheese, vanilla, and sugar. Still, the official origin of carrot cake is unknown. Stella Parks, author of BraveTart: Iconic American Desserts, suggested to Vice that carrot cake may have been created accidentally after someone misread a currant cake recipe. However it came about, though, it's a recognizable part of any cake spread.",
@@ -109,7 +109,7 @@
         },
         {
             "id": "13",
-            "imgUrl": "/img/pastriesNew/gourmet-3.webp",
+            "imgUrl": "img/pastriesNew/gourmet-3.webp",
             "cakeType": "gourmet",
             "title": "Boston cream pie",
             "description": "Combining light vanilla cake, vanilla custard, and chocolate ganache, Boston cream pie is a gem of a dessert. The first Boston cream pie was made in the restaurant of the Parker House Hotel, which is now the Omni Parker House in Boston.",
@@ -117,7 +117,7 @@
         },
         {
             "id": "14",
-            "imgUrl": "/img/pastriesNew/gourmet-4.webp",
+            "imgUrl": "img/pastriesNew/gourmet-4.webp",
             "cakeType": "gourmet",
             "title": "Banana pudding",
             "description": "Banana pudding is a quintessential Southern treat, but it's also one of the most popular desserts in the United States. Home cooking at its best, the creamy vanilla pudding, whipped meringue, and bananas are layered with sweet Nilla wafers. Banana pudding isn't the easiest dessert to create, and cooks can be tempted to cut corners. But to truly appreciate the depth of flavor and texture, using the original banana pudding recipe is best. After it sits for a day, the wafers meld into the custard while still providing a complement to the smooth pudding.",
@@ -125,7 +125,7 @@
         },
         {
             "id": "15",
-            "imgUrl": "/img/pastriesNew/gourmet-5.webp",
+            "imgUrl": "img/pastriesNew/gourmet-5.webp",
             "cakeType": "gourmet",
             "title": "Baked Alaska",
             "description": "A Baked Alaska features cool ice cream on top of a sponge cake, completely covered with meringue, and baked quickly in the oven to brown. As legend has it, Thomas Jefferson served an ice cream and meringue dish very similar to today's version of Baked Alaska in the White House in 1802. The final recipe, meanwhile, is said to have been created and named by French Chef Charles Ranhofer at Delmonico's in New York to celebrate the purchase of Alaska in 1867. The classic Baked Alaska is still on the Delmonico's dessert menu today.",
@@ -133,7 +133,7 @@
         },
         {
             "id": "16",
-            "imgUrl": "/img/pastriesNew/product-11.webp",
+            "imgUrl": "img/pastriesNew/product-11.webp",
             "cakeType": "patries",
             "title": "Buckeyes",
             "description": "The Ohio legislature adopted the Ohio Buckeye as its state tree in 1953. Around the same time, the Ohio State football team adopted the nickname Buckeyes, with Brutus Buckeye serving as its mascot. Residents of Ohio referred to themselves as Buckeyes as early as the 1840s. Basically, the nut from this tree resembles a deer's eye, with a brown covering revealing a light brown center. A married couple of Ohio football fans, Gail and Steve Lucas, received a gift of some chocolate-covered peanut butter balls for Christmas. Gail recreated the recipe, but she didn't cover the peanut butter entirely. The visible portion of peanut butter looked like the nut from a buckeye tree. And from that day forward, Gail made the candy for tailgating crowds. It became a tradition for Ohio State's most devoted fans.",
@@ -141,7 +141,7 @@
         },
         {
             "id": "17",
-            "imgUrl": "/img/pastriesNew/gourmet-6.webp",
+            "imgUrl": "img/pastriesNew/gourmet-6.webp",
             "cakeType": "gourmet",
             "title": "Indiana sugar cream pie",
             "description": "The unofficial state pie of Indiana, Indiana Sugar Cream Pie is also called Hoosier Pie. It is a rich custard in a buttery pie crust, dusted thickly with powdered nutmeg. The original recipe was influenced by the easy availability of cream and sugar, and the lack of fresh fruit and nuts in the area for working families, explains the Indianapolis Star. The filling is whisked together, occasionally cooked on the stovetop, and added to the crust to bake. Stirring while the pie is baking keeps it from rising and results in a thick, creamy interior. Another name for the pie is Desperation Pie, a dessert born from economic hard times and ingenuity.",
@@ -149,7 +149,7 @@
         },
         {
             "id": "18",
-            "imgUrl": "/img/pastriesNew/product-12.webp",
+            "imgUrl": "img/pastriesNew/product-12.webp",
             "cakeType": "patries",
             "title": "S'mores",
             "description": "Nothing adds more to a campfire than s'mores, a gooey roasted marshmallow squished with a chocolate bar between layers of graham cracker. The creation seems to have its roots in camping, with a recipe for Some Mores appearing in a 1927 Girl Scout guide to making campfires. Everyone has their own favorite way of roasting marshmallows. But whether you lightly turn and brown the sweet meringue or catch it on fire, it tastes wonderful with its chocolate and graham cracker sandwich.",
@@ -157,7 +157,7 @@
         },
         {
             "id": "19",
-            "imgUrl": "/img/pastriesNew/product-13.webp",
+            "imgUrl": "img/pastriesNew/product-13.webp",
             "cakeType": "patries",
             "title": "Lane cake",
             "description": "Lane Cake has won prizes, it's been used by renowned chefs, and it was mentioned in To Kill A Mockingbird. According to legend, Lane Cake was invented by Emma Rylander Lane, who published her lane cake recipe in 1898. Lane Cake is made up of a rich butter cake frosted with a sweet syrup of pecans, raisins, coconut, vanilla, bourbon, sugar, and butter. The rich ingredient list results in a special and different type of cake creation.",
@@ -165,7 +165,7 @@
         },
         {
             "id": "20",
-            "imgUrl": "/img/pastriesNew/gourmet-7.webp",
+            "imgUrl": "img/pastriesNew/gourmet-7.webp",
             "cakeType": "gourmet",
             "title": "Swiss roll",
             "description": "This confection is also called a jelly roll or, in finer establishments, a roulade. Swiss roll is made of a light sponge cake rolled around jam, whipped cream, or icing. The popularity of rolled cakes took off in America in the 1800s. Swiss rolls roots are European, but not necessarily Swiss, but the title has lived on.",
@@ -173,7 +173,7 @@
         },
         {
             "id": "21",
-            "imgUrl": "/img/pastriesNew/gourmet-8.webp",
+            "imgUrl": "img/pastriesNew/gourmet-8.webp",
             "cakeType": "gourmet",
             "title": "Coca-Cola cake",
             "description": "The South loves its Coke. In fact, the word is used to describe any carbonated beverage, as in, I'm going to get a coke. Cooks have added it to the most unexpected places—in stews, over hams, and even in Coca-Cola cake.",
@@ -181,7 +181,7 @@
         },
         {
             "id": "22",
-            "imgUrl": "/img/pastriesNew/gourmet-9.webp",
+            "imgUrl": "img/pastriesNew/gourmet-9.webp",
             "cakeType": "gourmet",
             "title": "Pumpkin pie",
             "description": "Thanksgiving just isn't the same without pumpkin pie. This dessert is well-known in the United States and Canada, but you'd be hard-pressed to find it anywhere else in the world. As the story goes, the early American settlers made pumpkin pies at the first Thanksgiving celebration, though their version didn't have a crust. Native Americans brought pumpkins as gifts to the first residents of the European settlement to help prevent scurvy.",
@@ -189,7 +189,7 @@
         },
         {
             "id": "23",
-            "imgUrl": "/img/pastriesNew/gourmet-10.webp",
+            "imgUrl": "img/pastriesNew/gourmet-10.webp",
             "cakeType": "gourmet",
             "title": "Red velvet cake",
             "description": "There seem to be some differences of opinion about the origins of red velvet cake. The Adams Extract Company and the Waldorf Astoria Hotel in New York both claim to have invented the cake. Regardless, red velvet cake rose in prominence during the mid-1900s in the United States. Using cocoa in the cake seemed to soften the product, which gave rise to the term velvet. The cake itself is airy and smooth, with the cocoa adding to the batter without overpowering it. It's topped with buttery and rich cream cheese icing. The addition of the red food color makes sense from Adams Extract, at least: Popular red cakes would sell more red food coloring. Without the red dye, the cake is a lighter shade of chocolate and just as tasty, though it might just be termed velvet.",
@@ -197,7 +197,7 @@
         },
         {
             "id": "24",
-            "imgUrl": "/img/pastriesNew/cookies-2.webp",
+            "imgUrl": "img/pastriesNew/cookies-2.webp",
             "cakeType": "cookies",
             "title": "Icebox cakes",
             "description": "Nabisco has printed a recipe known as The Famous Icebox Cake on the back of their chocolate wafer boxes since the 1940s. The cake became popular for its simplicity and beauty, and it's not hard to see why. The sleeves of chocolate wafers are sandwiched with fluffy sweetened and vanilla-flavored whipped cream. After setting in the refrigerator, or icebox if you prefer, the cake can be sliced to show the gorgeous layers. The dessert comes together quickly, and there's no need to use the oven. Alternate versions have been created over the years using other cookie and flavor combinations, but you can't go wrong with a classic icebox cake recipe.",
@@ -205,7 +205,7 @@
         },
         {
             "id": "25",
-            "imgUrl": "/img/pastriesNew/cookies-3.jpg",
+            "imgUrl": "img/pastriesNew/cookies-3.jpg",
             "cakeType": "cookies",
             "title": "Peanut Butter Cookie",
             "description": "Peanut butter cookie consists of hand-rolled dough that is then flattened with fork tins, giving the cookies their characteristical waffle pattern. It is believed that the dough is marked to help cookies bake more evenly, but some claim it can also be a warning sign to people with peanut allergies. The dough usually consists of butter, peanut butter, eggs, milk, flour, sugar, and salt. Today, the cookies are so popular that there is even a National Peanut Butter Cookie Day, celebrated on June 12.",
@@ -213,7 +213,7 @@
         },
         {
             "id": "26",
-            "imgUrl": "/img/pastriesNew/cookies-4.jpg",
+            "imgUrl": "img/pastriesNew/cookies-4.jpg",
             "cakeType": "cookies",
             "title": "Whoopie Pie",
             "description": "Despite its name, whoopie pie is actually an enlarged cookie sandwich consisting of two soft chocolate cake cookies with a sweet and fluffy white filling sandwiched in between. It is believed that whoopie pie has a Pennsylvania Amish origin, although today it is extremely popular throughout New England, especially in Maine. According to the Amish, when children would find this sweet treat in their lunch bags, they used to shout “Whoopie!“, hence the name.",
@@ -221,7 +221,7 @@
         },
         {
             "id": "27",
-            "imgUrl": "/img/pastriesNew/cookies-5.jpg",
+            "imgUrl": "img/pastriesNew/cookies-5.jpg",
             "cakeType": "cookies",
             "title": "Oatmeal Cookies",
             "description": "This versatile American cookie usually consists of rolled oats, sugar, eggs, butter, and spices. Often, the recipes will also include raisins. It is believed that oatmeal cookies developed from Scottish oat-based cakes. However, it is mostly assumed that they originated in the United States. While most claim that Fannie Merritt Farmer—the author of Boston Cooking-School Cook Book—was the first to publish the recipe for oatmeal cookies, it is more likely that the dessert was made and published before her recipe, which dates from 1896.",
@@ -229,7 +229,7 @@
         },
         {
             "id": "28",
-            "imgUrl": "/img/pastriesNew/cookies-6.jpg",
+            "imgUrl": "img/pastriesNew/cookies-6.jpg",
             "cakeType": "cookies",
             "title": "Fortune Cookie",
             "description": "The intriguing fortune cookies are crispy folded wafers hiding an entertaining fortune inside. The fortune is a written note; a proverb or a universal prophecy believed to predict the person’s future. The cookies are made with flour, sesame oil, and sugar, and have a slight vanilla flavor. They are rolled in flat, perfectly round shapes, then baked. Before they are folded, when they are still hot and pliable, the written fortune is nestled inside the cookie. As they cool, the fortune cookies harden and achieve their distinctively crunchy texture. ",
@@ -237,7 +237,7 @@
         },
         {
             "id": "29",
-            "imgUrl": "/img/pastriesNew/cookies-7.jpg",
+            "imgUrl": "img/pastriesNew/cookies-7.jpg",
             "cakeType": "cookies",
             "title": "Graham Cracker",
             "description": "Graham cracker is a sweet American cracker made with graham flour and usually flavored with honey or cinnamon. The crackers date back to the early 1880s, when they were made with graham flour, lard or shortening, salt, molasses, and oil. They were invented by Sylvester Graham, a Presbyterian minister who introduced them in hopes to end masturbation – he believed that a radical vegetarian diet without white flour and spices would end lustful behaviour. Nowadays, the crackers are used in the preparation of s'mores, while graham cracker crumbs are used for pies, cheesecakes, and moon pies. In the Philippines, an icebox cake known as mango float uses graham crackers, cream, and mangoes.",
@@ -245,7 +245,7 @@
         },
         {
             "id": "30",
-            "imgUrl": "/img/pastriesNew/cookies-8.jpg",
+            "imgUrl": "img/pastriesNew/cookies-8.jpg",
             "cakeType": "cookies",
             "title": "Snickerdoodle",
             "description": "Snickerdoodles are classic old-fashioned cookies that are rolled in a mixture of cinnamon and white sugar, consisting of butter, sugar, eggs, and flour. They are characterized by their texture (soft or crispy), a cracked surface of the exterior, and a buttery, sweet flavor. The cookies got their name from the German word Schneckennudeln, meaning cinnamon-dusted sweet rolls, and another theory suggest that the name stems from a series of tales from the 1900s that centered around a hero named Snickerdoodle. ",
@@ -253,7 +253,7 @@
         },
         {
             "id": "31",
-            "imgUrl": "/img/pastriesNew/cookies-9.jpg",
+            "imgUrl": "img/pastriesNew/cookies-9.jpg",
             "cakeType": "cookies",
             "title": "Chocolate Chip Cookie",
             "description": "Usually accompanied by a glass of milk or a cup of hot tea or coffee, chocolate chip cookies are well balanced between salty and sweet in flavor, tenderly chewy in texture, and filled with small melting chocolate pyramids, bringing a generation of Americans back to their childhood. The origin story of these sweet treats is incredibly interesting, almost as the cookies themselves. The Toll House Inn was a popular bed-and-breakfast in Whitman, Massachusetts, bought by Ruth Graves Wakefield and her husband in 1930. Ruth's cooking was so good that the inn gained an excellent reputation in a short span of time. ",
