@@ -129,7 +129,7 @@ angular.module('siteHomepage')
             navigator.geolocation.getCurrentPosition(successGetPosition, errorGetPosition)
          }
 
-         // findCountryName();
+         findCountryName();
          function updateVisitCount() {
             fetch(`https://api.countapi.xyz/update/dhbakery/dlbakery?amount=1`)
                .then(res => res.json())
@@ -137,6 +137,8 @@ angular.module('siteHomepage')
                   $scope.visitCount = data.value;
                })
          }
+
+         updateVisitCount();
          // console.log(angular.element(document).find('.homepage-feedback'));
          // console.log($document.find('.homepage-feedback'))
          // console.log(angular.element(document.querySelector(".homepage-feedback"))[0]);
