@@ -5,7 +5,7 @@
 .detail-img{
    display: flex;
    width: 400px;
-   height: 500px;
+   height: 400px;
    margin: 0 auto;
    border-radius: 1.6rem;
 }
@@ -15,14 +15,21 @@
    color: var(--primary-color);
 }
 
+.detail-information-container{
+   margin-top: 10rem;
+}
+
 .detail-quote{
-   font-size: 1.6rem;
+   font-size: 3.4rem;
    font-weight: 500;
    color: var(--primary-color);
+   text-align: center;
 }
 
 .detail-description{
-   font-size: 1.6rem;
+   font-size: 2.5rem;
+   line-height: 5rem;
+
 }
 .detail-price{
    font-size: 3.2rem;
@@ -35,6 +42,7 @@
    border: 1px solid var(--primary-color);
    color: var(--primary-color);
    transition: all 0.2s linear;
+   margin-top: 5rem;
 }
 .detail-btn:hover{
    background-color: var(--primary-color);
@@ -55,7 +63,7 @@
 }
 
 .detail-service{
-   margin-top: 1rem;
+   margin-top: 3rem;
    margin-bottom: 2rem;
 }
 
@@ -83,4 +91,53 @@
 .btn-secondary:hover{
    color: #fff;
    background-color: var(--primary-color);
+}
+
+.services-container{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+   gap: 2rem;
+   position: relative;
+   margin-top: 10rem;
+   margin-bottom: 10rem;
+}
+
+
+.services-container{
+
+}
+
+.services-link-direct{
+   display: flex;
+}
+
+.service-img-outer{
+   
+}
+
+.service-text{
+   display: inline-block;
+   vertical-align: middle;
+   text-align: left;
+   padding-left: 5px;
+   width: calc(100% - 40px);
+}
+
+.service-title{
+   font-size: 13px;
+   font-weight: 600;
+   color: #222;
+   letter-spacing: 0;
+   text-transform: uppercase;
+}
+
+.service-desc{
+   color: #666;
+   font-weight: 400;
+   font-size: 12px;
+   font-style: italic;
+}
+
+.services .service-img-outer img {
+   width: 40px;
 }
