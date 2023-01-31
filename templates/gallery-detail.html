@@ -3,21 +3,18 @@
       <div class="row">
          <div class="col l-6">
             <img class="detail-img" ng-src="{{item.imgUrl}}" alt="">
+            <div class=detail-hover-img>
+               <div ng-repeat="itemHover in item.imgHover">
+                  <img 
+                     style="width: 90px; display: flex; margin: 0 auto; border-radius: 1.6rem;" 
+                     ng-src="{{itemHover}}" alt="">
+               </div>
+            </div>
          </div>
          <div class="col l-6">
             <h1 class="detail-heading">{{item.title}}</h1>
-            <p class="detail-quote">A liitle products's infomation</p>
-
-            <div class="detail-description">The essential flour for gluten-free bakers.
-               The one flour for your gluten-free baking; perfect for converting your favorite recipes into gluten-free versions. Simply substitute King Arthur Gluten-Free Flour 1-1 for an easy and convenient swap for conventional flours. Fortified with iron, calcium, and vitamin B, this carefully tested blend is a must-have for bakers who are new to gluten-free baking or anyone baking gluten-free who wants to enjoy recipes they used to love. Ideal for gluten-free bread, muffins, cookies, cakes, brownies, pancakes, and other non-yeasted recipes.</div>
-            <div class="detail-price">Price: ${{item.price}}</div>
-
-            <button ng-click="insertItem(item)" class="btn detail-btn" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-               Add to cart
-             </button>
-            <!-- <button ng-click="insertItem(item)" class="btn detail-btn">Add to cart</button> -->
-            <a ng-href="#/checkout" class="btn detail-checkout-btn">Checkout</a>
             
+            <div class="detail-price">Price: ${{item.price}}</div>
             <div class="detail-service">
                <div class="detail-service-block">
                   <img class="detail-service-img" src="img/icon/icon-guarantee.png" alt="">
@@ -25,6 +22,84 @@
                      OUR GUARANTEE<span> Try us once, <br>trust us always</span>
                   </div>
                </div>
+            </div>
+
+            <button ng-click="insertItem(item)" class="btn detail-btn" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+               Add to cart
+             </button>
+            <!-- <button ng-click="insertItem(item)" class="btn detail-btn">Add to cart</button> -->
+            <a ng-href="#/checkout" class="btn detail-checkout-btn">Checkout</a>
+      </div>
+      <div class="detail-information-container">
+         <p class="detail-quote">A liitle products's infomation</p>
+         <div class="detail-description">{{item.description}}</div>
+      </div>
+      <div class="services-container">
+         <div class="services">
+            <a class="services-link-direct" href="">
+               <div class="service-img-outer">
+                  <img src="img/icon/icon-free-ship.png">
+               </div>
+               <div class="service-text">
+                  <div class="service-title">Miễn phí giao hàng 63 tỉnh</div>
+                  <div class="service-desc">Free shipping (nội thành)</div>
+               </div>
+            </a>
+         </div>
+         <div class="services">
+            <a class="services-link-direct" href="">
+               <div class="service-img-outer">
+                  <img src="img/icon/icon-support-247.png">
+               </div>
+               <div class="service-text">
+                  <div class="service-title">Miễn phí giao hàng 63 tỉnh</div>
+                  <div class="service-desc">Free shipping (nội thành)</div>
+               </div>
+            </a>
+         </div>
+         <div class="services">
+            <a class="services-link-direct" href="">
+               <div class="service-img-outer">
+                  <img src="img/icon/icon-discount.png">
+               </div>
+               <div class="service-text">
+                  <div class="service-title">Miễn phí giao hàng 63 tỉnh</div>
+                  <div class="service-desc">Free shipping (nội thành)</div>
+               </div>
+            </a>
+         </div>
+         <div class="services">
+            <a class="services-link-direct" href="">
+               <div class="service-img-outer">
+                  <img src="img/icon/icon-vat.png">
+               </div>
+               <div class="service-text">
+                  <div class="service-title">Miễn phí giao hàng 63 tỉnh</div>
+                  <div class="service-desc">Free shipping (nội thành)</div>
+               </div>
+            </a>
+         </div>
+         <div class="services">
+            <a class="services-link-direct" href="">
+               <div class="service-img-outer">
+                  <img src="img/icon/icon-quick-delivery.png">
+               </div>
+               <div class="service-text">
+                  <div class="service-title">Miễn phí giao hàng 63 tỉnh</div>
+                  <div class="service-desc">Free shipping (nội thành)</div>
+               </div>
+            </a>
+         </div>
+         <div class="services">
+            <a class="services-link-direct" href="">
+               <div class="service-img-outer">
+                  <img src="img/icon//icon-guarantee-smile.png">
+               </div>
+               <div class="service-text">
+                  <div class="service-title">Miễn phí giao hàng 63 tỉnh</div>
+                  <div class="service-desc">Free shipping (nội thành)</div>
+               </div>
+            </a>
          </div>
       </div>
    </div>
