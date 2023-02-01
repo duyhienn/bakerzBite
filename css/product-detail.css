@@ -16,7 +16,22 @@
    align-items: center;
 }
 .detail-hover-container{
-   margin-top: 1.5rem;
+   position: relative;
+   margin: 1.5rem 5px 0;
+}
+.detail-hover-container img{
+   position: relative;
+}
+.detail-hover-container.is-active::after{
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   border: 1px solid #000;
+   border-radius: 16px;
+   z-index: 1;
 }
 .detail-hover-img .detail-hover-container img{
    width: 80px;
