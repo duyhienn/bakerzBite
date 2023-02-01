@@ -35,10 +35,13 @@ angular.module('galleryDetail')
             console.log(productStorage);
          }
 
-         $scope.changeUrl = function(imgUrl) {
-            const mainImg = angular.element(document.querySelector(".detail-img"))[0];
-            mainImg.setAttribute('ng-src', imgUrl);
-            mainImg.setAttribute('src', imgUrl);
+         $scope.changeUrl = function(e) {
+            if(e.target){
+               const imgUrl = e.target.getAttribute('ng-src');
+               const mainImg = angular.element(document.querySelector(".detail-img"))[0];
+               mainImg.setAttribute('ng-src', imgUrl);
+               mainImg.setAttribute('src', imgUrl);
+            }
          }
       },
    })

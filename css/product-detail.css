@@ -15,9 +15,12 @@
    justify-content: center;
    align-items: center;
 }
+.detail-hover-container{
+   margin-top: 1.5rem;
+}
 .detail-hover-img .detail-hover-container img{
-   width: 90px;
-   height: 90px;
+   width: 80px;
+   height: 80px;
    display: flex; 
    margin: 0 auto; 
    border-radius: 1.6rem;

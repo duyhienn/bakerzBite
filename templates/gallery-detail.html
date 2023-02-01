@@ -4,10 +4,9 @@
          <div class="col l-6 m-t-6 c-12">
             <img class="detail-img" ng-src="{{item.imgUrl}}" alt="">
             <div class=detail-hover-img>
-               <div ng-repeat="itemHover in item.imgHover" class="detail-hover-container">
+               <div ng-repeat="itemHover in item.imgHover" ng-click="changeUrl($event)" class="detail-hover-container">
                   <img 
-                     ng-src="{{itemHover}}" alt=""
-                     ng-click="changeUrl(itemHover)">
+                     ng-src="{{itemHover}}" alt="">
                </div>
             </div>
          </div>
@@ -18,7 +17,7 @@
                <div class="detail-service">
                   <div class="detail-price">Price: ${{item.price}}</div>
                   <div class="detail-service-block">
-                     <img class="detail-service-img" src="/img/icon/icon-guarantee.png" alt="">
+                     <img class="detail-service-img" src="img/icon/icon-guarantee.png" alt="">
                      <div class="detail-service-content">
                         OUR GUARANTEE<span> Try us once, <br>trust us always</span>
                      </div>
