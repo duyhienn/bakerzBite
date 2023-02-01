@@ -863,7 +863,7 @@
 .msg {
    white-space: nowrap;
    overflow: hidden;
-   animation: marquee 10s linear infinite;
+   animation: marquee 15s linear infinite;
    display: inline-block;
    line-height: 36px;
 }
