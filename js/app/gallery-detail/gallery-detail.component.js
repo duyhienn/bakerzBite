@@ -34,5 +34,11 @@ angular.module('galleryDetail')
             storageServices.insert(item);
             console.log(productStorage);
          }
+
+         $scope.changeUrl = function(imgUrl) {
+            const mainImg = angular.element(document.querySelector(".detail-img"))[0];
+            mainImg.setAttribute('ng-src', imgUrl);
+            mainImg.setAttribute('src', imgUrl);
+         }
       },
    })

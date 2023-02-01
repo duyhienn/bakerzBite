@@ -4,7 +4,8 @@
             "id": "1",
             "imgUrl": "img/pastriesNew/product-1.jpg",
             "imgHover": [
-                "img/pastriesNew/hover-product-1.jpg"
+                "/img/hover/hover-product-1-a.jpg",
+                "/img/hover/hover-product-1-b.jpg"
             ],
             "cakeType": "patries",
             "title": "Southern Butter Rolls",

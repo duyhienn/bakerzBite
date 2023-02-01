@@ -1,34 +1,37 @@
 <div class="main-product-detail-app">
    <div class="grid wide">
       <div class="row">
-         <div class="col l-6">
+         <div class="col l-6 m-t-6 c-12">
             <img class="detail-img" ng-src="{{item.imgUrl}}" alt="">
             <div class=detail-hover-img>
-               <div ng-repeat="itemHover in item.imgHover">
+               <div ng-repeat="itemHover in item.imgHover" class="detail-hover-container">
                   <img 
-                     style="width: 90px; display: flex; margin: 0 auto; border-radius: 1.6rem;" 
-                     ng-src="{{itemHover}}" alt="">
+                     ng-src="{{itemHover}}" alt=""
+                     ng-click="changeUrl(itemHover)">
                </div>
             </div>
          </div>
-         <div class="col l-6">
-            <h1 class="detail-heading">{{item.title}}</h1>
-            
-            <div class="detail-price">Price: ${{item.price}}</div>
-            <div class="detail-service">
-               <div class="detail-service-block">
-                  <img class="detail-service-img" src="img/icon/icon-guarantee.png" alt="">
-                  <div class="detail-service-content">
-                     OUR GUARANTEE<span> Try us once, <br>trust us always</span>
+         <div class="col l-6 m-t-6 c-12">
+            <div class="detail-content-container" style="display: flex; flex-direction: column; height: 100%;">
+               <h1 class="detail-heading">{{item.title}}</h1>
+               
+               <div class="detail-service">
+                  <div class="detail-price">Price: ${{item.price}}</div>
+                  <div class="detail-service-block">
+                     <img class="detail-service-img" src="/img/icon/icon-guarantee.png" alt="">
+                     <div class="detail-service-content">
+                        OUR GUARANTEE<span> Try us once, <br>trust us always</span>
+                     </div>
                   </div>
                </div>
+               <div>
+                  <button ng-click="insertItem(item)" class="btn detail-btn" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                     Add to cart
+                   </button>
+                  <!-- <button ng-click="insertItem(item)" class="btn detail-btn">Add to cart</button> -->
+                  <a ng-href="#/checkout" class="btn detail-checkout-btn">Checkout</a>
+               </div>
             </div>
-
-            <button ng-click="insertItem(item)" class="btn detail-btn" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-               Add to cart
-             </button>
-            <!-- <button ng-click="insertItem(item)" class="btn detail-btn">Add to cart</button> -->
-            <a ng-href="#/checkout" class="btn detail-checkout-btn">Checkout</a>
       </div>
       <div class="detail-information-container">
          <p class="detail-quote">A liitle products's infomation</p>
@@ -38,7 +41,7 @@
          <div class="services">
             <a class="services-link-direct" href="">
                <div class="service-img-outer">
-                  <img src="img/icon/icon-free-ship.png">
+                  <img src="/img/icon/icon-free-ship.png">
                </div>
                <div class="service-text">
                   <div class="service-title">Miễn phí giao hàng 63 tỉnh</div>
@@ -49,7 +52,7 @@
          <div class="services">
             <a class="services-link-direct" href="">
                <div class="service-img-outer">
-                  <img src="img/icon/icon-support-247.png">
+                  <img src="/img/icon/icon-support-247.png">
                </div>
                <div class="service-text">
                   <div class="service-title">Miễn phí giao hàng 63 tỉnh</div>
@@ -60,7 +63,7 @@
          <div class="services">
             <a class="services-link-direct" href="">
                <div class="service-img-outer">
-                  <img src="img/icon/icon-discount.png">
+                  <img src="/img/icon/icon-discount.png">
                </div>
                <div class="service-text">
                   <div class="service-title">Miễn phí giao hàng 63 tỉnh</div>
@@ -71,7 +74,7 @@
          <div class="services">
             <a class="services-link-direct" href="">
                <div class="service-img-outer">
-                  <img src="img/icon/icon-vat.png">
+                  <img src="/img/icon/icon-vat.png">
                </div>
                <div class="service-text">
                   <div class="service-title">Miễn phí giao hàng 63 tỉnh</div>
@@ -82,7 +85,7 @@
          <div class="services">
             <a class="services-link-direct" href="">
                <div class="service-img-outer">
-                  <img src="img/icon/icon-quick-delivery.png">
+                  <img src="/img/icon/icon-quick-delivery.png">
                </div>
                <div class="service-text">
                   <div class="service-title">Miễn phí giao hàng 63 tỉnh</div>
@@ -93,7 +96,7 @@
          <div class="services">
             <a class="services-link-direct" href="">
                <div class="service-img-outer">
-                  <img src="img/icon/icon-guarantee-smile.png">
+                  <img src="/img/icon//icon-guarantee-smile.png">
                </div>
                <div class="service-text">
                   <div class="service-title">Miễn phí giao hàng 63 tỉnh</div>
