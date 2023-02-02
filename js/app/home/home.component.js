@@ -120,7 +120,6 @@ angular.module('siteHomepage')
                fetch(geoApiUrl)
                   .then(res => res.json())
                   .then(data => {
-                     console.log(data)
                      $scope.currentCountry = data.principalSubdivision + '-' + data.countryName;
                   })
             }
