@@ -40,14 +40,17 @@ angular.module('siteHomepage')
          }
          function parseProducts(productList) {
             angular.forEach(productList, function(item, index) {
-               if(index >= 0 && index < 4){
+               if(item.cakeType == "patries"){
                   $scope.arr1.push(item);
                }
-               else if(index >= 4 && index < 8){
+               else if(item.cakeType == "gourmet"){
                   $scope.arr2.push(item);
                }
-               else if(index >= 8 && index < 12){
+               else if(item.cakeType == "cookies"){
                   $scope.arr3.push(item);
+               }
+               else if(item.cakeType == "bever"){
+                  $scope.arr4.push(item);
                }
             });
          }
