@@ -875,13 +875,13 @@
 .msg {
    white-space: nowrap;
    overflow: hidden;
-   animation: marquee 15s linear infinite;
+   animation: marquee 20s linear infinite;
    display: inline-block;
    line-height: 36px;
 }
 
 .page-head .msg span {
-   padding-left: 24px;
+   padding-left: 10rem;
 }
 
 @keyframes marquee {
