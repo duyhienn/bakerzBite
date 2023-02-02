@@ -77,6 +77,26 @@
       </div>
   </div> 
 </div>
+<div id="cookies" class="homepage__cookies-cakes">
+   <div class="grid wide">
+      <div class="cookies-wrapper">
+         <h1>Cookies</h1>
+         <div class="cookies-cards dsp-grid">
+            <a class="see-more" ng-href="#/gallery">See more>></a>
+            <a ng-href="#/gallery/{{ item.id }}" class="card-item" ng-repeat="item in arr2">
+               <div class="card-img-container">
+                  <img class="card-img" ng-src="{{item.imgUrl}}" alt="">
+               </div>
+
+               <div class="card-content">
+                  <p class="card-title">{{item.title}}</p>
+                  <p class="card-price">${{item.price}}</p>
+               </div>
+            </a>
+         </div>  
+      </div>
+  </div> 
+</div>
  
 <div class="homepage__about-1">
    <div class="grid wide">
