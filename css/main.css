@@ -549,6 +549,7 @@
 .gourmet-cakes-wrapper h1,
 .cookies-wrapper h1 {
    text-align: center;
+   margin-top: 7rem;
    margin-bottom: 3rem;
    color: var(--primary-color);
    font-size: 2.5rem;
@@ -719,6 +720,14 @@
 
 /* ------------------homepage-about_section---------------------- */
 
+.blog-heading{
+   text-align: center;
+   margin-top: 7rem;
+   margin-bottom: 3rem;
+   color: var(--primary-color);
+   font-size: 2.5rem;
+}
+
 .homepage__about-1,
 .homepage__about-2 {
    margin-top: 40px;
@@ -835,6 +844,12 @@
    margin-top: 3rem;
 }
 
+.view-feedback{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+   gap: 2rem; padding: 0 1rem;
+}
+
 .view-feedback-container i {
    font-size: 1.6rem;
    color: var(--second-color);
@@ -945,7 +960,50 @@
    padding: 0.5rem 0;
 }
 
+.phone-contact{
+   display: block;
+   font-size: 1.5rem;
+   line-height: 2;
+   color: rgb(255, 255, 255);
+   padding: 0.5rem 0;
+}
+
+.phone-contact:hover{
+   color: var(--second-color);
+}
+
+
 .footer-copyright {
    margin-top: 15px;
    text-align: center;
+}
+
+
+@media (min-width: 1024px){
+  
+}
+
+/* Mobile & Tablet */
+@media (max-width: 1023px){
+
+}
+
+/* Table */
+
+@media (min-width: 740px) and (max-width: 1023px){
+   .footer-container{
+      text-align: center;
+   }
+}
+
+/* Mobile */
+@media (max-width: 739px){
+
+   .view-feedback{
+      grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+   }
+
+   .footer-container{
+      text-align: center;
+   }
 }
