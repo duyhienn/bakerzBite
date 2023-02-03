@@ -19,7 +19,9 @@
    position: relative;
    margin: 1.5rem 5px 0;
 }
+
 .detail-hover-container img{
+   cursor: pointer;
    position: relative;
 }
 .detail-hover-container.is-active::after{
@@ -143,6 +145,7 @@
 
 .services-link-direct{
    display: flex;
+   align-items: center;
 }
 
 .service-img-outer{

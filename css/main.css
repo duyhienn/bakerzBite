@@ -207,7 +207,7 @@
    transform: scale(0);
    position: absolute;
    top: calc(100% + 12px);
-   right: -1.3rem;
+   right: -0.3rem;
    background-color: var(--second-color);
    width: 400px;
    border-radius: 2px;

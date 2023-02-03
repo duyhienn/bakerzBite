@@ -32,7 +32,6 @@ angular.module('siteHeader')
          }
 
          $scope.isToggle = false;
-         let count = 0;
          $scope.toggleNavMoblie = function() {
             if($scope.isToggle == false) {
                $scope.isToggle = true;
