@@ -1,1 +1,24 @@
-<h1 style="margin-top: 10rem;">{{title}}</h1>
+<div class="blog-detail-main">
+   <div class="grid wide">
+      <div class="blog-detail-container">
+   
+         <div class="blog-first-section">
+            <h1 class="title">{{blogItem.title}}</h1>
+            <p class="title-sub">{{blogItem.titlesub}}</p>
+         </div>
+   
+         <div class="blog-second-section">
+   
+            <div ng-repeat="blog in blogItem.contentList" class="content-wrapper">
+               <div class="content">
+                  <h1>{{blog.header}}</h1>
+                  <div class="blog-detail-img">
+                     <img ng-src="{{blog.img}}" alt="">
+                  </div>
+                  <p >{{blog.body}}</p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
