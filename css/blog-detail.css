@@ -3,27 +3,24 @@
    padding: 0 1.5rem;
 }
 
-.blog-detail-container{
-
-}
-
-
 .blog-first-section{
 
 }
+
 .blog-first-section .title{
    color: var(--primary-color);
    text-align: center;
-   font-size: 4rem;
+   font-size: 5rem;
    font-weight: 700;
+   text-transform: capitalize;
 }
 .blog-first-section .title-sub{
+   font-weight: 500;
    font-size: 2.2rem;
    text-align: center;
    white-space: break-spaces;
+   text-align: justify;
 }
-
-
 
 .blog-second-section{
 
@@ -56,4 +53,5 @@
 
 .blog-second-section .blog-detail-img img{
    width: 350px;
+   border-radius: 1.6rem;
 }
