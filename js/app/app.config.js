@@ -37,6 +37,10 @@ angular.module('mainApp').
          { 
             template : "<blog></blog>"
          })
+         .when("/blog/:id",
+         { 
+            template : "<blog-detail></blog-detail>"
+         })
          .otherwise(
             {redirectTo: "/"}
          )

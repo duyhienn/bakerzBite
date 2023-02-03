@@ -11,7 +11,9 @@ angular.module('mainApp', [
    'galleryDetail',
    'checkoutCart',
    'login',
-   'contact',   
+   'contact', 
+   'blog',  
+   'blogDetail',
 ])
 
 .factory('storageServices', function () {

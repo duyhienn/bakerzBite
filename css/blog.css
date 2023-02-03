@@ -1,0 +1,84 @@
+.main-blog {
+   margin-top: 5rem;
+}
+
+.blog-img-above{
+   height: 300px;
+   background: url(../img/standee/standee1.png) no-repeat center/cover;
+   margin-bottom: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.blog-img-heading{
+   font-size: 7.8rem;
+   margin: 0px 20px;
+   display: block;
+   color: white;
+   text-align: center;
+   line-height: 7.8rem;
+}
+
+.blog-img-des{
+   font-size: 19px;
+   margin: 10px 20px 0px;
+   display: block;
+   color: white;
+   text-align: center;
+}
+
+.blog-container {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   column-gap: 4rem;
+}
+
+.blog-img {
+   grid-column: 1/3;
+}
+
+.blog-views-element-container {
+   grid-column: 3/4;
+}
+
+.views-row:first-of-type{
+   border-top:0;
+}
+
+.views-row {
+   padding: 15px 0px 40px;
+   border-top: 0.1rem solid #e4e4e4;
+}
+
+.eyebrow {
+   font-size: 1.6rem;
+}
+
+.eyebrow::before,
+.eyebrow::after {
+   content: "";
+   position: relative;
+   top: -0.7rem;
+   display: inline-block;
+   width: 0.75rem;
+   height: 0.063rem;
+   background: #da1a32;
+}
+
+.eyebrow::before {
+   margin-right: 1rem;
+}
+
+.eyebrow::after {
+   margin-left: 1rem;
+}
+
+.article.article--text-only a:hover {
+   color: var(--primary-color);
+}
+
+.article--text-only h4 {
+   font-size: 2rem;
+}
