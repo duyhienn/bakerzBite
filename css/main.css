@@ -973,6 +973,7 @@
 
 /* ---------------------------footer----------------------- */
 .footer {
+   overflow: hidden;
    margin-top: 1.5rem;
    padding: 5rem 0 5rem;
    background-color: var(--brown-color);
@@ -1073,6 +1074,18 @@
 /* Mobile */
 @media (max-width: 739px){
 
+   .carousel-caption.d-none{
+      display: block !important;
+   }
+
+   .card-item .card-img-container img{
+      max-height: 200px;
+   }
+
+   .dsp-grid{
+      grid-template-columns: 1fr;
+   }
+   
    .view-feedback{
       grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
    }
