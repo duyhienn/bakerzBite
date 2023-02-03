@@ -1,14 +1,16 @@
 .nav-menu-mobile{
    position: fixed;
-   right: 0;
+   left: 0;
    top: 0;
    bottom: 0;
    width: 300px;
    background-color: beige;
    z-index: 9999;
    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
-   transform: translateX(100%);
+   transform: translateX(-100%);
    transition: all 0.4s linear;
+   border-top-right-radius: 1.6rem;
+   border-bottom-right-radius: 1.6rem;
    will-change: transform;
 }
 
