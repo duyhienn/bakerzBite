@@ -138,7 +138,7 @@
 
 .header__nav-search-btn,
 .header__nav-user{
-   padding: 0 10px;
+   padding: 0 5px;
 }
 .header__nav-search-btn:hover i,
 .header__nav-user:hover i{
@@ -164,7 +164,7 @@
 .header__cart-notice {
    position: absolute;
    top: -10px;
-   right: 0px;
+   right: -5px;
    padding: 1px 5px;
    font-size: 1.4rem;
    line-height: 1.4rem;
