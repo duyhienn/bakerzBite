@@ -1080,6 +1080,15 @@
       display: block !important;
    }
 
+   .carousel-caption h1{
+      font-size: 3rem;
+   }
+   
+   .carousel-caption p {
+      font-size: 2rem;
+   }
+   
+
    .card-item .card-img-container img{
       max-height: 200px;
    }

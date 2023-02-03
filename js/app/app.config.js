@@ -33,6 +33,10 @@ angular.module('mainApp').
          { 
             template : "<contact></contact>"
          })
+         .when("/blog",
+         { 
+            template : "<blog></blog>"
+         })
          .otherwise(
             {redirectTo: "/"}
          )
