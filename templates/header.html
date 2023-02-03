@@ -13,105 +13,46 @@
          <ul class="header__nav-menu">
             
             <li class="header__mennu-item">
-               <a href="" class="header__menu-item-link">Category</a>
-               <div class="header__mega-menu">
-                  <!-- <div class="img-behind"></div> -->
-                  <div class="header__mega-menu-wrapper">
-                     <div class="header__mega-column">
-                        <a href="#patries" class="header__mega-title">Pastries</a>
-                     </div>
-                     <div class="header__mega-column">
-                        <a href="#gourmet" class="header__mega-title">Gourmet Cakes</a>
-                     </div>
-                     <div class="header__mega-column">
-                        <a href="#cookies" class="header__mega-title">Cookies</a>
-                     </div>
-                  </div>
-               </div>
+               <a href="#/" class="header__menu-item-link">Home</a>
             </li>
             
             <li class="header__mennu-item">
                <a href="#/gallery" class="header__menu-item-link">Gallery</a>
             </li>
             <li class="header__mennu-item">
-               <a href="./pages/about.html" class="header__menu-item-link">About Us</a>
+               <a href="#/about" class="header__menu-item-link">About Us</a>
             </li>
             <li class="header__mennu-item">
                <a href="#/contact" class="header__menu-item-link">Contact Us</a>
             </li>
             <li class="header__mennu-item">
-               <a href="./pages/blog.html" class="header__menu-item-link">Blog</a>
+               <a href="#/blog" class="header__menu-item-link">Blog</a>
             </li>
-            <!-- <li class="header__mennu-item">
-               <a href="" class="header__menu-item-link">About Us</a>
-
-               <div class="header__menu-about">
-                  <div class="header__menu-about-wrapper">
-                     <a href="" class="header-menu-about-title">Coolmate</a>
-                     <div class="row-about">
-                        <div class="header__about-colum">
-                           <div class="card-img-container" class="header__about-img-wrapper">
-                              <img class="header__about-img" src="./assets/img/header-about/about1.jpg" alt="">
-                           </div>
-
-                           <div class="header__about-des mt-10">
-                              <p class="header__about-heading">Coolmate 101</p>
-                              <p class="header__about-content">Tất cả những gì bạn muốn biết về Coolmate! <br> và
-                                 gia nhập Coolmate</p>
-                           </div>
-                        </div>
-                        <div class="header__about-colum">
-                           <div class="card-img-container" class="header__about-img-wrapper">
-                              <img class="header__about-img" src="./assets/img/header-about/about2.webp" alt="">
-                           </div>
-
-                           <div class="header__about-des mt-10">
-                              <p class="header__about-heading">Coolmate 101</p>
-                              <p class="header__about-content">Tất cả những gì bạn muốn biết về Coolmate! <br> và
-                                 gia nhập Coolmate</p>
-                           </div>
-                        </div>
-                        <div class="header__about-colum">
-                           <div class="card-img-container" class="header__about-img-wrapper">
-                              <img class="header__about-img" src="./assets/img/header-about/about3.webp" alt="">
-                           </div>
-
-                           <div class="header__about-des mt-10">
-                              <p class="header__about-heading">Coolmate 101</p>
-                              <p class="header__about-content">Tất cả những gì bạn muốn biết về Coolmate! <br> và
-                                 gia nhập Coolmate</p>
-                           </div>
-                        </div>
-                        <div class="header__about-colum">
-                           <div class="card-img-container" class="header__about-img-wrapper">
-                              <img class="header__about-img" src="./assets/img/header-about/about4.webp" alt="">
-                           </div>
-
-                           <div class="header__about-des mt-10">
-                              <p class="header__about-heading">Coolmate 101</p>
-                              <p class="header__about-content">Tất cả những gì bạn muốn biết về Coolmate! <br> và
-                                 gia nhập Coolmate</p>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </li> -->
-            <li class="header__mennu-item">
-               <a href="" class="header__menu-item-link">Others</a>
-
-               <!-- Sub-mega-menu -->
-               <div class="header__mega-menu">
-                  <!-- <div class="img-behind"></div> -->
-                  <div class="header__mega-menu-wrapper">
-                     <div class="header__mega-column">
-                        <a href="" class="header__mega-title">Merchandise</a>
-                     </div>
-                  </div>
-               </div>
-            </li>
-            
          </ul>
+
+         <div class="nav-menu-mobile"
+               ng-class="isToggle ? 'nav-menu-mobile--is-active' : ''">
+            <div ng-click="toggleNavMoblie()" class="nav-icon-x">
+               <i class="fa-solid fa-xmark"></i>
+            </div>
+            <ul class="menu-list">
+              <li ng-click="autoClose()" class="menu-item">
+                <a href="#/" class="menu-link">Home</a>
+              </li>
+              <li ng-click="autoClose()" class="menu-item">
+                <a href="#/gallery" class="menu-link">Gallery</a>
+              </li>
+              <li ng-click="autoClose()" class="menu-item">
+                <a href="#/about" class="menu-link">About Us</a>
+              </li>
+              <li ng-click="autoClose()" class="menu-item">
+                <a href="#/contact" class="menu-link">Contact Us</a>
+              </li>
+              <li ng-click="autoClose()" class="menu-item">
+                <a href="#/blog" class="menu-link">Blog</a>
+              </li>
+            </ul>
+         </div>
 
          <div class="header__nav-actions">
             <a ng-href="#/gallery" class="header__nav-search-btn">
@@ -122,7 +63,7 @@
             </a>
             <div class="header__nav-cart">
                <a ng-href="#/checkout"
-                  style="display: inline-block; padding: 0 0 0 10px; position: relative; z-index: 100;" 
+                  style="display: inline-block; padding: 0 10px; position: relative; z-index: 100;" 
                   ><i class="fa-solid fa-cart-shopping"></i>
                </a>
                <span class="header__cart-notice">{{count}}</span>
@@ -148,19 +89,11 @@
                   </div>
                </div>
             </div>
-         </div>
-
-         <div class="header__nav-input-search">
-            <div class="grid wide">
-               <div class="header__input-wrapper">
-                  <input type="text" placeholder="Tìm kiếm sản phẩm...">
-                  <a href="">
-                     <i style="font-size: 2rem;" 
-                     class="fa-solid fa-magnifying-glass"></i>
-                  </a>
-               </div>
+            <div ng-click="toggleNavMoblie()" class="header__nav-bar-moblie">
+               <i class="fa-solid fa-bars"></i>
             </div>
          </div>
+
       </div>
    </div>
 </header>

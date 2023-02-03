@@ -31,6 +31,21 @@ angular.module('siteHeader')
             $scope.totalPrice = total;
          }
 
+         $scope.isToggle = false;
+         let count = 0;
+         $scope.toggleNavMoblie = function() {
+            if($scope.isToggle == false) {
+               $scope.isToggle = true;
+            } else {
+               $scope.isToggle = false;
+            }
+         }
+
+         $scope.autoClose = function() {
+            $scope.isToggle = false;
+         }
+
+
          // $scope.$watchCollection("getServiceData()", function(newValue, oldValue) {
          //    if (oldValue != newValue) {
          //       $scope.count = $scope.productItems.length;

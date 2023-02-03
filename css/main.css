@@ -1,6 +1,65 @@
+.nav-menu-mobile{
+   position: fixed;
+   right: 0;
+   top: 0;
+   bottom: 0;
+   width: 300px;
+   background-color: beige;
+   z-index: 9999;
+   box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+   transform: translateX(100%);
+   transition: all 0.4s linear;
+   will-change: transform;
+}
+
+.nav-menu-mobile.nav-menu-mobile--is-active{
+   transform: translateX(0);
+}
+
+.nav-menu-mobile .menu-list{
+   list-style: none;
+   padding: 70px 20px 20px;
+}
+.nav-menu-mobile .menu-item{
+   margin-bottom: 1.5rem;
+}
+.nav-menu-mobile .menu-link{
+   font-size: 1.6rem;
+   color: #282f3a;
+   display: block;
+   text-transform: capitalize;
+   padding: 12px;
+   border-radius: 6px;
+   transition: all 0.2s linear;
+   color: var(--primary-color);
+}
+
+.nav-menu-mobile .menu-link:hover{
+   background-color: var(--primary-color);
+   color: var(--second-color);
+}
+.nav-menu-mobile .nav-icon-x{
+   cursor: pointer;
+   font-size: 2.5rem;
+   position: absolute;
+   top: 20px;
+   right: 20px;
+}
+.nav-menu-mobile .nav-icon-x:hover{
+   color: var(--primary-color);
+}
+
+.header__nav-bar-moblie{
+   padding: 0 10px;
+   cursor: pointer;
+}
+.header__nav-bar-moblie i{
+   color: white;
+   font-size: 2rem;
+}
+
 .header {
    width: 100%;
-   height: 50px;
    background-color: var(--primary-color);
    position: relative;
    position: fixed;
@@ -13,6 +72,7 @@
    display: flex;
    justify-content: space-between;
    align-items: center;
+   padding: 15px 15px;
 }
 
 .header__logo h1 {
@@ -36,6 +96,7 @@
 .header__nav-menu>.header__mennu-item>a {
    display: flex;
    align-items: center;
+   padding: 0 24px;
 }
 
 .header__mennu-item:last-child:hover .header__mega-menu {
@@ -101,7 +162,7 @@
 .header__cart-notice {
    position: absolute;
    top: -10px;
-   right: -10px;
+   right: 0px;
    padding: 1px 5px;
    font-size: 1.4rem;
    line-height: 1.4rem;
@@ -980,12 +1041,20 @@
 
 
 @media (min-width: 1024px){
-  
+   .nav-menu-mobile{
+      display: none;
+   }
 }
 
 /* Mobile & Tablet */
 @media (max-width: 1023px){
+   .header__nav-menu{
+      display: none;
+   }
 
+   .nav-menu-mobile{
+      display: block;
+   }
 }
 
 /* Table */
