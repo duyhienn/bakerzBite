@@ -1,5 +1,6 @@
 .main-product-app{
    margin-top: 7rem;
+   padding: 0 1.5rem;
 }
 
 #search-item{
@@ -224,12 +225,21 @@
    #filter .heading{
       font-size: 6rem;
    }
+   #filter-data .card-item .card-img{
+      height: 200px;
+   }
 }
 
 /* Mobile */
 @media (max-width: 739px){
    #filter .heading{
       font-size: 5rem;
+   }
+
+   #filter_button{    
+      max-width: 35rem;
+      margin: 0 auto;
+      flex-direction: column;
    }
   
 }

@@ -189,7 +189,13 @@
 /* Table */
 
 @media (min-width: 740px) and (max-width: 1023px){
-   
+   .detail-content-container{
+      text-align: center;
+   }
+
+   .detail-service-block{
+      justify-content: center;
+   }
 }
 
 /* Mobile */

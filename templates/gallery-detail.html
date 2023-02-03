@@ -1,7 +1,7 @@
 <div class="main-product-detail-app">
    <div class="grid wide">
       <div class="row">
-         <div class="col l-6 m-t-6 c-12">
+         <div class="col l-6 m-t-12 c-12">
             <img class="detail-img" ng-src="{{item.imgUrl}}" alt="">
             <div class=detail-hover-img>
                <div ng-repeat="itemHover in item.imgHover" ng-click="changeUrl($event)" class="detail-hover-container">
@@ -10,7 +10,7 @@
                </div>
             </div>
          </div>
-         <div class="col l-6 m-t-6 c-12">
+         <div class="col l-6 m-t-12 c-12">
             <div class="detail-content-container" style="display: flex; flex-direction: column; height: 100%;">
                <h1 class="detail-heading">{{item.title}}</h1>
                
