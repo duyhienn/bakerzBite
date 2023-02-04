@@ -18,7 +18,7 @@ eProject documentation at https://github.com/duyhienn/bakerzBite/tree/main/docum
 
 ============================
 
-eProject published at https://lnnhi1310.github.io/Kitchen-Appliances/index.html
+eProject published at https://duyhienn.github.io/bakerzBite/#/
 
 ============================
 

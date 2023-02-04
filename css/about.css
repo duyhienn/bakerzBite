@@ -30,5 +30,10 @@
 }
 
 .about-content-container{
-   font-size: 2rem;
+   margin-bottom: 3rem;
+}
+
+.about-content-container p{
+   font-size: 2.5rem;
+   line-height: 5rem;
 }
