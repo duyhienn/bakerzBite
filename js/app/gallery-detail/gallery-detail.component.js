@@ -3,7 +3,7 @@
 angular.module('galleryDetail')
    .component('galleryDetail', {
       templateUrl: "./templates/gallery-detail.html",
-      controller: function($scope, $http, $routeParams, $window, storageServices) {
+      controller: function($scope, $http, $routeParams, $window, $location, storageServices) {
          $window.scrollTo(0,0);
          $http.get('pastriesListNew.json').then(successCb)
          function successCb(respone) {
@@ -42,6 +42,10 @@ angular.module('galleryDetail')
                mainImg.setAttribute('ng-src', imgUrl);
                mainImg.setAttribute('src', imgUrl);
             }
+         }
+
+         $scope.changeLocation = function() {
+            $location.path('gallery');
          }
       },
    })

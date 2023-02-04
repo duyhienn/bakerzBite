@@ -3,6 +3,7 @@
 angular.module('mainApp', [
    'ngResource',
    'ngRoute',
+   'ngAnimate',
 
    'siteHeader',
    'siteHomepage',

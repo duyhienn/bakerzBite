@@ -140,7 +140,7 @@ angular.module('siteHomepage')
                })
          }
 
-         updateVisitCount();
+         // updateVisitCount();
          // console.log(angular.element(document).find('.homepage-feedback'));
          // console.log($document.find('.homepage-feedback'))
          // console.log(angular.element(document.querySelector(".homepage-feedback"))[0]);
