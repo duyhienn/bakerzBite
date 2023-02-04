@@ -179,9 +179,16 @@
 /* Table */
 
 @media (min-width: 740px) and (max-width: 1023px){
+
+   .about-img-above .about-img-heading{
+      font-size: 6.8rem;
+   }
  
    .about-content-container .introduce-img {
       padding: 2.5rem 2.5rem;
+   }
+   .about-content-container .introduce-para {
+      font-size: 2.3rem;
    }
 
    .proud-section .list-proud{
@@ -193,9 +200,18 @@
 
 /* Mobile */
 @media (max-width: 739px){
+
+   .about-img-above .about-img-heading{
+      font-size: 5rem;
+   }
+
    .about-content-container .introduce-img {
       padding: 0;
    }
+   .about-content-container .introduce-para {
+      font-size: 2rem;
+   }
+
 
    .proud-section .list-proud{
       row-gap: 3rem;
