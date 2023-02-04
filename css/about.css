@@ -37,3 +37,24 @@
    font-size: 2.5rem;
    line-height: 5rem;
 }
+
+
+.proud-section{
+   background-color: #000;
+   color: white;
+}
+
+.proud-section .list-proud{
+   
+}
+
+.proud-section .item-proud{
+
+}
+.proud-section .item-proud-img{
+   height: 50px; 
+   width: 50px;
+}
+.proud-section .item-proud-title{
+   text-transform: capitalize;
+}
