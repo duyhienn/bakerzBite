@@ -73,7 +73,7 @@ angular.module('blogDetail')
                "titlesub": "Sugar in sweet foods is an important source of energy for the body, but if it is too much, it will cause addiction and face many health dangers. So what time should sweet lovers eat to be safe without causing fat?",
                "contentList": [
                   {
-                     "img": "img/gourmet-cake/gourmetcake-stt10.jpg",
+                     "img": "img/gourmet-cake/gourmetcake-stt52.jpg",
                      "header": "1.When to eat sweets?",
                      "body": "- When the body is tired: eating sugar at this time will help you quickly overcome hunger, but not eating too much will affect the stomach and intestines.\n\n- When you feel your heart pounding, headache, dizziness: at this time, eating sweets or fruits will increase blood sugar, help stabilize mood, improve heart rate and dizziness.\n\n- When taking a bath or before swimming: at this time, it is necessary to add water and energy, especially sugar to prevent hypoglycemia that may occur.\n\n- When sweating: when you are sweating or have digestive problems such as diarrhea, you should drink sugar water or use sweets to improve the condition.\n\n- You should eat in the morning or noon to help the spirit of excitement, recharge. Be careful not to eat too much.\n\n- If you eat a lot of sweets in the morning, you should increase green vegetables in the afternoon and evening to reduce the body's sugar absorption."
                   },

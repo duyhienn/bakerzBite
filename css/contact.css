@@ -117,3 +117,33 @@
    color: white;
    width: 100%;
 }
+
+@media (min-width: 1024px){
+  
+}
+
+/* Mobile & Tablet */
+@media (max-width: 1023px){
+   .blog-container{
+      display: block;
+   }
+
+   .blog-views-element-list{
+      text-align: center;
+   }
+}
+
+/* Table */
+
+@media (min-width: 740px) and (max-width: 1023px){
+   .contact-img-heading{
+      font-size: 6.8rem;
+   }
+}
+
+/* Mobile */
+@media (max-width: 739px){
+   .contact-img-heading{
+      font-size: 5rem;
+   }
+}

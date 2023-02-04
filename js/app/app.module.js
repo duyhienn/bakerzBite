@@ -14,6 +14,7 @@ angular.module('mainApp', [
    'contact', 
    'blog',  
    'blogDetail',
+   'about',
 ])
 
 .factory('storageServices', function () {
