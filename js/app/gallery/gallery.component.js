@@ -9,7 +9,7 @@ angular.module('gallery')
          $scope.patriesList = [];
          $scope.cookiesList = [];
          $scope.gourmetList = [];
-         $scope.beverages = [];
+         $scope.beverageList = [];
          $scope.tabName = "tabAll";
 
          $http.get('pastriesListNew.json').then(successCb)
@@ -30,6 +30,9 @@ angular.module('gallery')
                }
                else if(item.cakeType == "gourmet"){
                   $scope.gourmetList.push(item);
+               }
+               else if(item.cakeType == "beverage"){
+                  $scope.beverageList.push(item);
                }
             });
          }

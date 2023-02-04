@@ -4,7 +4,7 @@
 
 .blog-img-above{
    height: 300px;
-   background: url(../img/standee/standee1.png) no-repeat center/cover;
+   background: url("../img/standee/standee4.jpg") no-repeat center/cover;
    margin-bottom: 50px;
    display: flex;
    justify-content: center;

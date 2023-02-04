@@ -39,21 +39,21 @@
                   <h1 class="mb-20">Please fill out the form below.</h1>
                   <p class="mb-20">Your Name (required)<br>
                      <span class="input-name">
-                        <input type="text" name="your-name" value="" size="40" class="">
+                        <input ng-model="message.name" type="text" name="your-name" value="" size="40" class="">
                      </span>
                   </p>
                   <p class="mb-20">Your Email (required)<br>
                      <span class="input-email">
-                        <input type="text" name="your-name" value="" size="40" class="">
+                        <input ng-model="message.email" type="text" name="your-name" value="" size="40" class="">
                      </span>
                   </p>
                   <p class="mb-20">Your Message<br>
                      <span class="input-mess">
-                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                        <textarea ng-model="message.messUser" name="" id="" cols="30" rows="10"></textarea>
                      </span>
                   </p>
 
-                  <button class="btn btn-submit">Send</button>
+                  <button ng-click="sendMess()" class="btn btn-submit" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Send</button>
                </form>
             </div>
          </div>
@@ -69,3 +69,33 @@
       </iframe>
    </div>
 </div>
+
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+   <div class="modal-dialog modal-dialog-centered">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h5 
+         style="font-size: 2rem;
+         text-align: center;
+         margin-left: 50%;
+         transform: translateX(-50%);"
+         class="modal-title" id="staticBackdropLabel">BakerzBite</h5>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+       </div>
+       <div class="modal-body">
+         <div style="text-align: center;">
+            <i style="font-size: 4em;
+            margin: 1rem 0 2rem;
+             color: green;
+             position: relative;" 
+             class="fa-solid fa-check"></i>
+         </div>
+         <p style="font-size: 1.6rem; text-align: center;">Your message has been sent to the us. <br> We hope you doing well.</p>
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+         <!-- <button type="button" class="btn btn-primary">Understood</button> -->
+       </div>
+     </div>
+   </div>
+ </div>

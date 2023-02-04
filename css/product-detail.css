@@ -136,11 +136,9 @@
    position: relative;
    margin-top: 10rem;
    margin-bottom: 10rem;
-}
-
-
-.services-container{
-
+   background-color: beige;
+   border-radius: 1.6rem;
+   padding: 3rem;
 }
 
 .services-link-direct{

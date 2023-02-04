@@ -10,7 +10,7 @@
             ],
             "cakeType": "patries",
             "title": "Southern Butter Rolls",
-            "description": "Southern butter rolls are traditional pastries that originate from the states of the American South, such as Virginia, Alabama, Kentucky, Tennessee, and Arkansas. They're usually made with a combination of flour, salt, butter, sugar, cinnamon or nutmeg, milk, and vanilla.\n\nVisually, the pastries look similar to cinnamon rolls. These spiraled pastries are placed in a wide pan and baked in a sauce of sugar, milk, vanilla, and cinnamon or nutmeg. Once baked, the sweet, sticky, and hot pastries are served straight out of the oven while still warm.",
+            "description": "Southern butter rolls are traditional pastries that originate from the states of the American South, such as Virginia, Alabama, Kentucky, Tennessee, and Arkansas. They're usually made with a combination of flour, salt, butter, sugar, cinnamon or nutmeg, milk, and vanilla.\n\nVisually, the pastries look similar to cinnamon rolls. These spiraled pastries are placed in a wide pan and baked in a sauce of sugar, milk, vanilla, and cinnamon or nutmeg. Once baked, the sweet, sticky, and hot pastries are served straight out of the oven while still warm.\n\nIn the most common variation, a straightforward biscuit dough is rolled thin, spread with butter, sprinkled with sugar and spice (cinnamon, nutmeg, or a combination), then rolled, sliced, and placed in a baking pan much like standard cinnamon rolls. What follows next is something that must be experienced to be believed. A liquid mixture of dairy and sugar is heated just to a low bubble, and the whole lot is poured over the unbaked rolls. (The first time I made this recipe, as the rolls began to float and bob in the liquid, I kept saying aloud “What? No. Surely no!”) During the baking time, the dough almost poaches like a dumpling as it browns on top, and the sweet milk begins to reduce and caramelize into a silky sauce. As Chef Moseley says, “The love is in the custard.”\n\nButter rolls live at the center of a Venn diagram of frugality, simplicity, and deliciousness. It’s a recipe born out of necessity, a crafty way to use leftover biscuit scraps, and a path to a rich dessert that can feed a crowd made out of just a handful of inexpensive ingredients. “It’s one of those recipes where nobody knows where it came from — we only know that our grandmothers and our great-grandmothers all made it, and somehow it was always on the table,” Moseley says. “It comes from the African American community (especially those who moved up to Memphis from Mississippi). My grandmother always said we were the mothers of invention when it came to using scraps and making something good out of it. It’s like taking day-old rice and making rice pudding. Nothing goes to waste.”",
             "price": "1.2"
         },
         {
@@ -420,6 +420,138 @@
             "title": "Chocolate Chip Cookie",
             "description": "Usually accompanied by a glass of milk or a cup of hot tea or coffee, chocolate chip cookies are well balanced between salty and sweet in flavor, tenderly chewy in texture, and filled with small melting chocolate pyramids, bringing a generation of Americans back to their childhood. The origin story of these sweet treats is incredibly interesting, almost as the cookies themselves. The Toll House Inn was a popular bed-and-breakfast in Whitman, Massachusetts, bought by Ruth Graves Wakefield and her husband in 1930. Ruth's cooking was so good that the inn gained an excellent reputation in a short span of time. ",
             "price": "0.7"
+        },
+        {
+            "id": "33",
+            "imgUrl": "img/pastriesNew/drink-1.jpg",
+            "imgHover": [
+                "img/pastriesNew/drink-1.jpg",
+                "img/hover/hover-33/item-a.jpg",
+                "img/hover/hover-33/item-b.jpg",
+                "img/hover/hover-33/item-c.jpg"
+            ],
+            "cakeType": "beverage",
+            "title": "Chocolate Chip Cookie",
+            "description": "It's a coffee world. Pour-over, French press, macchiato, espresso, cappuccino: all of them are fancy ways to take your morning caffeine infusion.\n\nMany of the terms for coffee drinks come to us from Italian, where they are terms of utility. Espresso comes from the Italian word that means pressed-out, which explains how the coffee drink is made; macchiato is short for caffe macchiato, which means coffee with a spot (of milk). But cappuccino bucks the trend: it comes from an Italian word that refers not to coffee, but to friars.\n\nThe Capuchin friars are members of the larger Franciscan orders of monks, and their order was founded in the 16th century in Italy. They were renowned for their missionary work among the poor, as well as their dedication to extreme austerity, poverty, and simplicity:\n\nThe characteristic simplicity of these friars is, indeed, proverbial; and it may, too, be inferred from their speech, their manners, and from their very aspect; besides being yet further illustrated by several sayings current in Italy—where their order is numbered by the thousand—such as to dine al cappuccino, to make but a sorry meal; and to travel al cappuccino, i.e. to journey on foot.\n\nThe Capuchins were also renowned for their dress. They wear a simple brown robe that includes a long, pointed hood that hangs down the back. The Italian word for this distinctive hood, cappuccio, gave rise to the Italian name for the order. It also gave rise to the Italian word for a friar of the Capuchin order used in the excerpt above: cappuccino.\n\nWhen the cappuccino drink was first introduced in Italy, it was named after the Capuchin friars because the color of the espresso mixed with frothed milk was similar to the color of the Capuchin robe. The name, whimsical in a world of utilitarian coffee-drink names, stuck; we borrowed it into English in the late 1800s.\n\nThe friars, as you may have noticed, are called Capuchins in English; they've lent their English name to a women's cloak with a hood, as well as to a monkey with a ruff of fur on its neck that looks like the friar's hood.",
+            "price": "2.1"
+        },
+        {
+            "id": "34",
+            "imgUrl": "img/pastriesNew/drink-2.jpg",
+            "imgHover": [
+                "img/pastriesNew/drink-2.jpg",
+                "img/hover/hover-34/item-a.jpg",
+                "img/hover/hover-34/item-b.jpg"
+            ],
+            "cakeType": "beverage",
+            "title": "Caffè e Latte",
+            "description": "Of the 400 million cups of coffee consumed in the United States each day, millions are variants of the latte. The latte is among America’s big four caffeine products, along with espresso, cappuccino, and ice coffees.\n\nWhether you’re one of the many latte drinkers in the country or you’re considering the switch from other espresso drinks to this type of beverage, learning more about this coffee product is essential. Here’s all you need to know about this fascinating drink and how to maximize your enjoyment of the famous coffee.\n\nA latte begins with the same base as a cappuccino — a shot of espresso coffee. Then, espresso is combined with steamed milk to create a creamy smooth coffee beverage with a delicate espresso flavor. The typical shot of espresso to steamed milk ratio is 1-to-2. To finish up, the latte is topped with a thin layer of milk foam. In its simplest terms, a latte is a coffee created by combining espresso with steamed milk and milk foam. It comes in many variants, including both hot and cold, and it is considered one of the most popular espresso drinks around the globe.\n\nThe latte is traditionally thought of as a breakfast coffee. It can probably be traced back to the 17th century, even though cafes have commonly mentioned it since the 20th century. It originates from Italy, although it has been used for many years throughout mainland Europe and Britain.",
+            "price": "3"
+        },
+        {
+            "id": "35",
+            "imgUrl": "img/pastriesNew/drink-3.jpg",
+            "imgHover": [
+                "img/pastriesNew/drink-3.jpg",
+                "img/hover/hover-35/item-a.webp",
+                "img/hover/hover-35/item-b.jpg"
+            ],
+            "cakeType": "beverage",
+            "title": "Mocha coffee",
+            "description": "Mocha is a drink mixed between coffee, milk and chocolate. The name Mocha originates from the city of Mocha in Yemen where the coffee was discovered and began to be popular around the world. Mocha coffee can be called by many different names depending on the language of each country and the bartender such as mocaccino coffee, moka coffee, mocca coffee… or mochachino.\n\nThis drink is especially suitable for those who are just starting to drink coffee because the sweet taste mainly comes from the coffee taste, the greasy smell of milk and the smooth milk foam layer, making this drink a favorite of the world. young.\n\nNot to be confused with the Mocha coffee bean that originates in Yemen, the mocha or caffe mocha is a sweet, chocolate-laced coffee that has become a staple on worldwide coffee menus.The drink originated in the USA and take inspiration from a Turin coffee called the Bicern.A homage to the Red Sea coastal town of Mocha, Yemen, which has been exporting coffee since the fifteenth century.Coffee imported from the region was said to have a a rich chocolatey taste, hence the term 'mocha' being used to describe the addition of chocolate to this cappuccino hybrid.Very much like a cappuccino, the mocha contains a frothed milk that is often - but not always - topped with whipped cream.Made up of one third epsresso and two thirds steamed milk with cocoa powder added, it's no wonder that those with a sweet tooth opt for this luxurious choco-coffee drink.",
+            "price": "1.6"
+        },
+        {
+            "id": "36",
+            "imgUrl": "img/pastriesNew/drink-4.png",
+            "imgHover": [
+                "img/pastriesNew/drink-4.png",
+                "img/hover/hover-36/item-a.jpg",
+                "img/hover/hover-36/item-b.png"
+            ],
+            "cakeType": "beverage",
+            "title": "Espresso Macchiato",
+            "description": "Espresso macchiato (pronounced ess-press-oh mock-e-ah-toe) is a single or double espresso topped with a dollop of heated, foamed milk and (usually) served in a small cup. In Italy, it is referred to as Caffe macchiato. If you prefer your espresso to take charge of your drink's flavor, you will probably enjoy an espresso macchiato.\n\nAlong with espresso and cappuccino, a macchiato is part of the foundation of Italian coffee culture. Whereas Italians drink a cappuccino in the morning, a macchiato is a nice pick-me-up in the afternoon—a stronger drink with a touch of sweetness. And for those who might find a cappuccino too light and milky tasting, the espresso macchiato is the perfect blend\n\nAlthough you may have heard the term 'espresso beans', any type of coffee bean—from dark to lighter—can be used to make espresso. The important thing is that the beans are finely ground and that it is made with a process of pressurized brewing, forcing almost boiling water through the very finely ground beans, and then tamping down the beans to encourage even distribution of the water. Thus, the flavors become very concentrated. As a result of pressurized brewing, the coffee is thick and syrup-like with an emulsified layer on top (called crema).\n\nAnd it may surprise you to know that although there is more caffeine per ounce in espresso compared to regular coffee, an espresso provides less caffeine than a regular cup of coffee since you drink such a small amount at a time.",
+            "price": "3.6"
+        },
+        {
+            "id": "37",
+            "imgUrl": "img/pastriesNew/drink-5.jpg",
+            "imgHover": [
+                "img/pastriesNew/drink-5.jpg",
+                "img/hover/hover-37/item-a.jpg",
+                "img/hover/hover-37/item-b.jpg"
+            ],
+            "cakeType": "beverage",
+            "title": "Pumpkin Spice Latte",
+            "description": "Over the last decade and a half, the PSL (a.k.a. pumpkin spice latte) has become an American autumnal staple. Our very Diaspora PSL is a dreamy, spice-forward take on the classic — a generous amount of the Peni Miris cinnamon and Anamalai nutmeg for all the pumpkin pie feels, rich in Baraka cardamom and Anamalai mace, and just a touch of spicy heat from Makhir ginger, Kandyan cloves, and a few grinds of Aranya black pepper.\n\nYou can make the syrup with any sturdy winter squash, but our two favorites are kabocha and red kuri, for their silky, squash-y richness. Our team loves a PSL that is heavy on the pumpkin spice syrup and the dairy (yes, it's perfect with both cow and plant-based milks!), because who is really drinking a PSL for the coffee? We're here for the sweet, sweet, warming spiciness of it all! But, feel free to play with the proportions of syrup, milk, and espresso or coffee until you reach your ideal fall sip.",
+            "price": "1.68"
+        },
+        {
+            "id": "38",
+            "imgUrl": "img/pastriesNew/drink-6.jpg",
+            "imgHover": [
+                "img/pastriesNew/drink-6.jpg",
+                "img/hover/hover-38/item-a.jpg",
+                "img/hover/hover-38/item-b.jpg"
+            ],
+            "cakeType": "beverage",
+            "title": "Iced Tea",
+            "description": "Crisp and refreshing homemade iced tea is easy to make and easy to scale up for a crowd. This is always a hit at summer gatherings. Serve it with your favorite sweetener or enjoy it unsweetened.\n\nHomemade drinks like Lemonade, Iced Coffee, and this Iced Tea are such a treat in summer and so much better than storebought.\n\nWhether you’re looking for a drink to round out your summer BBQ with Juicy Burgers and Grilled Corn on the Cob, or just want to have some quick caffeine on hand throughout the day, you’ll love this iced tea recipe.We’re sharing all the tips and tricks you need to make the most flavorful, refreshing sweetened, or unsweetened iced tea.ced tea does have health benefits. It’s packed with antioxidants and has much less acidity than coffee, making it a great option for folks with a sensitive GI system.",
+            "price": "1.2"
+        },
+        {
+            "id": "39",
+            "imgUrl": "img/pastriesNew/drink-7.webp",
+            "imgHover": [
+                "img/pastriesNew/drink-7.webp",
+                "img/hover/hover-39/item-a.jpg",
+                "img/hover/hover-39/item-b.jpg",
+                "img/hover/hover-39/item-c.jpg"
+            ],
+            "cakeType": "beverage",
+            "title": "Lemonade",
+            "description": "When life gives you lemons, make the Best Lemonade Ever! This aptly named recipe is as good as it gets: Sweet, tart, easy to throw together, and oh-so refreshing. Sweeten your day with our top-rated lemonade recipe (and get our best lemonade serving and storage tips).\n\nIt couldn't be easier to make this homemade lemonade with just a few simple ingredients you probably already have on hand.\n\nWhat makes this lemonade so special? The recipe starts with a simple syrup, which is just a fancy way of saying the first step is dissolving sugar in boiling water. This ensures the finished drink is totally cohesive and smooth (and it prevents sugar from collecting at the bottom of the pitcher).\n\nObviously, you'll need lemon juice to make homemade lemonade. Freshly squeezed juice is definitely the way to go if you have fresh lemons available, but bottled juice will work in a pinch.There's nothing like a refreshing glass of ice cold lemonade to cool you down on a hot day. Just make sure to add the ice right before serving — you don't want it to dilute the sweet flavor.",
+            "price": "1"
+        },
+        {
+            "id": "40",
+            "imgUrl": "img/pastriesNew/drink-8.webp",
+            "imgHover": [
+                "img/pastriesNew/drink-8.webp",
+                "img/hover/hover-40/item-a.webp",
+                "img/hover/hover-40/item-b.webp"
+            ],
+            "cakeType": "beverage",
+            "title": "Iced Chai Tea Latte",
+            "description": "Heya, friends, it’s almost spring, the weather (at least here in Southern California) is warming up, and that means it’s time to start thinking about warm-weather recipes. Top of my list is anything iced, iced mochas, iced caramel macchiatos, iced white chocolate mochas, and today I have a new iced recipe for you, an iced chai tea latte. It’s actually really simple to make an iced chai latte (or hot chai latte) at home exactly the way they do at coffee shops. You just need chai concentrate, milk, and ice. But if you’re here, I’m guessing you don’t have chai concentrate, so I’m going to show you how to make a super quick and simple shortcut chai concentrate so you can be sipping an iced chai latte in about 5 minutes.\n\nIced chai lattes do not usually include coffee. They are made with just chai concentrate and milk served over ice. However, if you would like to add coffee, you can add a shot or two of espresso and make a dirty chai latte (it’s quite good).If you’ve never had one, chai lattes taste just like what they are, sweet chai tea and milk. It’s a refreshing, lightly spicy sweet flavor that is perfect on a warm day.\n\nIt depends on the tea you use. Chai tea does have caffeine, so if you buy one from a coffee house your latte will almost certainly be caffeinated, but when making your chai latte at home, you can choose to use decaf chai for a caffeine-free chai latte.",
+            "price": "2.1"
+        },
+        {
+            "id": "41",
+            "imgUrl": "img/pastriesNew/drink-9.jpg",
+            "imgHover": [
+                "img/pastriesNew/drink-9.jpg",
+                "img/hover/hover-41/item-a.jpg",
+                "img/hover/hover-41/item-b.jpg"
+            ],
+            "cakeType": "beverage",
+            "title": "Watermelon Juice",
+            "description": "Watermelon juice couldn’t be easier to extract. You don’t need a fancy-schmancy juicer, just a blender. Scoop the watermelon into the blender, blend for about thirty seconds, and ta da! You’ve made watermelon juice. Taste your juice straight from the blender. If you like it as is, you don’t need to strain it. If your watermelon had seeds in it, or you want your juice to be less pulpy, pour it through a fine-mesh sieve into a pitcher. Easy! If your juice separates as it sits, give it a little whirl with a spoon. If you’re thinking about adding a splash of tequila or white rum… I can verify that that is indeed a good idea.\n\nAs you would expect, watermelon juice is good for you. It’s high in vitamin A, vitamin C and potassium. It’s about 92% water, so it’s plenty hydrating, too (nutrition source). Thought my juice was perfectly sweet without any added sugar, but I added a squeeze of lime juice for that extra zing.",
+            "price": "1.3"
+        },
+        {
+            "id": "42",
+            "imgUrl": "img/pastriesNew/drink-10.webp",
+            "imgHover": [
+                "img/pastriesNew/drink-10.webp",
+                "img/hover/hover-42/item-a.jpg",
+                "img/hover/hover-42/item-b.jpg"
+            ],
+            "cakeType": "beverage",
+            "title": "Hot tea",
+            "description": "A nice cup of hot tea is perfect for warming up on cold days, for sitting down for a chat with friends, or for self-soothing when dealing with stress. Indeed, with its numerous health benefits and cultural significance, it’s no wonder that tea is the most popular beverage in the world after water. More than 2 billion people drink it every day. However, there are some dangers to drinking tea that is too hot, including an increased risk of some types of cancer as well as burns. This article tells you everything you need to know about the benefits and downsides of drinking hot tea.\n\nHerbal teas, like chamomile, mint, rosemary, and lavender, can improve your digestive health.The infusions and mixtures of herbs can be an effective treatment for gas, indigestion, constipation, and other digestive symptoms\n\nYou may be surprised to learn that a cup of black tea each day can reduce your risk of cavities and gum disease. Research shows that enzyme-rich compounds can prevent plaque and bacteria from forming on teeth and gums.\n\nDrinking hot tea has a naturally calming effect. Enjoying a cup requires us to sit, slow down, and relax – all of which are natural weapons against stress and anxiety. To maximize this benefit go for caffeine-free herbal teas, such as peppermint and passion flower, or lavender.",
+            "price": "1.56"
         }
     ]
 }
