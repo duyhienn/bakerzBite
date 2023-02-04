@@ -1,3 +1,31 @@
+main.ng-enter{
+   transition:0.5s linear all;
+   opacity:0;
+}
+
+main.ng-enter.ng-enter-active {
+   opacity:1;
+}
+
+.view-feedback > div.ng-enter{
+   transition:0.5s linear all;
+   opacity: 0.5;
+   transform: translateY(3rem);
+}
+
+.view-feedback > div.ng-enter.ng-enter-active {
+   opacity:1;
+   transform: translateY(0);
+}
+
+.homepage-input-feedback.ng-hide{
+   transition: 0.3s linear all;
+   transform: translateY(-3rem);
+   opacity:0;
+}
+
+/* end of Animation part*/
+
 .nav-menu-mobile{
    position: fixed;
    left: 0;
