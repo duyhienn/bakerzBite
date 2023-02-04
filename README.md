@@ -14,7 +14,7 @@ Student1424200  Trang Sĩ Duy Hiển
 
 ============================
 
-eProject documentation at https://github.com/lnnhi1310/Kitchen-Appliances/tree/main/documentary
+eProject documentation at https://github.com/duyhienn/bakerzBite/tree/main/document
 
 ============================
 
