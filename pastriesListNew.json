@@ -578,6 +578,40 @@
             "title": "Wooden tray",
             "description": "Wooden trays provides exceptionally valued items for the kitchen, home, office, and child's playroom. Known for their functionality and beauty, each of our products is individually crafted from the finest quality materials. This Solid Bamboo Wood Serving Tray is made from bamboo wood and is perfect for serving breakfast in bed, or for presenting sushi, cheese, or bread. It is not only functional, but enhances the decor of any kitchen or room. Hand wash with a mild soap and cool water. Do not soak. Do not put in the dishwasher, microwave or refrigerator. Extreme changes in temperature will cause the material to crack over time. Dry thoroughly. Occasional use of mineral oil on the inside will help maintain its appearance.\n\nThis solid bamboo wood tray is perfect for serving or as a lap tray,sturdy construction with built-in handles, made from bamboo wood, a natural and renewable resource",
             "price": "3"
+        },
+        {
+            "id": "45",
+            "imgUrl": "img/pastriesNew/merchan-3.jpg",
+            "imgHover": [
+                "img/pastriesNew/merchan-3.jpg"
+            ],
+            "cakeType": "merchandise",
+            "title": "Paper bag",
+            "description": "Perfect Stix Kraft Paper Bags are perfect for packing food, storing food, and taking food on the go. Made of 100% recycled paper construction, our bags are reusable and recyclable. This makes our kraft bags a great alternative to plastic bags. These tall and wide paper bags are perfect for anyone in the food industry to use. Customers will love the way they can easily transport their hot flaky pastries or fresh sandwich in a safe and convenient way and Proudly. Strong and sturdy bags are Made with 100% Recycled premium Kraft Paper for a heavy duty bag. Securely holding up to 2 lb. and with a basis weight of 30 lb., these standard duty bags are strong enough to hold whatever small side or specialty items your customer buys. From slices of banana bread to macaroons or even hot, flaky spring rolls, small foods won't tear through this bag and cause a mess for your customer.",
+            "price": "0.5"
+        },
+        {
+            "id": "46",
+            "imgUrl": "img/pastriesNew/merchan-4.jpg",
+            "imgHover": [
+                "img/pastriesNew/merchan-4.jpg"
+            ],
+            "cakeType": "merchandise",
+            "title": "Coffe mug",
+            "description": "A mug is a type of cup typically used for drinking hot drinks, such as coffee, hot chocolate, or tea. Mugs usually have handles and hold a larger amount of fluid than other types of cup. Typically, a mug holds approximately 240–350 ml (8–12 US fl oz; 8.3–12.5 imp fl oz) of liquid.\n\nMug gives a strong connection between friends and memories. Your mugs are irreplaceable. Even when you do not work in the same place, or not in your school, where you got the mug as a gift, they stay to remind you of the old charm.",
+            "price": "2.3"
+        },
+        {
+            "id": "47",
+            "imgUrl": "img/pastriesNew/merchan-5.jpg",
+            "imgHover": [
+                "img/pastriesNew/merchan-5.jpg",
+                "img/hover/hover-47/item-a.png"
+            ],
+            "cakeType": "merchandise",
+            "title": "Coffe cup",
+            "description": "Drinking coffee is a haptic experience, meaning that sense of touch plays an important role. Cups perform a vital function, and a flimsy cup can lead to an 8% drop in perception of the quality of the coffee. The cup needs to keep coffee warm, as well as warming the hands of the drinker - but without burning. The inside of the cup could be used for a surprise effect, as most people tend to remove the lid to see and smell the coffee! A cup says something about the person holding it – there are millions of Instagram posts hashtagged with #coffee, and almost two thirds of people under 40 share pictures of their take-away coffee on social media. More than a third of Germans and two out of five Brits choose to drink coffee in take-away cups even when remaining at the café. In this era of social sharing, posting a picture from a popular café with a branded cup in your hand communicates your lifestyle. The printable surface of a paper cup is a great media: the brand is just a short distance from the consumer who even shares it socially.\n\nFor both experts and consumers, plastic cups are out (for obvious reasons), whereas paper cups are more acceptable. According to our study, British consumers in particular prefer paper cups over reusable cups as paper cups are more convenient and hygienic.Several experts point out that media criticism of paper cups is not fact-based, and that the value chain is working hard to take responsibility for recovering and recycling the fibres from these cups. There is an industry-wide acknowledgment of the need for a more collaborative effort in the paper cup value chain to protect against public misinformation. Adding information on how to recycle cups directly to the cup itself is therefore an easy win.",
+            "price": "3.4"
         }
     ]
 }

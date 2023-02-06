@@ -97,9 +97,33 @@
                   </a>
                </div>
             </div>
-      </div>
+         </div>
       </div>
       
+      <div class="offer-section">
+         <div class="offer-container">
+            <div class="grid wide">
+               <div class="cookies-wrapper">
+                  <h1>Offer & BestSeller</h1>
+                  <div class="cookies-cards dsp-grid">
+                     <a class="see-more" ng-click="getTabName('tabCookies')" ng-href="#/gallery">See more>></a>
+                     <a ng-href="#/gallery/{{ item.id }}" class="card-item" ng-repeat="item in arr3 | limitTo:4">
+                        <div class="card-img-container">
+                           <img class="card-img" ng-src="{{item.imgUrl}}" alt="">
+                        </div>
+         
+                        <div class="card-content">
+                           <p class="card-title">{{item.title}}</p>
+                           <p class="card-price">${{item.price}}</p>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+
       <div>
          <h1 class="blog-heading">Blogs</h1>
          <div class="homepage__about-1">
