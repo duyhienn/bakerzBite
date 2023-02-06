@@ -30,6 +30,9 @@
    display: flex;
    justify-content: center;
 }
+#filter_button .btn{
+   margin: 0px 0.5rem;
+}
 
 #filter_button .btn:hover{
    background-color: rgba(127,0,0,0.5);

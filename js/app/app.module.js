@@ -21,6 +21,7 @@ angular.module('mainApp', [
 .factory('storageServices', function () {
    let storage = [];
    let itemsService = {};
+   let tabName = "tabAll";
    itemsService.insert = function (item) {
       storage.push(item);
    };
@@ -28,5 +29,13 @@ angular.module('mainApp', [
       return storage;
    };
 
+   itemsService.holdTabName = function(name) {
+      tabName = name;
+   }
+
+   itemsService.getTabName = function(){
+      return tabName;
+   }
+   
    return itemsService;
 });

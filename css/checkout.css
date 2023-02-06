@@ -1,20 +1,21 @@
-.checkout-item.ng-leave{
+.checkout-item.ng-leave {
    transition: all 0.5s linear;
    opacity: 1;
    transform: translateX(0);
 }
-.checkout-item.ng-leave.ng-leave-active{
+
+.checkout-item.ng-leave.ng-leave-active {
    opacity: 0;
-   transform: translateX(-100%);   
+   transform: translateX(-100%);
 }
 
-.checkout-list-item--empty.ng-hide-remove{
+.checkout-list-item--empty.ng-hide-remove {
    transition: all 0.2s linear 0.5s;
    opacity: 0;
    transform: translateY(-100%);
 }
 
-.checkout-list-item--empty.ng-hide-remove.ng-hide-remove-active{
+.checkout-list-item--empty.ng-hide-remove.ng-hide-remove-active {
    opacity: 1;
    transform: translateY(0);
 }
@@ -31,7 +32,7 @@
    padding: 10px;
 }
 
-.checkout-box-promo i{
+.checkout-box-promo i {
    font-size: 2.2rem;
    margin-right: 1rem;
 }
@@ -42,16 +43,16 @@
    font-weight: 400;
 }
 
-.main-checkout{
+.main-checkout {
    margin-top: 10rem;
    padding: 0 1rem;
 }
 
-.cart-checkout-left{
+.cart-checkout-left {
    overflow: hidden;
 }
 
-.checkout-list-heading{
+.checkout-list-heading {
    background-color: var(--primary-color);
    text-align: center;
    font-size: 1.6rem;
@@ -62,28 +63,30 @@
    border-bottom-right-radius: 0;
    border-bottom-left-radius: 0;
 }
-.checkout-list-heading .row div:first-of-type{
+
+.checkout-list-heading .row div:first-of-type {
    text-align: left;
 }
-.checkout-list-heading .row div:first-of-type .list-heading{
+
+.checkout-list-heading .row div:first-of-type .list-heading {
    margin-left: 20px;
 }
 
-.list-heading{
+.list-heading {
    text-align: center;
    margin-left: 10px;
 }
 
-.checkout-list-item{
+.checkout-list-item {
    border-bottom-right-radius: 1.6rem;
    border-bottom-left-radius: 1.6rem;
    border-top-right-radius: 0;
    border-top-left-radius: 0;
-   text-align: center; 
+   text-align: center;
    background-color: var(--second-color);
 }
 
-.checkout-list-item--empty{
+.checkout-list-item--empty {
    width: 100%;
    height: 230px;
    display: flex;
@@ -94,36 +97,39 @@
    font-size: 1.6rem;
    font-weight: 700;
 }
-.checkout-item{
+
+.checkout-item {
    padding: 15px 0;
    align-items: center;
-   
+
 }
 
 
-.checkout-item-info{
+.checkout-item-info {
    display: flex;
    align-items: center;
 }
 
-.checkout-item-img{
+.checkout-item-img {
    width: 40px;
    height: 40px;
    object-fit: cover;
    margin-left: 20px;
 }
-.checkout-item-name{
+
+.checkout-item-name {
    text-align: left;
    margin: 0 0 0 20px;
    font-size: 1.8rem;
    color: var(--primary-color);
 }
-.checkout-item-price{
+
+.checkout-item-price {
    font-size: 1.8rem;
    color: var(--primary-color);
 }
 
-.checkout-quantity-input{
+.checkout-quantity-input {
    font-size: 1.4rem;
    width: 50px;
    height: 30px;
@@ -131,29 +137,47 @@
    border-radius: 4px;
    border: 1px solid var(--primary-color);
    background-color: var(--second-color);
+   outline: none;
 }
 
-.checkout-item-quantity{
+input[type=number] {
+   position: relative;
+   padding: 5px;
+   padding-right: 1rem;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+   -webkit-appearance: inner-spin-button !important;
+   width: 25px;
+   position: absolute;
+   top: 0;
+   right: 0;
+   height: 100%;
+}
+
+.checkout-item-quantity {
    font-size: 1.8rem;
    color: var(--primary-color);
 }
-.checkout-item-total{
+
+.checkout-item-total {
    display: inline-block;
    font-size: 1.8rem;
    color: var(--primary-color);
 }
 
-.fa-solid.fa-circle-xmark{
+.fa-solid.fa-circle-xmark {
    font-size: 1.5rem;
 }
 
-.btn-remove-checkout{
+.btn-remove-checkout {
    min-width: 30px;
    border-radius: 10px;
    background-color: var(--primary-color);
 }
 
-.order-title{
+.order-title {
    display: block;
    text-align: center;
    font-size: 1.6rem;
@@ -166,7 +190,7 @@
    border-bottom-left-radius: 0;
 }
 
-.order-info{
+.order-info {
    background-color: var(--second-color);
    border-bottom-right-radius: 1.6rem;
    border-bottom-left-radius: 1.6rem;
@@ -174,7 +198,7 @@
    border-top-left-radius: 0;
 }
 
-.order-row{
+.order-row {
    display: flex;
    justify-content: space-between;
    align-items: center;
@@ -183,32 +207,36 @@
    color: var(--primary-color);
 }
 
-.cart-total-label{
+.cart-total-label {
    font-weight: 700;
-   font-size: 1.6rem;;
+   font-size: 1.6rem;
+   ;
 }
+
 .cart-ship-value,
-.cart-sub-value{
+.cart-sub-value {
    font-size: 1.5rem;
    font-weight: 500;
 }
-.cart-grand-value{
+
+.cart-grand-value {
    font-size: 2rem;
    font-weight: 800;
 }
 
-.checkout-btn{
+.checkout-btn {
    width: 100%;
    margin-top: 20px;
    background-color: var(--primary-color);
    color: var(--second-color);
 }
-.checkout-btn:hover{
-   background-color: rgba(127,0,0,0.8);
+
+.checkout-btn:hover {
+   background-color: rgba(127, 0, 0, 0.8);
    color: var(--second-color);
 }
 
-.modal.checkout .modal-content .modal-body i.fa-check::after{
+.modal.checkout .modal-content .modal-body i.fa-check::after {
    position: absolute;
    content: "";
    display: block;
@@ -221,47 +249,47 @@
 }
 
 
-@media (min-width: 1024px){
-  
-}
+@media (min-width: 1024px) {}
 
 /* Mobile & Tablet */
-@media (max-width: 1023px){
-   .cart-checkout-right{
+@media (max-width: 1023px) {
+   .cart-checkout-right {
       margin-top: 2rem;
    }
 }
 
 /* Table */
 
-@media (min-width: 740px) and (max-width: 1023px){
-   
-}
+@media (min-width: 740px) and (max-width: 1023px) {}
 
 /* Mobile */
-@media (max-width: 739px){
-   .list-heading{
+@media (max-width: 739px) {
+   .list-heading {
       font-size: 1.4rem;
    }
-   .checkout-item-info{
+
+   .checkout-item-info {
       display: flex;
       flex-direction: column;
       align-items: flex-start;
    }
-   .checkout-item-price{
+
+   .checkout-item-price {
       font-size: 1.6rem;
       color: var(--primary-color);
    }
 
-   .checkout-item-name{
+   .checkout-item-name {
       font-size: 1.6rem;
    }
 
-   .order-title{
+   .order-title {
       font-size: 1.4rem;
    }
-   .cart-total-label{
+
+   .cart-total-label {
       font-weight: 700;
-      font-size: 1.4rem;;
+      font-size: 1.4rem;
+      ;
    }
 }

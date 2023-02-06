@@ -10,6 +10,7 @@
             <a class="btn" ng-class="{'active': tabName=='tabCookies'}" ng-click="tabName='tabCookies'">Cookies</a>
             <a class="btn" ng-class="{'active': tabName=='tabGourmet'}" ng-click="tabName='tabGourmet'">Gourmet Cakes</a>
             <a class="btn" ng-class="{'active': tabName=='tabBeverages'}" ng-click="tabName='tabBeverages'">Beverages</a>
+            <a class="btn" ng-class="{'active': tabName=='merchandise'}" ng-click="tabName='merchandise'">Merchandise</a>
          </div>
 
          <form action="" id="input_filter">
@@ -70,6 +71,18 @@
             </div>
             <div ng-switch-when="tabBeverages" class="row anim">
                <a ng-href="#/gallery/{{ item.id }}" class="col l-3 m-t-4 c-12 card-item" ng-repeat="item in beverageList | filter: search">
+                  <div class="card-img-container">
+                     <img class="card-img" ng-src="{{item.imgUrl}}" alt="">
+                  </div>
+   
+                  <div class="card-content">
+                     <p class="card-title">{{item.title}}</p>
+                     <p class="card-price">${{item.price}}</p>
+                  </div>
+               </a>
+            </div>
+            <div ng-switch-when="merchandise" class="row anim">
+               <a ng-href="#/gallery/{{ item.id }}" class="col l-3 m-t-4 c-12 card-item" ng-repeat="item in merchandiseList | filter: search">
                   <div class="card-img-container">
                      <img class="card-img" ng-src="{{item.imgUrl}}" alt="">
                   </div>

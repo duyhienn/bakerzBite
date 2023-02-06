@@ -3,15 +3,17 @@
 angular.module('gallery')
    .component('gallery', {
       templateUrl: "./templates/gallery.html",
-      controller: function($scope, $http,$window) {
+      controller: function($scope, $http,$window, storageServices) {
          $window.scrollTo(0,0);
          $scope.allProductList = [];
          $scope.patriesList = [];
          $scope.cookiesList = [];
          $scope.gourmetList = [];
          $scope.beverageList = [];
-         $scope.tabName = "tabAll";
-
+         $scope.merchandiseList = [];
+         $scope.tabName = storageServices.getTabName();
+         storageServices.holdTabName('tabAll');
+         
          $http.get('pastriesListNew.json').then(successCb)
          
          // consume a callback
@@ -33,6 +35,9 @@ angular.module('gallery')
                }
                else if(item.cakeType == "beverage"){
                   $scope.beverageList.push(item);
+               }
+               else if(item.cakeType == "merchandise"){
+                  $scope.merchandiseList.push(item);
                }
             });
          }

@@ -44,7 +44,7 @@
             <div class="patries-wrapper">
                <h1>Pastries</h1>
                <div class="patries-cards dsp-grid">
-                  <a class="see-more" ng-href="#/gallery">See more>></a>
+                  <a class="see-more" ng-click="getTabName('tabPatries')" ng-href="#/gallery">See more>></a>
                   <a ng-href="#/gallery/{{ item.id }}" class="card-item" ng-repeat = "item in arr1 | limitTo:4">
                      <div class="card-img-container">
                         <img class="card-img" ng-src="{{item.imgUrl}}" alt="">
@@ -64,7 +64,7 @@
             <div class="gourmet-cakes-wrapper">
                <h1>Gourmet Cakes</h1>
                <div class="gourmet-cakes-cards dsp-grid">
-                  <a class="see-more" ng-href="#/gallery">See more>></a>
+                  <a class="see-more" ng-click="getTabName('tabGourmet')" ng-href="#/gallery">See more>></a>
                   <a ng-href="#/gallery/{{ item.id }}" class="card-item" ng-repeat="item in arr2 | limitTo:4">
                      <div class="card-img-container">
                         <img class="card-img" ng-src="{{item.imgUrl}}" alt="">
@@ -84,7 +84,7 @@
             <div class="cookies-wrapper">
                <h1>Cookies</h1>
                <div class="cookies-cards dsp-grid">
-                  <a class="see-more" ng-href="#/gallery">See more>></a>
+                  <a class="see-more" ng-click="getTabName('tabCookies')" ng-href="#/gallery">See more>></a>
                   <a ng-href="#/gallery/{{ item.id }}" class="card-item" ng-repeat="item in arr3 | limitTo:4">
                      <div class="card-img-container">
                         <img class="card-img" ng-src="{{item.imgUrl}}" alt="">

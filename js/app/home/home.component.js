@@ -3,7 +3,7 @@
 angular.module('siteHomepage')
    .component('siteHomepage', {
       templateUrl: "./templates/home.html",
-      controller: function($scope, $http, $window, $document, $interval) {
+      controller: function($scope, $http, $window, $document, $interval, storageServices) {
          $window.scrollTo(0,0);
          $scope.arr1 = [];
          $scope.arr2 = [];
@@ -138,6 +138,10 @@ angular.module('siteHomepage')
                .then(data => {
                   $scope.visitCount = data.value;
                })
+         }
+
+         $scope.getTabName = function(tabName) {
+            storageServices.holdTabName(tabName);
          }
 
          // updateVisitCount();

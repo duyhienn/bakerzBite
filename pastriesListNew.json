@@ -552,6 +552,32 @@
             "title": "Hot tea",
             "description": "A nice cup of hot tea is perfect for warming up on cold days, for sitting down for a chat with friends, or for self-soothing when dealing with stress. Indeed, with its numerous health benefits and cultural significance, it’s no wonder that tea is the most popular beverage in the world after water. More than 2 billion people drink it every day. However, there are some dangers to drinking tea that is too hot, including an increased risk of some types of cancer as well as burns. This article tells you everything you need to know about the benefits and downsides of drinking hot tea.\n\nHerbal teas, like chamomile, mint, rosemary, and lavender, can improve your digestive health.The infusions and mixtures of herbs can be an effective treatment for gas, indigestion, constipation, and other digestive symptoms\n\nYou may be surprised to learn that a cup of black tea each day can reduce your risk of cavities and gum disease. Research shows that enzyme-rich compounds can prevent plaque and bacteria from forming on teeth and gums.\n\nDrinking hot tea has a naturally calming effect. Enjoying a cup requires us to sit, slow down, and relax – all of which are natural weapons against stress and anxiety. To maximize this benefit go for caffeine-free herbal teas, such as peppermint and passion flower, or lavender.",
             "price": "1.56"
+        },
+        {
+            "id": "43",
+            "imgUrl": "img/pastriesNew/merchan-1.jpg",
+            "imgHover": [
+                "img/pastriesNew/merchan-1.jpg",
+                "img/hover/hover-43/item-a.webp"
+            ],
+            "cakeType": "merchandise",
+            "title": "Hot tea",
+            "description": "Plate metal trays and troughs are used in plants for washing vegetables, textiles or stones, as simple transport containers in laundries or manufacturing companies, as collection containers for liquids such as oils, fats or water, as storage or mixing containers. Sheet metal trays also protect against the leaking of liquids and pollution of soil or groundwater.",
+            "price": "4"
+        },
+        {
+            "id": "44",
+            "imgUrl": "img/pastriesNew/merchan-2.webp",
+            "imgHover": [
+                "img/pastriesNew/merchan-2.webp",
+                "img/hover/hover-44/item-a.webp",
+                "img/hover/hover-44/item-b.webp",
+                "img/hover/hover-44/item-c.webp"
+            ],
+            "cakeType": "merchandise",
+            "title": "Wooden tray",
+            "description": "Wooden trays provides exceptionally valued items for the kitchen, home, office, and child's playroom. Known for their functionality and beauty, each of our products is individually crafted from the finest quality materials. This Solid Bamboo Wood Serving Tray is made from bamboo wood and is perfect for serving breakfast in bed, or for presenting sushi, cheese, or bread. It is not only functional, but enhances the decor of any kitchen or room. Hand wash with a mild soap and cool water. Do not soak. Do not put in the dishwasher, microwave or refrigerator. Extreme changes in temperature will cause the material to crack over time. Dry thoroughly. Occasional use of mineral oil on the inside will help maintain its appearance.\n\nThis solid bamboo wood tray is perfect for serving or as a lap tray,sturdy construction with built-in handles, made from bamboo wood, a natural and renewable resource",
+            "price": "3"
         }
     ]
 }
