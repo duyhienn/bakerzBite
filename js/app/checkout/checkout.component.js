@@ -17,7 +17,10 @@ angular.module('checkoutCart')
             console.log(storageServices.get())
          }
 
-         $scope.quantityChanged = function() {
+         $scope.quantityChanged = function(item) {
+            if(!isFinite(item.quantity) || item.quantity <= 0 || typeof item.quantity == 'string'){
+               item.quantity = "";
+            }
             console.log($scope.productItems)
             $scope.updateTotal();
          }

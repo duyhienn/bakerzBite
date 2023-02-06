@@ -1,16 +1,17 @@
 main.ng-enter{
    transition:0.5s linear all;
-   opacity:0;
+   transform: translateY(-2rem);
 }
 
 main.ng-enter.ng-enter-active {
-   opacity:1;
+   transform: translateY(0);
+
 }
 
 .view-feedback > div.ng-enter{
    transition:0.5s linear all;
    opacity: 0.5;
-   transform: translateY(3rem);
+   transform: translateY(6rem);
 }
 
 .view-feedback > div.ng-enter.ng-enter-active {
@@ -18,10 +19,48 @@ main.ng-enter.ng-enter-active {
    transform: translateY(0);
 }
 
-.homepage-input-feedback.ng-hide{
-   transition: 0.3s linear all;
-   transform: translateY(-3rem);
-   opacity:0;
+.homepage-input-feedback.ng-hide-add{
+   transition: all 0.7s linear;
+   opacity: 1;
+   transform: translateX(0);
+
+}
+.homepage-input-feedback.ng-hide-add.ng-hide-add-active{
+   opacity: 0;
+   transform: translateX(-100%);
+}
+
+.homepage-input-feedback.ng-hide-remove{
+   transition: all 0.7s linear;
+   opacity: 0;
+   transform: translateX(100%);
+}
+
+.homepage-input-feedback.ng-hide-remove.ng-hide-remove-active{
+   opacity: 1;
+   transform: translateX(0);
+}
+
+.leave-cmt-btn.ng-hide-add{
+   transition: all 0.7s linear;
+   opacity: 1;
+   transform: translateX(0);
+}
+
+.leave-cmt-btn.ng-hide-add.ng-hide-add-active{
+   opacity: 0;
+   transform: translateX(100%);
+}
+
+.leave-cmt-btn.ng-hide-remove{
+   transition: all 0.7s linear;
+   opacity: 0;
+   transform: translateX(-100%);
+}
+
+.leave-cmt-btn.ng-hide-remove.ng-hide-remove-active{
+   opacity: 1;
+   transform: translateX(0);
 }
 
 /* end of Animation part*/
@@ -446,43 +485,6 @@ main.ng-enter.ng-enter-active {
 .header__mega-column {
    text-align: center;
 }
-
-/* .header__mega-column:first-child{
-   position: relative;
-}
-
-.header__mega-column:last-child{
-   position: relative;
-} */
-
-/* .header__mega-column:first-child::after{
-   content: "";
-   position: absolute;
-   width: 233px;
-   height: 201px;
-   display: block;
-   background-image: url("https://mcdn.coolmate.me/image/December2022/mceclip7_46.png");
-   background-repeat: no-repeat;
-   background-size: contain;
-   bottom: -7%;
-   left: -60%;
-   pointer-events: none;
-
-}
-.header__mega-column:last-child::after{
-   content: "";
-   position: absolute;
-   width: 280px;
-   height: 150px;
-   display: block;
-   background-image: url("https://mcdn.coolmate.me/image/December2022/mceclip8_59.png");
-   background-repeat: no-repeat;
-   background-size: contain;
-   background-position: left bottom;
-   bottom: -7%;
-   right: -70%;
-   pointer-events: none;
-} */
 
 .header__mega-column:nth-child(2) .header__mega-item:not(:first-child) a {
    color: var(--grey-color);

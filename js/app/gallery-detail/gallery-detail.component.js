@@ -44,8 +44,8 @@ angular.module('galleryDetail')
             }
          }
 
-         $scope.changeLocation = function() {
-            $location.path('gallery');
-         }
+         // $scope.changeLocation = function() {
+         //    $location.path('gallery');
+         // }
       },
    })

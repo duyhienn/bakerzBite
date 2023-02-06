@@ -1,3 +1,25 @@
+.checkout-item.ng-leave{
+   transition: all 0.5s linear;
+   opacity: 1;
+   transform: translateX(0);
+}
+.checkout-item.ng-leave.ng-leave-active{
+   opacity: 0;
+   transform: translateX(-100%);   
+}
+
+.checkout-list-item--empty.ng-hide-remove{
+   transition: all 0.2s linear 0.5s;
+   opacity: 0;
+   transform: translateY(-100%);
+}
+
+.checkout-list-item--empty.ng-hide-remove.ng-hide-remove-active{
+   opacity: 1;
+   transform: translateY(0);
+}
+
+
 .checkout-box-promo {
    background-color: var(--second-color);
    color: #000;
@@ -26,6 +48,7 @@
 }
 
 .cart-checkout-left{
+   overflow: hidden;
 }
 
 .checkout-list-heading{
@@ -161,7 +184,7 @@
 }
 
 .cart-total-label{
-   font-weight: 600;
+   font-weight: 700;
    font-size: 1.6rem;;
 }
 .cart-ship-value,
@@ -217,5 +240,28 @@
 
 /* Mobile */
 @media (max-width: 739px){
+   .list-heading{
+      font-size: 1.4rem;
+   }
+   .checkout-item-info{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+   }
+   .checkout-item-price{
+      font-size: 1.6rem;
+      color: var(--primary-color);
+   }
 
+   .checkout-item-name{
+      font-size: 1.6rem;
+   }
+
+   .order-title{
+      font-size: 1.4rem;
+   }
+   .cart-total-label{
+      font-weight: 700;
+      font-size: 1.4rem;;
+   }
 }

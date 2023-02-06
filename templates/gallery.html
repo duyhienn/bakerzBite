@@ -20,7 +20,7 @@
          </form>
 
          <div ng-switch="tabName" id="filter-data">
-            <div ng-switch-when="tabAll" class="row">
+            <div ng-switch-when="tabAll" class="row anim">
                <a ng-href="#/gallery/{{ item.id }}" class="col l-3 m-t-4 c-12 card-item" ng-repeat="item in allProductList | filter: search">
                   <div class="card-img-container">
                      <img class="card-img" ng-src="{{item.imgUrl}}" alt="">
@@ -32,7 +32,7 @@
                   </div>
                </a>
             </div>
-            <div ng-switch-when="tabPatries" class="row">
+            <div ng-switch-when="tabPatries" class="row anim">
                <a ng-href="#/gallery/{{ item.id }}" class="col l-3 m-t-4 c-12 card-item" ng-repeat="item in patriesList | filter: search">
                   <div class="card-img-container">
                      <img class="card-img" ng-src="{{item.imgUrl}}" alt="">
@@ -44,7 +44,7 @@
                   </div>
                </a>
             </div>
-            <div ng-switch-when="tabCookies" class="row">
+            <div ng-switch-when="tabCookies" class="row anim">
                <a ng-href="#/gallery/{{ item.id }}" class="col l-3 m-t-4 c-12 card-item" ng-repeat="item in cookiesList | filter: search">
                   <div class="card-img-container">
                      <img class="card-img" ng-src="{{item.imgUrl}}" alt="">
@@ -56,7 +56,7 @@
                   </div>
                </a>
             </div>
-            <div ng-switch-when="tabGourmet" class="row">
+            <div ng-switch-when="tabGourmet" class="row anim">
                <a ng-href="#/gallery/{{ item.id }}" class="col l-3 m-t-4 c-12 card-item" ng-repeat="item in gourmetList | filter: search">
                   <div class="card-img-container">
                      <img class="card-img" ng-src="{{item.imgUrl}}" alt="">
@@ -68,7 +68,7 @@
                   </div>
                </a>
             </div>
-            <div ng-switch-when="tabBeverages" class="row">
+            <div ng-switch-when="tabBeverages" class="row anim">
                <a ng-href="#/gallery/{{ item.id }}" class="col l-3 m-t-4 c-12 card-item" ng-repeat="item in beverageList | filter: search">
                   <div class="card-img-container">
                      <img class="card-img" ng-src="{{item.imgUrl}}" alt="">

@@ -153,7 +153,8 @@
             <p class="homepage-subheading-feedback">Please rate and provide feedback on our store if you are happy with our service.</p>
             <button ng-init="isOpenedBtn=true" ng-show="isOpenedBtn" class="btn leave-cmt-btn" ng-click="ToggleLeaveCmt()">Write a review</button>
       
-            <div ng-init="isOpenedForm=false" ng-show="isOpenedForm" class="homepage-input-feedback">
+            <form ng-init="isOpenedForm=false" ng-show="isOpenedForm"
+                  class="homepage-input-feedback">
                <label style="font-size: 1.6rem;" for="">Your Name(required)</label><br>
                <input class="user-name-input" type="text" ng-model="userCommentObj.name" name="userName" placeholder="Name"><br>
       
@@ -168,10 +169,10 @@
                   </i>
                </div>
                <button class="btn update-btn" ng-click="addComment()">Comment</button>
-            </div>
+            </form>
             <div class="view-feedback-container">
                <div class="view-feedback">
-                  <div style="background: beige; border-radius: 1.6rem; padding: 15px 15px 5px 20px;"
+                  <div style="opacity: 1; background: beige; border-radius: 1.6rem; padding: 15px 15px 5px 20px;"
                      ng-repeat="feedback in dataComment">
                      <p class="user-name">{{feedback.userName}}</p>
                      <div style="display: flex; justify-content: space-between; align-items: center;">

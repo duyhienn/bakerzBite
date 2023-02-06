@@ -1,4 +1,14 @@
 
+.modal-register.ng-enter{
+   transition:all 0.7s linear;
+   transform: translateX(-100%);
+}
+
+.modal-register.ng-enter.ng-enter-active {
+   transform: translateX(0);
+
+}
+
 .modal-login{
    margin-top: 7rem;
 }
@@ -11,9 +21,10 @@
 }
 
 .modal-container .modal-title{
-   font-size: 3.4rem;
+   font-size: 7rem;
    text-align: center;
    margin: 0 0 3rem;
+   color: var(--primary-color);
 }
 
 .modal-bodyy{
@@ -200,10 +211,15 @@
 /* Table */
 
 @media (min-width: 740px) and (max-width: 1023px){
-   
+   .modal-container .modal-title{
+      font-size: 6rem;
+      
+   }
 }
 
 /* Mobile */
 @media (max-width: 739px){
-
+   .modal-container .modal-title{
+      font-size: 5rem;
+   }
 }

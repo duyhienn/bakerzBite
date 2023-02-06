@@ -21,16 +21,16 @@
                <div class="cart-checkout-left">
                   <div class="checkout-list-heading"></divclass>
                      <div class="row">
-                        <div class="col l-6 m-t-6 c-6">
+                        <div class="col l-6 m-t-6 c-3">
                            <span class="list-heading">Item</span>
                         </div>
-                        <div class="col l-2 m-t-2 c-2">
+                        <div class="col l-2 m-t-2 c-3">
                            <span class="list-heading">Price</span>
                         </div>
-                        <div class="col l-2 m-t-2 c-2">
+                        <div class="col l-2 m-t-2 c-3">
                            <span class="list-heading">Quantity</span>
                         </div>
-                        <div class="col l-2 m-t-2 c-2">
+                        <div class="col l-2 m-t-2 c-3">
                            <span class="list-heading">Actions</span>
                         </div>
                      </div>   
@@ -43,20 +43,20 @@
                            ">Your cart is empty
                         </p>
                      </div>
-                     <div class="row checkout-item" ng-repeat="item in productItems track by $index" ng-init="updateTotal()">
-                        <div class="col l-6 m-t-6 c-6">
+                     <div class="row checkout-item" ng-repeat="item in productItems track by item.id" ng-init="updateTotal()">
+                        <div class="col l-6 m-t-6 c-3">
                            <div class="checkout-item-info">
                               <img class="checkout-item-img" ng-src="{{item.imgUrl}}" alt="">
                               <h1 class="checkout-item-name">{{item.title}}</h1>
                            </div>
                         </div>
-                        <div class="col l-2 m-t-2 c-2">
+                        <div class="col l-2 m-t-2 c-3">
                            <h1 class="checkout-item-price">${{item.price}}</h1>
                         </div>
-                        <div class="col l-2 m-t-2 c-2 ">
-                           <input class="checkout-quantity-input" ng-change="quantityChanged()" min="1" ng-model="item.quantity" type="number" value="1">
+                        <div class="col l-2 m-t-2 c-3 ">
+                           <input class="checkout-quantity-input" ng-change="quantityChanged(item)" min="1" ng-model="item.quantity" type="number" value="1">
                         </div>
-                        <div class="col l-2 m-t-2 c-2 ">
+                        <div class="col l-2 m-t-2 c-3 ">
                            <button ng-click="delete(item)" class="btn btn-remove-checkout">
                               <i class="fa-solid fa-circle-xmark" style="text-align: center; color: var(--second-color);"></i>
                            </button>
