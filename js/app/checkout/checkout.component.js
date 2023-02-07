@@ -28,7 +28,12 @@ angular.module('checkoutCart')
          $scope.updateTotal = function(){
             let total = 0;
             for (let i = 0; i < $scope.productItems.length; i++) {
-               total = total + Number($scope.productItems[i].price) * Number($scope.productItems[i].quantity);
+               if($scope.productItems[i].percent){
+                  total = total + Number($scope.productItems[i].sale) * Number($scope.productItems[i].quantity);
+               }
+               else{
+                  total = total + Number($scope.productItems[i].price) * Number($scope.productItems[i].quantity);
+               }
             }
             total = Math.round(total*100)/100;
             $scope.totalPrice = total;

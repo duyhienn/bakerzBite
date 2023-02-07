@@ -44,7 +44,7 @@
             <div class="patries-wrapper">
                <h1>Pastries</h1>
                <div class="patries-cards dsp-grid">
-                  <a class="see-more" ng-click="getTabName('tabPatries')" ng-href="#/gallery">See more>></a>
+                  <a class="see-more" ng-click="getTabName('tabPatries')" ng-href="#/gallery">See more &#8811;</a>
                   <a ng-href="#/gallery/{{ item.id }}" class="card-item" ng-repeat = "item in arr1 | limitTo:4">
                      <div class="card-img-container">
                         <img class="card-img" ng-src="{{item.imgUrl}}" alt="">
@@ -64,7 +64,7 @@
             <div class="gourmet-cakes-wrapper">
                <h1>Gourmet Cakes</h1>
                <div class="gourmet-cakes-cards dsp-grid">
-                  <a class="see-more" ng-click="getTabName('tabGourmet')" ng-href="#/gallery">See more>></a>
+                  <a class="see-more" ng-click="getTabName('tabGourmet')" ng-href="#/gallery">See more &#8811;</a>
                   <a ng-href="#/gallery/{{ item.id }}" class="card-item" ng-repeat="item in arr2 | limitTo:4">
                      <div class="card-img-container">
                         <img class="card-img" ng-src="{{item.imgUrl}}" alt="">
@@ -103,18 +103,25 @@
       <div class="offer-section">
          <div class="offer-container">
             <div class="grid wide">
-               <div class="cookies-wrapper">
-                  <h1>Offer & BestSeller</h1>
-                  <div class="cookies-cards dsp-grid">
-                     <a class="see-more" ng-click="getTabName('tabCookies')" ng-href="#/gallery">See more>></a>
-                     <a ng-href="#/gallery/{{ item.id }}" class="card-item" ng-repeat="item in arr3 | limitTo:4">
+               <div class="offer-wrapper">
+                  <h1>Offer & Best-seller</h1>
+                  <div class="sale-mark">10% OFF</div>
+                  <div class="offer-cards dsp-grid">
+                     <a ng-href="#/gallery/{{ item.id }}" class="card-item" ng-repeat="item in offerArr | limitTo:4">
                         <div class="card-img-container">
+                           <div class="sale-markable">-{{item.percent}}%</div>
                            <img class="card-img" ng-src="{{item.imgUrl}}" alt="">
                         </div>
          
                         <div class="card-content">
                            <p class="card-title">{{item.title}}</p>
-                           <p class="card-price">${{item.price}}</p>
+                           <div class="card-price-checkout">
+                              <p class="card-price-not-sale">${{item.price}}</p>
+                              <p class="card-price-sale">
+                                 ${{item.sale}} 
+                              </p>
+                              <p style="font-size: 1.4rem; font-style: italic;">(price include vat and shipping fee)</p>
+                           </div>
                         </div>
                      </a>
                   </div>

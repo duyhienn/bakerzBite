@@ -15,7 +15,12 @@
                <h1 class="detail-heading">{{item.title}}</h1>
                
                <div class="detail-service">
-                  <div class="detail-price">Price: ${{item.price}}</div>
+                  <div ng-class="{'line-thr': item.sale}" class="detail-price">Price: ${{item.price}}</div>
+                  <div ng-if="item.percent" class="detail-price-sale">
+                     Price ${{item.sale}}
+                     <span class="sale-markable">-{{item.percent}}%</span>
+                  </div>
+                  <p style="font-size: 1.4rem; font-style: italic;">(price include vat and shipping fee)</p>
                   <div class="detail-service-block">
                      <img class="detail-service-img" src="img/icon/icon-guarantee.png" alt="">
                      <div class="detail-service-content">
@@ -77,7 +82,7 @@
                </div>
                <div class="service-text">
                   <div class="service-title">PRICE INCLUDE 10% VAT</div>
-                  <div class="service-desc">Prince include Vat</div>
+                  <div class="service-desc">Price include Vat</div>
                </div>
             </div>
          </div>

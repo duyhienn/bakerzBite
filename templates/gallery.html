@@ -8,95 +8,128 @@
             <a class="btn" ng-class="{'active': tabName=='tabAll'}" ng-click="tabName='tabAll'">All</a>
             <a class="btn" ng-class="{'active': tabName=='tabPatries'}" ng-click="tabName='tabPatries'">Patries</a>
             <a class="btn" ng-class="{'active': tabName=='tabCookies'}" ng-click="tabName='tabCookies'">Cookies</a>
-            <a class="btn" ng-class="{'active': tabName=='tabGourmet'}" ng-click="tabName='tabGourmet'">Gourmet Cakes</a>
-            <a class="btn" ng-class="{'active': tabName=='tabBeverages'}" ng-click="tabName='tabBeverages'">Beverages</a>
-            <a class="btn" ng-class="{'active': tabName=='merchandise'}" ng-click="tabName='merchandise'">Merchandise</a>
+            <a class="btn" ng-class="{'active': tabName=='tabGourmet'}" ng-click="tabName='tabGourmet'">Gourmet
+               Cakes</a>
+            <a class="btn" ng-class="{'active': tabName=='tabBeverages'}"
+               ng-click="tabName='tabBeverages'">Beverages</a>
+            <a class="btn" ng-class="{'active': tabName=='merchandise'}"
+               ng-click="tabName='merchandise'">Merchandise</a>
          </div>
 
          <form action="" id="input_filter">
             <span class="search-container">
                <i class="fa fa-search" aria-hidden="true"></i>
-               <input type="text" ng-model="search.title" placeholder="Filter product ..." id="search-item" autocomplete="off">
+               <input type="text" ng-model="search.title" placeholder="Filter product ..." id="search-item"
+                  autocomplete="off">
             </span>
          </form>
 
          <div ng-switch="tabName" id="filter-data">
             <div ng-switch-when="tabAll" class="row anim">
-               <a ng-href="#/gallery/{{ item.id }}" class="col l-3 m-t-4 c-12 card-item" ng-repeat="item in allProductList | filter: search">
+               <a ng-href="#/gallery/{{ item.id }}" class="col l-3 m-t-4 c-12 card-item"
+                  ng-repeat="item in allProductList | filter: search">
                   <div class="card-img-container">
+                     <span ng-if="item.percent">{{-item.percent}}%</span>
                      <img class="card-img" ng-src="{{item.imgUrl}}" alt="">
                   </div>
-   
+
                   <div class="card-content">
                      <p class="card-title">{{item.title}}</p>
-                     <p class="card-price">${{item.price}}</p>
+                     <p ng-class="{'line-thr': item.percent}" class="card-price-not-sale">${{item.price}}</p>
+                     <p ng-if="item.percent" class="card-price-sale">
+                        ${{(item.price - item.price * item.percent / 100) | number: 2}}
+                     </p>
                   </div>
                </a>
             </div>
             <div ng-switch-when="tabPatries" class="row anim">
-               <a ng-href="#/gallery/{{ item.id }}" class="col l-3 m-t-4 c-12 card-item" ng-repeat="item in patriesList | filter: search">
+               <a ng-href="#/gallery/{{ item.id }}" class="col l-3 m-t-4 c-12 card-item"
+                  ng-repeat="item in patriesList | filter: search">
                   <div class="card-img-container">
+                     <span ng-if="item.percent">{{-item.percent}}%</span>
                      <img class="card-img" ng-src="{{item.imgUrl}}" alt="">
                   </div>
-   
                   <div class="card-content">
                      <p class="card-title">{{item.title}}</p>
-                     <p class="card-price">${{item.price}}</p>
+                     <p ng-class="{'line-thr': item.percent}" class="card-price-not-sale">${{item.price}}</p>
+                     <p ng-if="item.percent" class="card-price-sale">
+                        ${{(item.price - item.price * item.percent / 100) | number: 2}}
+                     </p>
                   </div>
                </a>
             </div>
             <div ng-switch-when="tabCookies" class="row anim">
-               <a ng-href="#/gallery/{{ item.id }}" class="col l-3 m-t-4 c-12 card-item" ng-repeat="item in cookiesList | filter: search">
+               <a ng-href="#/gallery/{{ item.id }}" class="col l-3 m-t-4 c-12 card-item"
+                  ng-repeat="item in cookiesList | filter: search">
                   <div class="card-img-container">
+                     <span ng-if="item.percent">{{-item.percent}}%</span>
                      <img class="card-img" ng-src="{{item.imgUrl}}" alt="">
                   </div>
-   
+
                   <div class="card-content">
                      <p class="card-title">{{item.title}}</p>
-                     <p class="card-price">${{item.price}}</p>
+                     <p ng-class="{'line-thr': item.percent}" class="card-price-not-sale">${{item.price}}</p>
+                     <p ng-if="item.percent" class="card-price-sale">
+                        ${{(item.price - item.price * item.percent / 100) | number: 2}}
+                     </p>
                   </div>
                </a>
             </div>
             <div ng-switch-when="tabGourmet" class="row anim">
-               <a ng-href="#/gallery/{{ item.id }}" class="col l-3 m-t-4 c-12 card-item" ng-repeat="item in gourmetList | filter: search">
+               <a ng-href="#/gallery/{{ item.id }}" class="col l-3 m-t-4 c-12 card-item"
+                  ng-repeat="item in gourmetList | filter: search">
                   <div class="card-img-container">
+                     <span ng-if="item.percent">{{-item.percent}}%</span>
                      <img class="card-img" ng-src="{{item.imgUrl}}" alt="">
                   </div>
-   
+
                   <div class="card-content">
                      <p class="card-title">{{item.title}}</p>
-                     <p class="card-price">${{item.price}}</p>
+                     <p ng-class="{'line-thr': item.percent}" class="card-price-not-sale">${{item.price}}</p>
+                     <p ng-if="item.percent" class="card-price-sale">
+                        ${{(item.price - item.price * item.percent / 100) | number: 2}}
+                     </p>
                   </div>
                </a>
             </div>
             <div ng-switch-when="tabBeverages" class="row anim">
-               <a ng-href="#/gallery/{{ item.id }}" class="col l-3 m-t-4 c-12 card-item" ng-repeat="item in beverageList | filter: search">
+               <a ng-href="#/gallery/{{ item.id }}" class="col l-3 m-t-4 c-12 card-item"
+                  ng-repeat="item in beverageList | filter: search">
                   <div class="card-img-container">
+                     <span ng-if="item.percent">{{-item.percent}}%</span>
                      <img class="card-img" ng-src="{{item.imgUrl}}" alt="">
                   </div>
-   
+
                   <div class="card-content">
                      <p class="card-title">{{item.title}}</p>
-                     <p class="card-price">${{item.price}}</p>
+                     <p ng-class="{'line-thr': item.percent}" class="card-price-not-sale">${{item.price}}</p>
+                     <p ng-if="item.percent" class="card-price-sale">
+                        ${{(item.price - item.price * item.percent / 100) | number: 2}}
+                     </p>
                   </div>
                </a>
             </div>
             <div ng-switch-when="merchandise" class="row anim">
-               <a ng-href="#/gallery/{{ item.id }}" class="col l-3 m-t-4 c-12 card-item" ng-repeat="item in merchandiseList | filter: search">
+               <a ng-href="#/gallery/{{ item.id }}" class="col l-3 m-t-4 c-12 card-item"
+                  ng-repeat="item in merchandiseList | filter: search">
                   <div class="card-img-container">
+                     <span ng-if="item.percent">{{-item.percent}}%</span>
                      <img class="card-img" ng-src="{{item.imgUrl}}" alt="">
                   </div>
-   
+
                   <div class="card-content">
                      <p class="card-title">{{item.title}}</p>
-                     <p class="card-price">${{item.price}}</p>
+                     <p ng-class="{'line-thr': item.percent}" class="card-price-not-sale">${{item.price}}</p>
+                     <p ng-if="item.percent" class="card-price-sale">
+                        ${{(item.price - item.price * item.percent / 100) | number: 2}}
+                     </p>
                   </div>
                </a>
             </div>
             <h1 id="showtext"></h1>
          </div>
       </section>
-      <section id="product__modal" >
+      <section id="product__modal">
          <div class="product__modal-container">
             <!-- <div class="card-item" data-target="1">
                <i class="card-close fa-solid fa-xmark"></i>
@@ -115,6 +148,6 @@
                </div>
             </div>-->
          </div>
-     </section>
+      </section>
    </div>
 </div>

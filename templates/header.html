@@ -79,7 +79,7 @@
                         <img ng-src="{{item.imgUrl}}" alt="">
                         <div class="header__cart-item-info">
                            <div class="header__cart-item-name">{{item.title}}</div>
-                           <div class="header__cart-item-price">${{item.price}}</div>
+                           <div class="header__cart-item-price">${{item.sale || item.price}}</div>
                            <div class="header__cart-item-multi">x</div>
                            <div class="header__cart-item-quantity">{{item.quantity}}</div>
                            <div ng-click="delete(item)" class="header__cart-item-remove"><i class="fa-solid fa-trash"></i></div>

@@ -9,10 +9,16 @@ angular.module('galleryDetail')
          function successCb(respone) {
             $scope.notFound = true;
             let productitems = respone.data.productList;
+      
             angular.forEach(productitems, function(item){
                if(item.id == $routeParams.id){
                   $scope.notFound = false;
+                  if(item.percent){
+                     let salePrice = Math.round(Number(item.price - item.price * item.percent / 100)*100)/100 
+                     item.sale = salePrice;
+                  }
                   $scope.item = item
+                  console.log($scope.item)
                }
             });
          }

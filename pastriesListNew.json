@@ -11,7 +11,8 @@
             "cakeType": "patries",
             "title": "Southern Butter Rolls",
             "description": "Southern butter rolls are traditional pastries that originate from the states of the American South, such as Virginia, Alabama, Kentucky, Tennessee, and Arkansas. They're usually made with a combination of flour, salt, butter, sugar, cinnamon or nutmeg, milk, and vanilla.\n\nVisually, the pastries look similar to cinnamon rolls. These spiraled pastries are placed in a wide pan and baked in a sauce of sugar, milk, vanilla, and cinnamon or nutmeg. Once baked, the sweet, sticky, and hot pastries are served straight out of the oven while still warm.\n\nIn the most common variation, a straightforward biscuit dough is rolled thin, spread with butter, sprinkled with sugar and spice (cinnamon, nutmeg, or a combination), then rolled, sliced, and placed in a baking pan much like standard cinnamon rolls. What follows next is something that must be experienced to be believed. A liquid mixture of dairy and sugar is heated just to a low bubble, and the whole lot is poured over the unbaked rolls. (The first time I made this recipe, as the rolls began to float and bob in the liquid, I kept saying aloud “What? No. Surely no!”) During the baking time, the dough almost poaches like a dumpling as it browns on top, and the sweet milk begins to reduce and caramelize into a silky sauce. As Chef Moseley says, “The love is in the custard.”\n\nButter rolls live at the center of a Venn diagram of frugality, simplicity, and deliciousness. It’s a recipe born out of necessity, a crafty way to use leftover biscuit scraps, and a path to a rich dessert that can feed a crowd made out of just a handful of inexpensive ingredients. “It’s one of those recipes where nobody knows where it came from — we only know that our grandmothers and our great-grandmothers all made it, and somehow it was always on the table,” Moseley says. “It comes from the African American community (especially those who moved up to Memphis from Mississippi). My grandmother always said we were the mothers of invention when it came to using scraps and making something good out of it. It’s like taking day-old rice and making rice pudding. Nothing goes to waste.”",
-            "price": "1.2"
+            "price": "1.2",
+            "percent": "5"
         },
         {
             "id": "2",
@@ -25,7 +26,8 @@
             "cakeType": "patries",
             "title": "Wisconsin Kringle",
             "description": "Wisconsin kringle is Wisconsin's official state pastry, brought over to the USA by Scandinavian settlers in the mid-19th century. The kringle (a Danish word for pretzel) is a buttery and flaky pastry that's filled with fruits or nuts. These pastries were originally shaped into pretzels, but the bakers in Wisconsin opted for the oval shape.\n\nEach kringle should have at least about 30 layers of flaky dough, while the top is typically covered in white icing. Some of the most traditional flavors include raspberries, pecans, and almonds, but there are also other fillings such as apples, blueberries, cherries, and apricots.",
-            "price": "1.7"
+            "price": "1.7",
+            "percent": "6"
         },
         {
             "id": "3",
@@ -51,7 +53,8 @@
             "cakeType": "patries",
             "title": "Bear Claw",
             "description": "A bear claw is a sweet pastry originating from the United States. Believed to have been invented during the mid-1920s, it is usually prepared with flour, butter, eggs, and milk, while the filling is typically prepared with a combination of chopped almonds, egg whites, sugar, and almond extract, if desired. The pastry is shaped into a semicircle with sliced sections along one side, and as the dough rises, those sections become separated, resulting in a shape that is reminiscent of a bear claw, hence the name. These sweet treats are baked until golden brown, and it is recommended to let them cool slightly before serving.",
-            "price": "1.4"
+            "price": "1.4",
+            "percent": "3"
         },
         {
             "id": "5",
@@ -65,7 +68,8 @@
             "cakeType": "patries",
             "title": "Cronut",
             "description": "The unusual New Yorker creation known as a Cronut is a hybrid between a croissant and a doughnut, characterized by its soft and creamy interior, and flaky layers of pastry on the exterior. These treats are fried in oil, filled with cream, rolled in sugar, and glazed on top. Due to their short shelf life of about 6 hours, the cronuts are intended to be consumed as soon as they are made. The dessert was invented in 2013 by a French pastry chef named Dominique Ansel at his bakery in New York City, when a customer pointed out that his menu did not have any version of the American classic – doughnuts. ",
-            "price": "1.23"
+            "price": "1.23",
+            "percent": "4.6"
         },
         {
             "id": "6",
@@ -78,7 +82,8 @@
             "cakeType": "patries",
             "title": "Malasadas",
             "description": "Malasadas are traditional Portuguese yeast-leavened doughnuts made from eggs, flour, sugar, and milk. They are sometimes coated with cinnamon or granulated sugar. The original Portuguese malasadas don't have any holes or fillings, but the variations prepared in Hawaii do. The popularity of malasadas in Hawaii is not accidental – Portuguese laborers from the Azores and Madeira came to Hawaii in the 19th century to work in the plantations. They brought their traditional foods with them, including the malasadas, which were originally prepared in order to use all the sugar and lard in one's home before Lent. ",
-            "price": "5.6"
+            "price": "5.6",
+            "percent": "2.3"
         },
         {
             "id": "7",
@@ -119,7 +124,8 @@
             "cakeType": "cookies",
             "title": "Chocolate chip cookies",
             "description": "No cookie is more American than a chocolate chip cookie. With very little variety, this recipe has remained basically the same since the 1930s. The chocolate chip cookie's origin is a little unclear; some believe a baker came up with the recipe by accident, while others dispute that claim. But one thing is certain: You have Ruth Wakefield to thank for the simple, delicious treat.",
-            "price": "1.4"
+            "price": "1.4",
+            "percent": "6"
         },
         {
             "id": "10",
@@ -132,7 +138,8 @@
             "cakeType": "patries",
             "title": "Apple pie",
             "description": "Nothing smells quite like an apple pie, with its buttery crust baking in the oven and fruit juices bubbling out the sides. Stuffed with apples, this dessert can be served hot and topped with creamy, cold vanilla ice cream. It's especially good for breakfast straight out of the refrigerator the next morning after it's baked, but what isn't?\n\nThe expression 'as American as apple pie' actually originated with an early 1900s newspaper advertisement for suits, according to Smithsonian magazine. The perception that apple pie was solely American was fueled by soldiers in World War II, who told everyone that they were fighting battles for mom and apple pie, the magazine explains.\n\nBut was apple pie really an American dessert? The first pies in the United States came to the country with the early settlers, and those were savory British concoctions filled with meat and spices. And as Smithsonian pointed out, the oldest-known apple pie recipe comes from 14th-century England, too. The United States has adopted the treat as its own, though, and it's a holiday staple for Americans.",
-            "price": "3"
+            "price": "3",
+            "percent": "5"
         },
         {
             "id": "11",
@@ -146,7 +153,8 @@
             "cakeType": "gourmet",
             "title": "Cheesecake",
             "description": "A mix of sweet, soft cream cheese, sugar, and flavorings, cheesecake has become the official dessert of New York, with other areas of the country claiming it as well. Junior's Restaurant in Brooklyn and Eileen's Special Cheesecake in downtown Manhattan hold down the fort as some of the most famous cheesecake purveyors, both in New York City and in the United States. Cheesecake's crust is either a cookie crumb mix, pastry, or a buttery graham cracker bed. Dense or fluffy, it can be topped with fruit, nuts, cookies, or syrups. Or, cheesecake can be flavored with chocolate, pumpkin, or liqueur—any combination that the chef (and diner) desires. If you want a traditional New York cheesecake slice, try a piece of cheesecake topped with strawberries or cherries.\n\nTo bake cheesecake at home, you can use a springform pan, which allows the dessert to hold its shape while it sets in a water bath. Alternatively, there are also no-bake cheesecakes that are extra easy to make. Not sure where to start? Check out these 20 Delicious Cheesecake Recipes.",
-            "price": "2"
+            "price": "2",
+            "percent": "5"
         },
         {
             "id": "12",
@@ -159,7 +167,8 @@
             "cakeType": "patries",
             "title": "Pecan pie",
             "description": "Georgia is the biggest producer of pecans in the United States, and the plentiful supply led cooks to include it in baking. The recipe became a staple in the South, especially in Atlanta's Magnolia Room in Rich's Department Store, according to James McWilliams, author of The Pecan: A History of America's Native Nut. As McWilliams explains, Callie Williams worked six days a week, baking pies at the Magnolia Room. Over the course of 1948, Williams baked a whopping 28,960 pies for the restaurant's guests.",
-            "price": "1.2"
+            "price": "1.2",
+            "percent": "8"
         },
         {
             "id": "13",
@@ -173,7 +182,8 @@
             "cakeType": "gourmet",
             "title": "Carrot cake",
             "description": "A descendant of British carrot pudding, the modern-day carrot cake is a dense, moist cake flavored with allspice and topped with a rich icing of cream cheese, vanilla, and sugar. Still, the official origin of carrot cake is unknown. Stella Parks, author of BraveTart: Iconic American Desserts, suggested to Vice that carrot cake may have been created accidentally after someone misread a currant cake recipe. However it came about, though, it's a recognizable part of any cake spread.\n\nBakers and tasters have strong opinions about carrot cake add-ins, like coconut, ginger, or nuts. And while some people could be turned off by the thought of carrots in their dessert, the recipe has no overwhelming flavor of vegetables. Instead, carrot cake brings more caramel and spice comfort to the palate. And if you love carrot cake, you're in good company. George Washington reportedly ate carrot cake at Fraunces Tavern in downtown Manhattan on British Evacuation Day in 1783.",
-            "price": "2.3"
+            "price": "2.3",
+            "percent": "7"
         },
         {
             "id": "14",
@@ -186,7 +196,8 @@
             "cakeType": "gourmet",
             "title": "Boston cream pie",
             "description": "Combining light vanilla cake, vanilla custard, and chocolate ganache, Boston cream pie is a gem of a dessert. The first Boston cream pie was made in the restaurant of the Parker House Hotel, which is now the Omni Parker House in Boston.\n\nThe first version of Boston cream pie used sponge cake filled with custard and drizzled with chocolate icing. As with many other iconic American desserts, Betty Crocker published a Boston cream pie recipe on its boxed mix and expanded its popularity. If you're interested in the original version, the Omni Parker House delivers Boston cream pie across the country.",
-            "price": "4.3"
+            "price": "4.3",
+            "percent": "6"
         },
         {
             "id": "15",
@@ -212,7 +223,8 @@
             "cakeType": "gourmet",
             "title": "Baked Alaska",
             "description": "A Baked Alaska features cool ice cream on top of a sponge cake, completely covered with meringue, and baked quickly in the oven to brown. As legend has it, Thomas Jefferson served an ice cream and meringue dish very similar to today's version of Baked Alaska in the White House in 1802. The final recipe, meanwhile, is said to have been created and named by French Chef Charles Ranhofer at Delmonico's in New York to celebrate the purchase of Alaska in 1867. The classic Baked Alaska is still on the Delmonico's dessert menu today.",
-            "price": "1.3"
+            "price": "1.3",
+            "percent": "9"
         },
         {
             "id": "17",
@@ -265,7 +277,8 @@
             "cakeType": "patries",
             "title": "Whatchamacallit Krispie Treats",
             "description": "Rice Krispie Treats are one of those desserts I don’t think I’ll ever get tired of.  The original recipe is delicious on it’s own, but I really love how many amazingly delicious variations there are to think up!  I’ve made lots of yummy and fun Rice Krispie Treat variations before, but this chocolate, caramel and peanut butter version is going to be added to my list of favorites!\n\nIf you’re curious about the name, these Whatchamacallit Krispie Treats were inspired by the Whatchamacallit candy bar.  A Whatchamacallit candy bar is a “peanut flavored crisp with a layer of caramel, and covered in milk chocolate.”  These Whatchamacallit Krispie Treats have all the same flavors and textures of the delicious candy bar…. and you can make them at home anytime you want!   In fact, I like this Krispie Treat version even better than the candy bar!",
-            "price": "1.1"
+            "price": "1.1",
+            "percent": "15"
         },
         {
             "id": "21",
@@ -278,7 +291,8 @@
             "cakeType": "gourmet",
             "title": "Swiss roll",
             "description": "This confection is also called a jelly roll or, in finer establishments, a roulade. Swiss roll is made of a light sponge cake rolled around jam, whipped cream, or icing. The popularity of rolled cakes took off in America in the 1800s. Swiss rolls roots are European, but not necessarily Swiss, but the title has lived on.",
-            "price": "1.2"
+            "price": "9",
+            "percent": "10"
         },
         {
             "id": "22",
@@ -291,7 +305,9 @@
             "cakeType": "gourmet",
             "title": "Coca-Cola cake",
             "description": "The South loves its Coke. In fact, the word is used to describe any carbonated beverage, as in, I'm going to get a coke. Cooks have added it to the most unexpected places—in stews, over hams, and even in Coca-Cola cake.\n\nThe chocolate batter looks like a run-of-the-mill chocolate cake, but once the Coke is added (full-sugar version only) along with marshmallows and it's baked, it transforms into a dense, brownie-like cake. Rich chocolate icing is poured over the top, filling in the cracks and crevices. Coca-Cola cake has graced tables in the United States since the 1950s, and it's still popular today.",
-            "price": "5.2"
+            "price": "5.2",
+            "percent": "10"
+
         },
         {
             "id": "23",
@@ -303,7 +319,9 @@
             "cakeType": "gourmet",
             "title": "Pumpkin pie",
             "description": "Thanksgiving just isn't the same without pumpkin pie. This dessert is well-known in the United States and Canada, but you'd be hard-pressed to find it anywhere else in the world. Thanksgiving just isn't the same without pumpkin pie. This dessert is well-known in the United States and Canada, but you'd be hard-pressed to find it anywhere else in the world. As the story goes, the early American settlers made pumpkin pies at the first Thanksgiving celebration, though their version didn't have a crust. Native Americans brought pumpkins as gifts to the first residents of the European settlement to help prevent scurvy.\n\nToday, pumpkin pie traditionally starts with a pastry shell filled with a pumpkin custard flavored with cinnamon, nutmeg, cloves, and ginger and sweetened with brown sugar or molasses.",
-            "price": "15"
+            "price": "15",
+            "percent": "10"
+
         },
         {
             "id": "24",
@@ -316,7 +334,9 @@
             "cakeType": "gourmet",
             "title": "Red velvet cake",
             "description": "There seem to be some differences of opinion about the origins of red velvet cake. The Adams Extract Company and the Waldorf Astoria Hotel in New York both claim to have invented the cake. Regardless, red velvet cake rose in prominence during the mid-1900s in the United States. Using cocoa in the cake seemed to soften the product, which gave rise to the term velvet. The cake itself is airy and smooth, with the cocoa adding to the batter without overpowering it. It's topped with buttery and rich cream cheese icing. The addition of the red food color makes sense from Adams Extract, at least: Popular red cakes would sell more red food coloring. Without the red dye, the cake is a lighter shade of chocolate and just as tasty, though it might just be termed velvet.",
-            "price": "1.2"
+            "price": "11",
+            "percent": "10"
+
         },
         {
             "id": "25",
@@ -329,7 +349,8 @@
             "cakeType": "cookies",
             "title": "Icebox cakes",
             "description": "Nabisco has printed a recipe known as The Famous Icebox Cake on the back of their chocolate wafer boxes since the 1940s. The cake became popular for its simplicity and beauty, and it's not hard to see why. The sleeves of chocolate wafers are sandwiched with fluffy sweetened and vanilla-flavored whipped cream. After setting in the refrigerator, or icebox if you prefer, the cake can be sliced to show the gorgeous layers. The dessert comes together quickly, and there's no need to use the oven. Alternate versions have been created over the years using other cookie and flavor combinations, but you can't go wrong with a classic icebox cake recipe.",
-            "price": "3.6"
+            "price": "3.6",
+            "percent": "12"
         },
         {
             "id": "26",
@@ -342,7 +363,8 @@
             "cakeType": "cookies",
             "title": "Peanut Butter Cookie",
             "description": "Peanut butter cookie consists of hand-rolled dough that is then flattened with fork tins, giving the cookies their characteristical waffle pattern. It is believed that the dough is marked to help cookies bake more evenly, but some claim it can also be a warning sign to people with peanut allergies. The dough usually consists of butter, peanut butter, eggs, milk, flour, sugar, and salt. Today, the cookies are so popular that there is even a National Peanut Butter Cookie Day, celebrated on June 12.",
-            "price": "3.11"
+            "price": "3.11",
+            "percent": "16"
         },
         {
             "id": "27",
@@ -355,7 +377,8 @@
             "cakeType": "cookies",
             "title": "Whoopie Pie",
             "description": "Despite its name, whoopie pie is actually an enlarged cookie sandwich consisting of two soft chocolate cake cookies with a sweet and fluffy white filling sandwiched in between. It is believed that whoopie pie has a Pennsylvania Amish origin, although today it is extremely popular throughout New England, especially in Maine. According to the Amish, when children would find this sweet treat in their lunch bags, they used to shout “Whoopie!“, hence the name.",
-            "price": "1.1"
+            "price": "1.1",
+            "percent": "20"
         },
         {
             "id": "28",
@@ -367,7 +390,8 @@
             "cakeType": "cookies",
             "title": "Oatmeal Cookies",
             "description": "This versatile American cookie usually consists of rolled oats, sugar, eggs, butter, and spices. Often, the recipes will also include raisins. It is believed that oatmeal cookies developed from Scottish oat-based cakes. However, it is mostly assumed that they originated in the United States. While most claim that Fannie Merritt Farmer—the author of Boston Cooking-School Cook Book—was the first to publish the recipe for oatmeal cookies, it is more likely that the dessert was made and published before her recipe, which dates from 1896.",
-            "price": "1.2"
+            "price": "1.2",
+            "percent": "30"
         },
         {
             "id": "29",
@@ -419,7 +443,8 @@
             "cakeType": "cookies",
             "title": "Chocolate Chip Cookie",
             "description": "Usually accompanied by a glass of milk or a cup of hot tea or coffee, chocolate chip cookies are well balanced between salty and sweet in flavor, tenderly chewy in texture, and filled with small melting chocolate pyramids, bringing a generation of Americans back to their childhood. The origin story of these sweet treats is incredibly interesting, almost as the cookies themselves. The Toll House Inn was a popular bed-and-breakfast in Whitman, Massachusetts, bought by Ruth Graves Wakefield and her husband in 1930. Ruth's cooking was so good that the inn gained an excellent reputation in a short span of time. ",
-            "price": "0.7"
+            "price": "0.7",
+            "percent": "16"
         },
         {
             "id": "33",
@@ -433,7 +458,8 @@
             "cakeType": "beverage",
             "title": "Chocolate Chip Cookie",
             "description": "It's a coffee world. Pour-over, French press, macchiato, espresso, cappuccino: all of them are fancy ways to take your morning caffeine infusion.\n\nMany of the terms for coffee drinks come to us from Italian, where they are terms of utility. Espresso comes from the Italian word that means pressed-out, which explains how the coffee drink is made; macchiato is short for caffe macchiato, which means coffee with a spot (of milk). But cappuccino bucks the trend: it comes from an Italian word that refers not to coffee, but to friars.\n\nThe Capuchin friars are members of the larger Franciscan orders of monks, and their order was founded in the 16th century in Italy. They were renowned for their missionary work among the poor, as well as their dedication to extreme austerity, poverty, and simplicity:\n\nThe characteristic simplicity of these friars is, indeed, proverbial; and it may, too, be inferred from their speech, their manners, and from their very aspect; besides being yet further illustrated by several sayings current in Italy—where their order is numbered by the thousand—such as to dine al cappuccino, to make but a sorry meal; and to travel al cappuccino, i.e. to journey on foot.\n\nThe Capuchins were also renowned for their dress. They wear a simple brown robe that includes a long, pointed hood that hangs down the back. The Italian word for this distinctive hood, cappuccio, gave rise to the Italian name for the order. It also gave rise to the Italian word for a friar of the Capuchin order used in the excerpt above: cappuccino.\n\nWhen the cappuccino drink was first introduced in Italy, it was named after the Capuchin friars because the color of the espresso mixed with frothed milk was similar to the color of the Capuchin robe. The name, whimsical in a world of utilitarian coffee-drink names, stuck; we borrowed it into English in the late 1800s.\n\nThe friars, as you may have noticed, are called Capuchins in English; they've lent their English name to a women's cloak with a hood, as well as to a monkey with a ruff of fur on its neck that looks like the friar's hood.",
-            "price": "2.1"
+            "price": "2.1",
+            "percent": "23"
         },
         {
             "id": "34",
@@ -472,7 +498,8 @@
             "cakeType": "beverage",
             "title": "Espresso Macchiato",
             "description": "Espresso macchiato (pronounced ess-press-oh mock-e-ah-toe) is a single or double espresso topped with a dollop of heated, foamed milk and (usually) served in a small cup. In Italy, it is referred to as Caffe macchiato. If you prefer your espresso to take charge of your drink's flavor, you will probably enjoy an espresso macchiato.\n\nAlong with espresso and cappuccino, a macchiato is part of the foundation of Italian coffee culture. Whereas Italians drink a cappuccino in the morning, a macchiato is a nice pick-me-up in the afternoon—a stronger drink with a touch of sweetness. And for those who might find a cappuccino too light and milky tasting, the espresso macchiato is the perfect blend\n\nAlthough you may have heard the term 'espresso beans', any type of coffee bean—from dark to lighter—can be used to make espresso. The important thing is that the beans are finely ground and that it is made with a process of pressurized brewing, forcing almost boiling water through the very finely ground beans, and then tamping down the beans to encourage even distribution of the water. Thus, the flavors become very concentrated. As a result of pressurized brewing, the coffee is thick and syrup-like with an emulsified layer on top (called crema).\n\nAnd it may surprise you to know that although there is more caffeine per ounce in espresso compared to regular coffee, an espresso provides less caffeine than a regular cup of coffee since you drink such a small amount at a time.",
-            "price": "3.6"
+            "price": "3.6",
+            "percent": "25"
         },
         {
             "id": "37",
@@ -485,7 +512,8 @@
             "cakeType": "beverage",
             "title": "Pumpkin Spice Latte",
             "description": "Over the last decade and a half, the PSL (a.k.a. pumpkin spice latte) has become an American autumnal staple. Our very Diaspora PSL is a dreamy, spice-forward take on the classic — a generous amount of the Peni Miris cinnamon and Anamalai nutmeg for all the pumpkin pie feels, rich in Baraka cardamom and Anamalai mace, and just a touch of spicy heat from Makhir ginger, Kandyan cloves, and a few grinds of Aranya black pepper.\n\nYou can make the syrup with any sturdy winter squash, but our two favorites are kabocha and red kuri, for their silky, squash-y richness. Our team loves a PSL that is heavy on the pumpkin spice syrup and the dairy (yes, it's perfect with both cow and plant-based milks!), because who is really drinking a PSL for the coffee? We're here for the sweet, sweet, warming spiciness of it all! But, feel free to play with the proportions of syrup, milk, and espresso or coffee until you reach your ideal fall sip.",
-            "price": "1.68"
+            "price": "1.68",
+            "percent": "12"
         },
         {
             "id": "38",
@@ -498,7 +526,8 @@
             "cakeType": "beverage",
             "title": "Iced Tea",
             "description": "Crisp and refreshing homemade iced tea is easy to make and easy to scale up for a crowd. This is always a hit at summer gatherings. Serve it with your favorite sweetener or enjoy it unsweetened.\n\nHomemade drinks like Lemonade, Iced Coffee, and this Iced Tea are such a treat in summer and so much better than storebought.\n\nWhether you’re looking for a drink to round out your summer BBQ with Juicy Burgers and Grilled Corn on the Cob, or just want to have some quick caffeine on hand throughout the day, you’ll love this iced tea recipe.We’re sharing all the tips and tricks you need to make the most flavorful, refreshing sweetened, or unsweetened iced tea.ced tea does have health benefits. It’s packed with antioxidants and has much less acidity than coffee, making it a great option for folks with a sensitive GI system.",
-            "price": "1.2"
+            "price": "1.2",
+            "percent": "23"
         },
         {
             "id": "39",
@@ -512,7 +541,8 @@
             "cakeType": "beverage",
             "title": "Lemonade",
             "description": "When life gives you lemons, make the Best Lemonade Ever! This aptly named recipe is as good as it gets: Sweet, tart, easy to throw together, and oh-so refreshing. Sweeten your day with our top-rated lemonade recipe (and get our best lemonade serving and storage tips).\n\nIt couldn't be easier to make this homemade lemonade with just a few simple ingredients you probably already have on hand.\n\nWhat makes this lemonade so special? The recipe starts with a simple syrup, which is just a fancy way of saying the first step is dissolving sugar in boiling water. This ensures the finished drink is totally cohesive and smooth (and it prevents sugar from collecting at the bottom of the pitcher).\n\nObviously, you'll need lemon juice to make homemade lemonade. Freshly squeezed juice is definitely the way to go if you have fresh lemons available, but bottled juice will work in a pinch.There's nothing like a refreshing glass of ice cold lemonade to cool you down on a hot day. Just make sure to add the ice right before serving — you don't want it to dilute the sweet flavor.",
-            "price": "1"
+            "price": "1",
+            "percent": "18"
         },
         {
             "id": "40",
@@ -525,7 +555,8 @@
             "cakeType": "beverage",
             "title": "Iced Chai Tea Latte",
             "description": "Heya, friends, it’s almost spring, the weather (at least here in Southern California) is warming up, and that means it’s time to start thinking about warm-weather recipes. Top of my list is anything iced, iced mochas, iced caramel macchiatos, iced white chocolate mochas, and today I have a new iced recipe for you, an iced chai tea latte. It’s actually really simple to make an iced chai latte (or hot chai latte) at home exactly the way they do at coffee shops. You just need chai concentrate, milk, and ice. But if you’re here, I’m guessing you don’t have chai concentrate, so I’m going to show you how to make a super quick and simple shortcut chai concentrate so you can be sipping an iced chai latte in about 5 minutes.\n\nIced chai lattes do not usually include coffee. They are made with just chai concentrate and milk served over ice. However, if you would like to add coffee, you can add a shot or two of espresso and make a dirty chai latte (it’s quite good).If you’ve never had one, chai lattes taste just like what they are, sweet chai tea and milk. It’s a refreshing, lightly spicy sweet flavor that is perfect on a warm day.\n\nIt depends on the tea you use. Chai tea does have caffeine, so if you buy one from a coffee house your latte will almost certainly be caffeinated, but when making your chai latte at home, you can choose to use decaf chai for a caffeine-free chai latte.",
-            "price": "2.1"
+            "price": "2.1",
+            "percent": "45"
         },
         {
             "id": "41",
@@ -599,7 +630,8 @@
             "cakeType": "merchandise",
             "title": "Coffe mug",
             "description": "A mug is a type of cup typically used for drinking hot drinks, such as coffee, hot chocolate, or tea. Mugs usually have handles and hold a larger amount of fluid than other types of cup. Typically, a mug holds approximately 240–350 ml (8–12 US fl oz; 8.3–12.5 imp fl oz) of liquid.\n\nMug gives a strong connection between friends and memories. Your mugs are irreplaceable. Even when you do not work in the same place, or not in your school, where you got the mug as a gift, they stay to remind you of the old charm.",
-            "price": "2.3"
+            "price": "2.3",
+            "percent": "8"
         },
         {
             "id": "47",
@@ -611,7 +643,8 @@
             "cakeType": "merchandise",
             "title": "Coffe cup",
             "description": "Drinking coffee is a haptic experience, meaning that sense of touch plays an important role. Cups perform a vital function, and a flimsy cup can lead to an 8% drop in perception of the quality of the coffee. The cup needs to keep coffee warm, as well as warming the hands of the drinker - but without burning. The inside of the cup could be used for a surprise effect, as most people tend to remove the lid to see and smell the coffee! A cup says something about the person holding it – there are millions of Instagram posts hashtagged with #coffee, and almost two thirds of people under 40 share pictures of their take-away coffee on social media. More than a third of Germans and two out of five Brits choose to drink coffee in take-away cups even when remaining at the café. In this era of social sharing, posting a picture from a popular café with a branded cup in your hand communicates your lifestyle. The printable surface of a paper cup is a great media: the brand is just a short distance from the consumer who even shares it socially.\n\nFor both experts and consumers, plastic cups are out (for obvious reasons), whereas paper cups are more acceptable. According to our study, British consumers in particular prefer paper cups over reusable cups as paper cups are more convenient and hygienic.Several experts point out that media criticism of paper cups is not fact-based, and that the value chain is working hard to take responsibility for recovering and recycling the fibres from these cups. There is an industry-wide acknowledgment of the need for a more collaborative effort in the paper cup value chain to protect against public misinformation. Adding information on how to recycle cups directly to the cup itself is therefore an easy win.",
-            "price": "3.4"
+            "price": "3.4",
+            "percent": "6"
         }
     ]
 }

@@ -51,7 +51,7 @@
                            </div>
                         </div>
                         <div class="col l-2 m-t-2 c-3">
-                           <h1 class="checkout-item-price">${{item.price}}</h1>
+                           <h1 class="checkout-item-price">${{item.sale || item.price}}</h1>
                         </div>
                         <div class="col l-2 m-t-2 c-3 ">
                            <input class="checkout-quantity-input" ng-change="quantityChanged(item)" min="1" ng-model="item.quantity" type="number" value="1">

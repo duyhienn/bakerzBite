@@ -20,7 +20,6 @@ angular.module('siteHomepage')
                userComment: "I have bought numerous cakes from this shop for the last six months. Such a dedicated and creative cake shop in the town. I'm happy with every experience. ",
                userName: "Kelly Christ",
                timerComment: "April 4 2022"
-
             }
          ];
          // initiate obj for saving each user's feedback
@@ -53,6 +52,17 @@ angular.module('siteHomepage')
                   $scope.arr4.push(item);
                }
             });
+
+            const listOffer = $scope.arr2.slice($scope.arr2.length - 4);
+            $scope.offerArr = getListOffer(listOffer);
+         }
+         
+         function getListOffer(listOffer) {
+            return listOffer.map((item,i) => {
+               let salePrice = Number(item.price - item.price * item.percent / 100) 
+               item.sale = salePrice;
+               return item;
+            }) 
          }
 
          $scope.getStarArray = function() {
