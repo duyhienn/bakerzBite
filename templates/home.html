@@ -47,12 +47,19 @@
                   <a class="see-more" ng-click="getTabName('tabPatries')" ng-href="#/gallery">See more &#8811;</a>
                   <a ng-href="#/gallery/{{ item.id }}" class="card-item" ng-repeat = "item in arr1 | limitTo:4">
                      <div class="card-img-container">
+                        <div ng-if="item.percent" class="sale-markable">-{{item.percent}}%</div>
                         <img class="card-img" ng-src="{{item.imgUrl}}" alt="">
                      </div>
       
                      <div class="card-content">
                         <p class="card-title">{{item.title}}</p>
-                        <p class="card-price">${{item.price}}</p>
+                        <div class="card-price-checkout">
+                           <p ng-class="{'line-thr': item.percent}" class="card-price-not-sale">${{item.price}}</p>
+                           <p ng-if="item.percent" class="card-price-sale">
+                              ${{(item.price - item.price * item.percent / 100) | number: 2}}
+                           </p>
+                           <p style="font-size: 1.4rem; font-style: italic;">(price include vat and shipping fee)</p>
+                        </div>
                      </div>
                   </a>
                </div>
@@ -67,12 +74,20 @@
                   <a class="see-more" ng-click="getTabName('tabGourmet')" ng-href="#/gallery">See more &#8811;</a>
                   <a ng-href="#/gallery/{{ item.id }}" class="card-item" ng-repeat="item in arr2 | limitTo:4">
                      <div class="card-img-container">
+                        <div  ng-if="item.percent" class="sale-markable">-{{item.percent}}%</div>
+
                         <img class="card-img" ng-src="{{item.imgUrl}}" alt="">
                      </div>
       
                      <div class="card-content">
                         <p class="card-title">{{item.title}}</p>
-                        <p class="card-price">${{item.price}}</p>
+                        <div class="card-price-checkout">
+                           <p ng-class="{'line-thr': item.percent}" class="card-price-not-sale">${{item.price}}</p>
+                           <p ng-if="item.percent" class="card-price-sale">
+                              ${{(item.price - item.price * item.percent / 100) | number: 2}}
+                           </p>
+                           <p style="font-size: 1.4rem; font-style: italic;">(price include vat and shipping fee)</p>
+                        </div>
                      </div>
                   </a>
                </div>
@@ -87,12 +102,19 @@
                   <a class="see-more" ng-click="getTabName('tabCookies')" ng-href="#/gallery">See more>></a>
                   <a ng-href="#/gallery/{{ item.id }}" class="card-item" ng-repeat="item in arr3 | limitTo:4">
                      <div class="card-img-container">
+                        <div ng-if="item.percent" class="sale-markable">-{{item.percent}}%</div>
                         <img class="card-img" ng-src="{{item.imgUrl}}" alt="">
                      </div>
       
                      <div class="card-content">
                         <p class="card-title">{{item.title}}</p>
-                        <p class="card-price">${{item.price}}</p>
+                        <div class="card-price-checkout">
+                           <p ng-class="{'line-thr': item.percent}" class="card-price-not-sale">${{item.price}}</p>
+                           <p ng-if="item.percent" class="card-price-sale">
+                              ${{(item.price - item.price * item.percent / 100) | number: 2}}
+                           </p>
+                           <p style="font-size: 1.4rem; font-style: italic;">(price include vat and shipping fee)</p>
+                        </div>
                      </div>
                   </a>
                </div>
@@ -116,7 +138,7 @@
                         <div class="card-content">
                            <p class="card-title">{{item.title}}</p>
                            <div class="card-price-checkout">
-                              <p class="card-price-not-sale">${{item.price}}</p>
+                              <p ng-class="{'line-thr': item.percent}" class="card-price-not-sale">${{item.price}}</p>
                               <p class="card-price-sale">
                                  ${{item.sale}} 
                               </p>

@@ -681,7 +681,7 @@ main.ng-enter.ng-enter-active {
    color: var(--primary-color);
    padding: 0.8rem 1rem;
    border-bottom-left-radius: 1.6rem;
-   z-index: 10;
+   z-index: 8;
 }
 
 .card-img {
@@ -704,6 +704,7 @@ main.ng-enter.ng-enter-active {
    text-align: center;
    margin: 10px 0;
    line-height: 1.2;
+   flex: 1;
 }
 
 .card-detail {
@@ -786,15 +787,19 @@ main.ng-enter.ng-enter-active {
    font-weight: 700;
    color: var(--primary-color);
    margin-top: auto;
-   text-decoration: line-through;
    flex: 1;
 }
+
 .card-price-checkout .card-price-sale{
    font-size: 2rem;
    text-align: center;
    font-weight: 700;
    color: var(--primary-color);
    margin-top: auto;
+}
+
+.line-thr{
+   text-decoration: line-through;
 }
 
 
