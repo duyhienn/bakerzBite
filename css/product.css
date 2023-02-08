@@ -11,8 +11,33 @@
 
 /* end of animation part */
 .main-product-app{
-   margin-top: 7rem;
-   padding: 0 1.5rem;
+   margin-top: 5rem;
+}
+
+.gallery-img-above{
+   height: 300px;
+   background: url(../img/standee/standee6.jpg) no-repeat center/cover;
+   margin-bottom: 4rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.gallery-img-above .heading{
+   font-size: 7.8rem;
+   margin: 0px 20px;
+   display: block;
+   color: white;
+   text-align: center;
+   line-height: 7.8rem;
+}
+
+.gallery-img-above .sub-head{
+   font-size: 19px;
+   margin: 10px 20px 0px;
+   display: block;
+   color: white;
+   text-align: center;
 }
 
 .line-thr{
@@ -24,12 +49,6 @@
    font-size: 1.6rem;
 }
 
-#filter .heading{
-   font-size: 7rem;
-   text-align: center;
-   font-weight: 700;
-   color: var(--primary-color);
-}
 
 #filter_button{
    display: flex;
@@ -273,24 +292,25 @@
 /* Table */
 
 @media (min-width: 740px) and (max-width: 1023px){
-   #filter .heading{
-      font-size: 6rem;
-   }
+
    #filter-data .card-item .card-img{
       height: 200px;
+   }
+   .gallery-img-above .heading{
+      font-size: 6.8rem;
    }
 }
 
 /* Mobile */
 @media (max-width: 739px){
-   #filter .heading{
-      font-size: 5rem;
-   }
 
    #filter_button{    
       max-width: 35rem;
       margin: 0 auto;
       flex-direction: column;
+   }
+   .gallery-img-above .heading{
+      font-size: 5.8rem;
    }
   
 }
