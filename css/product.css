@@ -34,9 +34,10 @@
 #filter_button{
    display: flex;
    justify-content: center;
+   flex-wrap: wrap;
 }
 #filter_button .btn{
-   margin: 0px 0.5rem;
+   margin: 0.5rem 0.5rem;
 }
 
 #filter_button .btn:hover{
@@ -140,7 +141,6 @@
    font-weight: 700;
    color: var(--primary-color);
    margin-top: auto;
-   flex: 1;
    margin-bottom: 0;
 }
 .main-product-app .card-content .card-price-sale{
@@ -149,6 +149,7 @@
    font-weight: 700;
    color: var(--primary-color);
    margin-top: auto;
+   margin-bottom: 0;
 }
 
 .main-product-app .card-title {
