@@ -1,3 +1,34 @@
+.login-img-above{
+   position: relative;
+}
+.login-img-above img{
+   height: 300px;
+   margin-bottom: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   filter: brightness(0.5);
+}
+
+.login-img-above .modal-title{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-size: 8rem;
+   color: white;
+   margin: 0;
+}
+
+.modal-title-re{
+   font-size: 7rem;
+   color: white;
+   margin: 0;
+   color: var(--primary-color);
+   text-align: center;
+   font-weight: 600;
+}
 
 .modal-register.ng-enter{
    transition:all 0.7s linear;
@@ -17,7 +48,7 @@
 }
 
 .modal-login{
-   margin-top: 7rem;
+   margin-top: 5rem;
 }
 .modal-register{
    margin-top: 7rem;
@@ -27,12 +58,6 @@
    padding: 0 1rem;
 }
 
-.modal-container .modal-title{
-   font-size: 7rem;
-   text-align: center;
-   margin: 0 0 3rem;
-   color: var(--primary-color);
-}
 
 .modal-bodyy{
    margin-top: 4rem;
@@ -218,7 +243,11 @@
 /* Table */
 
 @media (min-width: 740px) and (max-width: 1023px){
-   .modal-container .modal-title{
+   .login-img-above .modal-title{
+      font-size: 7.5rem;
+   }
+   
+   .modal-title-re{
       font-size: 6rem;
    }
 
@@ -229,7 +258,11 @@
 
 /* Mobile */
 @media (max-width: 739px){
-   .modal-container .modal-title{
-      font-size: 5rem;
+   .login-img-above .modal-title{
+      font-size: 7rem;
+   }
+
+   .modal-title-re{
+      font-size: 6rem;
    }
 }

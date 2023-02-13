@@ -2,7 +2,7 @@
    <div class="grid wide">
       <div class="row">
          <div class="col l-6 m-t-12 c-12">
-            <img class="detail-img" ng-src="{{item.imgUrl}}" alt="">
+            <img ng-animate-swap="item.imgUrl" class="detail-img" ng-src="{{item.imgUrl}}" fade-in alt="">
             <div class=detail-hover-img>
                <div ng-repeat="itemHover in item.imgHover" ng-click="changeUrl($event)" class="detail-hover-container">
                   <img 
