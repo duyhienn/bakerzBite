@@ -8,8 +8,11 @@ Project title: Bakerz Bite
 4 collaborators:
 
 Student1424293  Nguyễn Quốc Bảo
+
 Student1424195  Trần Thanh  Bình
+
 Student1424190  Trần Thanh Tỷ Phú
+
 Student1424200  Trang Sĩ Duy Hiển
 
 ============================
