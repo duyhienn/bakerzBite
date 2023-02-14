@@ -12,6 +12,6 @@ angular.module('siteFooter')
                })
          }
 
-         // updateVisitCount();
+         updateVisitCount();
       }
    })
